@@ -25,20 +25,25 @@ def run_residue_agent_remote(agent_input_dict: dict) -> dict:
     gpu=GPU_TYPE,
     timeout=60 * 10,
     retries=1,
+    secrets=[modal.Secret.from_name("huggingface")],
 )
 def run_esmfold(sequence: str) -> dict:
     """Run ESMFold on GPU. Returns {"pdb": str, "mean_plddt": float}."""
     global _model, _tokenizer
 
+    import os
     import torch
     from transformers import AutoTokenizer, EsmForProteinFolding
 
     sequence = "".join(ch for ch in sequence.upper().strip() if ch.isalpha())
 
+    # Use HF_TOKEN from Modal secret for authenticated Hub requests (avoids rate-limit warning)
+    hf_token = os.environ.get("HF_TOKEN") or os.environ.get("HUGGING_FACE_HUB_TOKEN")
+
     if _model is None:
         model_name = "facebook/esmfold_v1"
-        _tokenizer = AutoTokenizer.from_pretrained(model_name)
-        _model = EsmForProteinFolding.from_pretrained(model_name)
+        _tokenizer = AutoTokenizer.from_pretrained(model_name, token=hf_token)
+        _model = EsmForProteinFolding.from_pretrained(model_name, token=hf_token)
         device = "cuda" if torch.cuda.is_available() else "cpu"
         _model = _model.to(device)
         _model.eval()

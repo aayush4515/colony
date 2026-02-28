@@ -256,6 +256,8 @@ class DesignEngine:
             num_agents = len(current_seq)
             if iteration == 0 and self._cfg.modal_parallel and self._cfg.use_llm_agents:
                 emit({"type": "log", "message": "Warming up modal container for llm agents", "icon": "spinner"})
+            if iteration == 0 and self._cfg.modal_parallel and self._cfg.use_llm_agents:
+                emit({"type": "log", "message": "Warming up modal container for llm agents", "icon": "check"})
             spawn_msg = f"Spawning {num_agents} agents for iteration {iteration + 1}"
             emit({"type": "agents_started", "iteration": iteration, "num_agents": num_agents})
             emit({"type": "log", "message": spawn_msg, "icon": "spinner"})
@@ -267,9 +269,6 @@ class DesignEngine:
                 goal_eval=goal_eval,
             )
             emit({"type": "log", "message": spawn_msg, "icon": "check"})
-
-            if iteration == 0 and self._cfg.modal_parallel and self._cfg.use_llm_agents:
-                emit({"type": "log", "message": "Warming up modal container for llm agents", "icon": "check"})
             proposals = validate_proposals(proposals, objective, len(current_seq))
 
             if self._cfg.debug:
@@ -299,9 +298,9 @@ class DesignEngine:
                 "best_score": float(new_best),
             })
             if accepted:
-                emit({"type": "log", "message": "sequence accepted", "icon": None, "variant": "success"})
+                emit({"type": "log", "message": "sequence accepted", "icon": "check", "variant": "success"})
             else:
-                emit({"type": "log", "message": f"sequence rejected (Δ score {score_delta:+.4f})", "icon": None, "variant": "error"})
+                emit({"type": "log", "message": f"sequence rejected (Δ score {score_delta:+.4f})", "icon": "check", "variant": "error"})
 
             record = IterationRecord(
                 iteration=iteration,

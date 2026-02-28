@@ -276,6 +276,15 @@ body {
   border-radius: var(--radius-sm);
 }
 
+.agent-window__content.run-finished .pane.in-progress {
+  display: none;
+}
+
+.agent-window__content.run-finished .pane.completed {
+  flex: 1;
+  min-width: 0;
+}
+
 .panel {
   flex: 1;
   min-width: 0;

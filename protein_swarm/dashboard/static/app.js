@@ -210,6 +210,8 @@
     inProgressContent.innerHTML = "";
     completedContent.innerHTML = "";
     if (logContent) logContent.innerHTML = "";
+    var agentContent = document.getElementById("agent-window-content");
+    if (agentContent) agentContent.classList.remove("run-finished");
 
     try {
       const res = await fetch("/api/run", {
@@ -274,6 +276,7 @@
               "<div class=\"proposals-wrap\">" + tableHtml + "</div>",
               event.accepted
             );
+            inProgressContent.innerHTML = "";
             break;
           }
           case "sequence_update":
@@ -289,10 +292,9 @@
             }
             setRunning(false);
             if (inProgressBadge) inProgressBadge.textContent = "—";
-            addInProgress(
-              "<span class=\"iter\">Run complete.</span> Final length " + (event.final_sequence ? event.final_sequence.length : 0) +
-              ", total iterations " + event.total_iterations + "."
-            );
+            inProgressContent.innerHTML = "";
+            var agentContent = document.getElementById("agent-window-content");
+            if (agentContent) agentContent.classList.add("run-finished");
             break;
           case "run_error":
             if (eventSource) {
@@ -301,6 +303,9 @@
             }
             setRunning(false);
             addCompleted("<span class=\"status\">Error</span> " + (event.message || "Unknown error"), false);
+            inProgressContent.innerHTML = "";
+            var agentContentErr = document.getElementById("agent-window-content");
+            if (agentContentErr) agentContentErr.classList.add("run-finished");
             break;
         }
       } catch (_) {}

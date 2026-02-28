@@ -1,8 +1,8 @@
 {
   "initial_sequence": "AAAAAAAAAAAAAAAAAAAA",
-  "final_sequence": "NEEELEAALNNAINCILNGN",
-  "objective": "every 4 residues must\nfollow the pattern of Hydrophobic-Polar-Glycine-Aromatic",
-  "best_score": 0.53985,
-  "total_iterations": 20,
+  "final_sequence": "SASAAAGSAAAAAAASAAAA",
+  "objective": "make the protein flexible",
+  "best_score": 0.384168,
+  "total_iterations": 5,
   "final_pdb_path": "outputs/final_structure.pdb"
 }
