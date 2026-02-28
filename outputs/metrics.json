@@ -1,8 +1,8 @@
 {
-  "initial_sequence": "RRRRRRRRRRRRRRRRRRRR",
-  "final_sequence": "KKEKRAERRAAREREERREE",
-  "objective": "create a helix-turn-helix motif",
-  "best_score": 0.738807,
-  "total_iterations": 15,
+  "initial_sequence": "VVVVVVVVVVVVVVVVVVVV",
+  "final_sequence": "VGNSVVSVVVVVVVVPSVVG",
+  "objective": "introduce flexibility through\nturn-promoting residues while\ncreating repeating sequence\npatterns",
+  "best_score": 0.326466,
+  "total_iterations": 10,
   "final_pdb_path": "outputs/final_structure.pdb"
 }

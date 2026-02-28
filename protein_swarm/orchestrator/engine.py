@@ -9,6 +9,7 @@ import json
 import logging
 import math
 from pathlib import Path
+from typing import Callable
 
 import numpy as np
 
@@ -161,8 +162,22 @@ class DesignEngine:
 
     # ── main loop ────────────────────────────────────────────────────────
 
-    def run(self, sequence: str, objective_text: str) -> DesignResult:
-        """Execute the full design loop and return the result."""
+    def run(
+        self,
+        sequence: str,
+        objective_text: str,
+        progress_callback: Callable[[dict], None] | None = None,
+    ) -> DesignResult:
+        """Execute the full design loop and return the result.
+
+        If progress_callback is provided, it is called with JSON-serializable
+        event dicts (run_start, iteration_start, agents_started, agents_completed,
+        sequence_update, run_complete) for dashboard streaming.
+        """
+        def emit(event: dict) -> None:
+            if progress_callback:
+                progress_callback(event)
+
         objective = compile_objective(
             objective_text,
             use_llm=self._cfg.use_llm_agents,
@@ -178,13 +193,37 @@ class DesignEngine:
         history: list[IterationRecord] = []
         consecutive_rejects = 0
         last_pdb_path: str | None = None
+        last_accepted_fold: FoldResult | None = None
+
+        emit({"type": "run_start", "sequence_length": len(sequence), "max_iterations": self._cfg.max_iterations})
 
         initial_fold = self._fold(current_seq, objective, output_dir, -1)
         best_score = initial_fold.combined_score
         score_history.append(best_score)
         last_pdb_path = initial_fold.pdb_path
+        last_accepted_fold = initial_fold
+
+        def _fold_to_dict(fr: FoldResult) -> dict:
+            d = fr.model_dump()
+            out: dict = {}
+            for k, v in d.items():
+                if v is not None and hasattr(v, "item"):
+                    out[k] = float(v)
+                else:
+                    out[k] = v
+            return out
+
+        emit({
+            "type": "sequence_update",
+            "current_sequence": current_seq,
+            "best_score": float(best_score),
+            "rosetta_energy": float(initial_fold.rosetta_total_score) if initial_fold.rosetta_total_score is not None else None,
+            "energy_trend": "unknown",
+            "mean_plddt": float(initial_fold.energy * 100.0) if initial_fold.energy is not None else None,
+        })
 
         for iteration in range(self._cfg.max_iterations):
+            emit({"type": "iteration_start", "iteration": iteration, "max_iterations": self._cfg.max_iterations})
             log_iteration_header(iteration, self._cfg.max_iterations)
 
             eff_mutation_rate = self._effective_mutation_rate(consecutive_rejects)
@@ -209,6 +248,7 @@ class DesignEngine:
                     f"Energy trend: {global_stats.energy_trend}"
                 )
 
+            emit({"type": "agents_started", "iteration": iteration, "num_agents": len(current_seq)})
             proposals = self._run_agents(
                 current_seq, memory, objective, iteration,
                 mutation_rate_override=eff_mutation_rate,
@@ -233,6 +273,18 @@ class DesignEngine:
             accepted = should_accept(fold_result.combined_score, best_score)
             score_delta = fold_result.combined_score - best_score
             log_score_delta(fold_result.combined_score, best_score, accepted)
+
+            new_best = best_score if not accepted else float(fold_result.combined_score)
+            emit({
+                "type": "agents_completed",
+                "iteration": iteration,
+                "proposals": [p.model_dump() for p in proposals],
+                "applied": [m.model_dump() for m in applied],
+                "candidate_sequence": candidate_seq,
+                "fold_result": _fold_to_dict(fold_result),
+                "accepted": accepted,
+                "best_score": float(new_best),
+            })
 
             record = IterationRecord(
                 iteration=iteration,
@@ -265,6 +317,7 @@ class DesignEngine:
                 current_seq = candidate_seq
                 best_score = fold_result.combined_score
                 last_pdb_path = fold_result.pdb_path
+                last_accepted_fold = fold_result
                 memory.record_success(
                     applied, iteration=iteration,
                     combined_score=fold_result.combined_score,
@@ -287,6 +340,16 @@ class DesignEngine:
 
             score_history.append(best_score)
 
+            if last_accepted_fold is not None:
+                emit({
+                    "type": "sequence_update",
+                    "current_sequence": current_seq,
+                    "best_score": float(best_score),
+                    "rosetta_energy": float(last_accepted_fold.rosetta_total_score) if last_accepted_fold.rosetta_total_score is not None else None,
+                    "energy_trend": global_stats.energy_trend,
+                    "mean_plddt": float(last_accepted_fold.energy * 100.0) if last_accepted_fold.energy is not None else None,
+                })
+
             curate_memory(memory, iteration)
 
             stop, reason = should_stop(iteration, score_history, self._cfg)
@@ -308,6 +371,12 @@ class DesignEngine:
         )
 
         self._save_artefacts(result, output_dir)
+        emit({
+            "type": "run_complete",
+            "final_sequence": current_seq,
+            "best_score": float(best_score),
+            "total_iterations": len(history),
+        })
         return result
 
     # ── agent dispatch ───────────────────────────────────────────────────

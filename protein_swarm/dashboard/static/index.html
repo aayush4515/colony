@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Protein Swarm Dashboard</title>
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+  <div class="layout">
+    <aside class="sidebar">
+      <h1 class="logo">PROTEIN SWARM</h1>
+      <form id="run-form" class="controls">
+        <section class="control-section">
+          <h3 class="section-title">Sequence &amp; objective</h3>
+          <label>Sequence</label>
+          <textarea id="sequence" name="sequence" rows="2" placeholder="e.g. VVVVVVVVVVVVVVVVVVVV"></textarea>
+          <label>Objective / Prompt</label>
+          <textarea id="objective" name="objective" rows="2" placeholder="e.g. introduce flexibility through turn-promoting residues"></textarea>
+        </section>
+
+        <section class="control-section">
+          <h3 class="section-title">Run</h3>
+          <label>Max iterations</label>
+          <select id="max_iterations" name="max_iterations">
+            <option value="5">5</option>
+            <option value="10">10</option>
+            <option value="20">20</option>
+            <option value="50" selected>50</option>
+            <option value="100">100</option>
+          </select>
+          <label>Mutation rate</label>
+          <input type="number" id="mutation_rate" name="mutation_rate" min="0" max="1" step="0.05" value="0.2" />
+          <label>Confidence threshold</label>
+          <input type="number" id="confidence_threshold" name="confidence_threshold" min="0" max="1" step="0.05" value="0.6" />
+          <label>Plateau window</label>
+          <select id="plateau_window" name="plateau_window">
+            <option value="3">3</option>
+            <option value="5">5</option>
+            <option value="10" selected>10</option>
+            <option value="15">15</option>
+          </select>
+        </section>
+
+        <section class="control-section">
+          <h3 class="section-title">LLM</h3>
+          <label class="row">
+            <input type="checkbox" id="use_llm" name="use_llm" />
+            <span>Use LLM agents</span>
+          </label>
+          <label>Model</label>
+          <select id="llm_model" name="llm_model">
+            <option value="gpt-4o-mini" selected>gpt-4o-mini</option>
+            <option value="gpt-4o">gpt-4o</option>
+            <option value="claude-3-5-sonnet">claude-3-5-sonnet</option>
+          </select>
+        </section>
+
+        <section class="control-section">
+          <h3 class="section-title">Folding</h3>
+          <label class="row">
+            <input type="checkbox" id="modal_fold" name="modal_fold" />
+            <span>Modal fold (remote)</span>
+          </label>
+          <label>Remote backend</label>
+          <select id="remote_fold_backend" name="remote_fold_backend">
+            <option value="esmfold" selected>esmfold</option>
+            <option value="dummy">dummy</option>
+          </select>
+        </section>
+
+        <section class="control-section">
+          <h3 class="section-title">Rosetta</h3>
+          <label class="row">
+            <input type="checkbox" id="use_rosetta" name="use_rosetta" checked />
+            <span>Use Rosetta</span>
+          </label>
+          <label class="row">
+            <input type="checkbox" id="rosetta_relax" name="rosetta_relax" />
+            <span>Rosetta relax</span>
+          </label>
+          <label>Relax cycles</label>
+          <select id="rosetta_relax_cycles" name="rosetta_relax_cycles">
+            <option value="1">1</option>
+            <option value="3" selected>3</option>
+            <option value="5">5</option>
+            <option value="10">10</option>
+          </select>
+          <label>Norm target</label>
+          <input type="number" id="rosetta_norm_target" name="rosetta_norm_target" step="any" value="-10" />
+          <label>Norm scale</label>
+          <input type="number" id="rosetta_norm_scale" name="rosetta_norm_scale" min="0.1" step="any" value="20" />
+        </section>
+
+        <section class="control-section">
+          <h3 class="section-title">Scoring weights</h3>
+          <label>w_physics</label>
+          <input type="number" id="w_physics" name="w_physics" min="0" max="1" step="0.05" value="0.35" />
+          <label>w_objective</label>
+          <input type="number" id="w_objective" name="w_objective" min="0" max="1" step="0.05" value="0.45" />
+          <label>w_confidence</label>
+          <input type="number" id="w_confidence" name="w_confidence" min="0" max="1" step="0.05" value="0.20" />
+        </section>
+
+        <section class="control-section">
+          <h3 class="section-title">Debug</h3>
+          <label class="row">
+            <input type="checkbox" id="debug" name="debug" />
+            <span>Debug</span>
+          </label>
+          <label class="row">
+            <input type="checkbox" id="dump_prompts" name="dump_prompts" />
+            <span>Dump prompts</span>
+          </label>
+        </section>
+
+        <button type="submit" id="run-btn" class="run-btn">Run</button>
+      </form>
+    </aside>
+    <main class="main">
+      <div class="panes">
+        <section class="pane in-progress">
+          <h2>In progress</h2>
+          <div id="in-progress-content" class="pane-content scrollable"></div>
+        </section>
+        <section class="pane completed">
+          <h2>Completed</h2>
+          <div id="completed-content" class="pane-content scrollable"></div>
+        </section>
+      </div>
+      <section class="bottom-bar">
+        <h3>Current sequence &amp; scores</h3>
+        <div class="bottom-grid">
+          <div class="bottom-item">
+            <span class="label">Sequence</span>
+            <code id="current-sequence" class="sequence-display">—</code>
+          </div>
+          <div class="bottom-item">
+            <span class="label">Best score</span>
+            <span id="best-score">—</span>
+          </div>
+          <div class="bottom-item">
+            <span class="label">Rosetta energy</span>
+            <span id="rosetta-energy">—</span>
+          </div>
+          <div class="bottom-item">
+            <span class="label">Energy trend</span>
+            <span id="energy-trend">—</span>
+          </div>
+          <div class="bottom-item">
+            <span class="label">Mean pLDDT</span>
+            <span id="mean-plddt">—</span>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+  <script src="/static/app.js"></script>
+</body>
+</html>

@@ -196,6 +196,22 @@ def design(
 
 
 @app.command()
+def dashboard(
+    host: str = typer.Option("127.0.0.1", "--host", "-h", help="Bind host"),
+    port: int = typer.Option(8000, "--port", "-p", help="Bind port"),
+    reload: bool = typer.Option(False, "--reload", help="Enable auto-reload for development"),
+) -> None:
+    """Start the Protein Swarm dashboard (web UI)."""
+    import uvicorn
+    uvicorn.run(
+        "protein_swarm.dashboard.server:app",
+        host=host,
+        port=port,
+        reload=reload,
+    )
+
+
+@app.command()
 def validate(
     sequence: str = typer.Option(..., "--sequence", "-s", help="Amino acid sequence to validate"),
 ) -> None:
