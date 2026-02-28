@@ -1,750 +1,1799 @@
 [
   {
     "iteration": 0,
-    "sequence_before": "VVVVVVVVVVVVVVVVVVVV",
-    "sequence_after": "GGGGGGGGGGGGGGGGGGGG",
+    "sequence_before": "AAAAAAAAAAAAAAAAAAAA",
+    "sequence_after": "NNNNENNNNNNNNNNNQNNN",
     "mutations": [
       {
         "position": 0,
-        "current_residue": "V",
-        "proposed_residue": "G",
-        "confidence": 0.9,
-        "reason": "Glycine introduces flexibility and promotes turns, aligning with the design goal of creating repeating sequence patterns while minimizing disruption to the secondary structure."
+        "current_residue": "A",
+        "proposed_residue": "N",
+        "confidence": 0.85,
+        "reason": "Introducing Asparagine (N) satisfies the polar requirement of the design goal, enhances sequence diversity, and maintains structural stability in a surface-exposed, flexible region."
       },
       {
         "position": 1,
-        "current_residue": "V",
-        "proposed_residue": "G",
-        "confidence": 0.9,
-        "reason": "Glycine (G) is a strong turn-promoting residue that will introduce flexibility and break the repetitive sequence pattern while maintaining the structural integrity of the alpha-helix."
+        "current_residue": "A",
+        "proposed_residue": "N",
+        "confidence": 0.8,
+        "reason": "Introducing a polar residue (N) enhances sequence diversity and aligns with the design goal by preparing for a polar residue in the 4-residue pattern."
       },
       {
         "position": 2,
-        "current_residue": "V",
-        "proposed_residue": "G",
-        "confidence": 0.9,
-        "reason": "Glycine (G) promotes flexibility and can help introduce turns in the structure, aligning with the design goal while maintaining a repeating pattern."
+        "current_residue": "A",
+        "proposed_residue": "N",
+        "confidence": 0.8,
+        "reason": "N is polar, which helps achieve the design goal of alternating hydrophobic and polar residues, while maintaining the 3-10 helix structure."
       },
       {
         "position": 3,
-        "current_residue": "V",
-        "proposed_residue": "G",
-        "confidence": 0.9,
-        "reason": "Glycine (G) is a turn-promoting residue that introduces flexibility and helps break the repetitive sequence while maintaining structural integrity."
+        "current_residue": "A",
+        "proposed_residue": "N",
+        "confidence": 0.8,
+        "reason": "N is a polar residue that fits the design goal pattern of Hydrophobic-Polar-Glycine-Aromatic, effectively breaking the repetitive stretch and maintaining structural integrity in the helix."
       },
       {
         "position": 4,
-        "current_residue": "V",
-        "proposed_residue": "G",
-        "confidence": 0.9,
-        "reason": "Glycine introduces flexibility and promotes turns while breaking the repetitive sequence, aligning with the design goal."
+        "current_residue": "A",
+        "proposed_residue": "E",
+        "confidence": 0.8,
+        "reason": "Glutamic acid (E) is a polar residue that can help achieve the design goal of alternating hydrophobic and polar residues while maintaining the helical structure and enhancing sequence diversity."
       },
       {
         "position": 5,
-        "current_residue": "V",
-        "proposed_residue": "G",
-        "confidence": 0.9,
-        "reason": "Glycine (G) introduces flexibility and is a strong turn-promoting residue, which aligns with the design goal of enhancing structural diversity and breaking the repetitive sequence pattern."
+        "current_residue": "A",
+        "proposed_residue": "N",
+        "confidence": 0.8,
+        "reason": "N is a polar residue that fits the design goal of introducing diversity, while maintaining the helix structure and breaking the long repeat stretch."
       },
       {
         "position": 6,
-        "current_residue": "V",
-        "proposed_residue": "G",
-        "confidence": 0.9,
-        "reason": "Glycine introduces flexibility and is a strong turn-promoting residue, which aligns with the design goal while breaking up the repetitive sequence."
+        "current_residue": "A",
+        "proposed_residue": "N",
+        "confidence": 0.8,
+        "reason": "N is polar, which helps break the long repeat stretch of A and fits the design pattern of Hydrophobic-Polar-Glycine-Aromatic."
       },
       {
         "position": 7,
-        "current_residue": "V",
-        "proposed_residue": "G",
-        "confidence": 0.9,
-        "reason": "Glycine is a strong turn-promoting residue that introduces flexibility while breaking the repeating pattern, improving sequence diversity."
+        "current_residue": "A",
+        "proposed_residue": "N",
+        "confidence": 0.8,
+        "reason": "Introducing a polar residue (N) breaks the hydrophobic pattern, aligns with the design goal of hydrophobic-polar-glycine-aromatic, and maintains helix stability."
       },
       {
         "position": 8,
-        "current_residue": "V",
-        "proposed_residue": "G",
+        "current_residue": "A",
+        "proposed_residue": "N",
         "confidence": 0.8,
-        "reason": "Glycine (G) introduces flexibility and promotes turn formation while maintaining a diverse sequence, which helps break the long repeat stretch."
+        "reason": "Introducing Asparagine (N) at position 8 provides a polar residue that aligns with the design goal of Hydrophobic-Polar-Glycine-Aromatic pattern, while maintaining the alpha-helical structure and enhancing sequence diversity."
       },
       {
         "position": 9,
-        "current_residue": "V",
-        "proposed_residue": "G",
-        "confidence": 0.9,
-        "reason": "Glycine introduces flexibility and can promote turns in the alpha helix, aiding in breaking the repetitive sequence pattern while maintaining some structural integrity."
+        "current_residue": "A",
+        "proposed_residue": "N",
+        "confidence": 0.8,
+        "reason": "N introduces polarity to the sequence, breaking the repeat stretch and maintaining the helix structure while fitting the design goal pattern."
       },
       {
         "position": 10,
-        "current_residue": "V",
-        "proposed_residue": "G",
+        "current_residue": "A",
+        "proposed_residue": "N",
         "confidence": 0.8,
-        "reason": "Glycine introduces flexibility and promotes turns, aligning with the design goal of enhancing structural diversity."
+        "reason": "Introducing a polar residue (N) at position 10 aligns with the design goal of Hydrophobic-Polar-Glycine-Aromatic pattern while also increasing sequence diversity and breaking the long stretch of hydrophobic residues."
       },
       {
         "position": 11,
-        "current_residue": "V",
-        "proposed_residue": "G",
+        "current_residue": "A",
+        "proposed_residue": "N",
         "confidence": 0.9,
-        "reason": "Glycine (G) is a strong turn-promoting residue that introduces flexibility while maintaining a balance in the repeating sequence pattern."
+        "reason": "N introduces polarity to break the hydrophobic stretch, adhering to the design goal while being compatible with the local turn structure."
       },
       {
         "position": 12,
-        "current_residue": "V",
-        "proposed_residue": "G",
-        "confidence": 0.9,
-        "reason": "Glycine (G) is a strong turn-promoting residue that introduces flexibility, which aligns with the design goal of breaking up the repetitive sequence and enhancing structural diversity."
+        "current_residue": "A",
+        "proposed_residue": "N",
+        "confidence": 0.8,
+        "reason": "Introducing Asparagine (N) maintains the helical structure while adding a polar residue to fulfill the design goal, improving sequence diversity and reducing aggregation risk."
       },
       {
         "position": 13,
-        "current_residue": "V",
-        "proposed_residue": "G",
+        "current_residue": "A",
+        "proposed_residue": "N",
         "confidence": 0.9,
-        "reason": "Glycine introduces flexibility and promotes turns while breaking the repetitive sequence pattern, aligning with the design goal."
+        "reason": "N is a polar residue that introduces diversity, fits the helical structure, and aligns with the design goal of alternating hydrophobic and polar residues."
       },
       {
         "position": 14,
-        "current_residue": "V",
-        "proposed_residue": "G",
-        "confidence": 0.8,
-        "reason": "Glycine promotes flexibility and can help introduce turns in the structure, breaking the repetitive sequence while maintaining a balance between stability and flexibility."
+        "current_residue": "A",
+        "proposed_residue": "N",
+        "confidence": 0.9,
+        "reason": "Introducing asparagine (N) adds polar character to fulfill the design goal, breaks the sequence repeat, and is compatible with the helical structure."
       },
       {
         "position": 15,
-        "current_residue": "V",
-        "proposed_residue": "G",
+        "current_residue": "A",
+        "proposed_residue": "N",
         "confidence": 0.8,
-        "reason": "Glycine (G) is a turn-promoting residue that introduces flexibility and can help break the repeating pattern while maintaining the structural integrity of the alpha helix."
+        "reason": "Introducing a polar residue (N) aligns with the design goal of Hydrophobic-Polar-Glycine-Aromatic pattern, enhances sequence diversity and maintains the helical structure."
       },
       {
         "position": 16,
-        "current_residue": "V",
-        "proposed_residue": "G",
-        "confidence": 0.9,
-        "reason": "Glycine introduces flexibility and promotes turn formation, which aligns with the design goal of introducing flexibility while diversifying the sequence."
+        "current_residue": "A",
+        "proposed_residue": "Q",
+        "confidence": 0.8,
+        "reason": "Glutamine (Q) is a polar residue that can help break the hydrophobic stretch, aligning with the design goal while maintaining secondary structure stability in the alpha helix."
       },
       {
         "position": 17,
-        "current_residue": "V",
-        "proposed_residue": "G",
-        "confidence": 0.8,
-        "reason": "Glycine is a turn-promoting residue that increases flexibility and breaks the repetitive pattern, while still accommodating the helical structure."
+        "current_residue": "A",
+        "proposed_residue": "N",
+        "confidence": 0.9,
+        "reason": "Replacing A with N introduces polarity to the sequence, improving diversity and aligning with the design goal of alternating hydrophobic and polar residues while maintaining helical stability."
       },
       {
         "position": 18,
-        "current_residue": "V",
-        "proposed_residue": "G",
+        "current_residue": "A",
+        "proposed_residue": "N",
         "confidence": 0.9,
-        "reason": "Glycine (G) is a turn-promoting residue that introduces flexibility and can help break the long repeat stretch while maintaining the overall structure."
+        "reason": "N is a polar residue that breaks the long stretch of A and fits the design goal pattern of Hydrophobic-Polar-Glycine-Aromatic while maintaining helix stability."
       },
       {
         "position": 19,
-        "current_residue": "V",
-        "proposed_residue": "G",
+        "current_residue": "A",
+        "proposed_residue": "N",
         "confidence": 0.9,
-        "reason": "Glycine promotes flexibility and can introduce necessary turns in the sequence, aligning with the design goal of introducing flexibility while maintaining a repeating pattern."
+        "reason": "Introducing a polar residue (N) at this position helps to break the long stretch of hydrophobic residues, aligning with the design goal pattern and enhancing structural diversity."
       }
     ],
     "fold_result": {
       "pdb_path": "outputs/iter_0.relaxed.pdb",
-      "energy": 0.364162,
-      "objective_score": 0.02,
-      "combined_score": 0.137416,
-      "rosetta_total_score": 1.15
+      "energy": 0.774744,
+      "objective_score": 0.202661,
+      "combined_score": 0.363368,
+      "rosetta_total_score": -34.71
     },
-    "accepted": false,
-    "score_delta": -0.110397
+    "accepted": true,
+    "score_delta": 0.14074100000000003
   },
   {
     "iteration": 1,
-    "sequence_before": "VVVVVVVVVVVVVVVVVVVV",
-    "sequence_after": "GGGGGVGVGGGGVGGGVGVV",
+    "sequence_before": "NNNNENNNNNNNNNNNQNNN",
+    "sequence_after": "AAEELEAALAIAAAAILAIA",
     "mutations": [
       {
         "position": 0,
-        "current_residue": "V",
-        "proposed_residue": "G",
+        "current_residue": "N",
+        "proposed_residue": "A",
         "confidence": 0.8,
-        "reason": "Glycine introduces flexibility and promotes turns, which aligns with the design goal to introduce flexibility and diversity in the sequence."
+        "reason": "Introducing Alanine (A) satisfies the hydrophobic requirement and helps break the long repeat stretch, improving sequence diversity while maintaining structural stability."
       },
       {
         "position": 1,
-        "current_residue": "V",
-        "proposed_residue": "G",
+        "current_residue": "N",
+        "proposed_residue": "A",
         "confidence": 0.8,
-        "reason": "Glycine (G) introduces flexibility and breaks the repetitive pattern, aligning with the design goal of promoting turns despite previous rejections."
+        "reason": "A hydrophobic residue (A) can stabilize the helix while introducing diversity and aligning with the design goal pattern."
       },
       {
         "position": 2,
-        "current_residue": "V",
-        "proposed_residue": "G",
+        "current_residue": "N",
+        "proposed_residue": "E",
         "confidence": 0.8,
-        "reason": "Glycine (G) is a known turn-promoting residue that can introduce flexibility while still allowing for the creation of a repeating sequence pattern."
+        "reason": "E is polar and can help achieve the design goal while improving sequence diversity and maintaining the helical structure."
       },
       {
         "position": 3,
-        "current_residue": "V",
-        "proposed_residue": "G",
+        "current_residue": "N",
+        "proposed_residue": "E",
         "confidence": 0.8,
-        "reason": "Glycine (G) is a turn-promoting residue that introduces flexibility, which aligns with the design goal to create turns and enhance sequence diversity."
+        "reason": "E is a polar residue that fits the design goal pattern; it increases sequence diversity and may stabilize the helix while adhering to the hydrophobic-polar-glycine-aromatic pattern."
       },
       {
         "position": 4,
-        "current_residue": "V",
-        "proposed_residue": "G",
+        "current_residue": "E",
+        "proposed_residue": "L",
         "confidence": 0.8,
-        "reason": "Glycine is a turn-promoting residue that introduces flexibility, which aligns with the design goal of breaking the repetitive sequence pattern while still being compatible with the overall helical structure."
+        "reason": "Leucine (L) is a hydrophobic residue that fits well in an alpha helix, aligns with the design goal of introducing hydrophobicity in the sequence, and enhances structural stability."
+      },
+      {
+        "position": 5,
+        "current_residue": "N",
+        "proposed_residue": "E",
+        "confidence": 0.8,
+        "reason": "E is a polar residue that maintains the design goal while introducing diversity and stabilizing the alpha helix."
       },
       {
         "position": 6,
-        "current_residue": "V",
-        "proposed_residue": "G",
+        "current_residue": "N",
+        "proposed_residue": "A",
+        "confidence": 0.8,
+        "reason": "A (Alanine) is a hydrophobic residue that can help break the long repeat stretch and stabilize the helix while also aligning with the design goal pattern."
+      },
+      {
+        "position": 7,
+        "current_residue": "N",
+        "proposed_residue": "A",
         "confidence": 0.9,
-        "reason": "Glycine promotes flexibility and can introduce a turn in the helical structure, aligning with the design goal of increasing flexibility and breaking the repetitive pattern."
+        "reason": "A (Alanine) is a hydrophobic residue that fits the design goal pattern and promotes stability in the helical structure."
       },
       {
         "position": 8,
-        "current_residue": "V",
-        "proposed_residue": "G",
+        "current_residue": "N",
+        "proposed_residue": "L",
         "confidence": 0.8,
-        "reason": "Glycine (G) introduces flexibility and promotes turn formation, aligning with the design goal of creating flexibility while breaking the repetitive sequence pattern."
+        "reason": "Introducing Leucine (L) at position 8 enhances hydrophobicity, aligning with the design goal of a Hydrophobic-Polar-Glycine-Aromatic pattern while maintaining alpha-helix stability."
       },
       {
         "position": 9,
-        "current_residue": "V",
-        "proposed_residue": "G",
-        "confidence": 0.7,
-        "reason": "Glycine introduces flexibility and promotes turns, which aligns with the design goal of creating flexible structures while breaking the repetitive sequence."
+        "current_residue": "N",
+        "proposed_residue": "A",
+        "confidence": 0.8,
+        "reason": "Introducing A (Hydrophobic) breaks the long repeat stretch, adds diversity, and aligns with the design goal pattern."
       },
       {
         "position": 10,
-        "current_residue": "V",
-        "proposed_residue": "G",
+        "current_residue": "N",
+        "proposed_residue": "I",
         "confidence": 0.8,
-        "reason": "Glycine introduces flexibility and promotes turns, which aligns with the design goal of introducing flexibility while maintaining a repeating sequence pattern."
+        "reason": "Introducing a hydrophobic residue (I) enhances stability in the compact alpha-helix while aligning with the design goal of hydrophobic-polar-glycine-aromatic pattern."
       },
       {
         "position": 11,
-        "current_residue": "V",
-        "proposed_residue": "G",
+        "current_residue": "N",
+        "proposed_residue": "A",
         "confidence": 0.8,
-        "reason": "Glycine (G) introduces flexibility and promotes turns, breaking the long repeat and enhancing structural diversity despite previous rejections."
+        "reason": "A introduces hydrophobicity to satisfy the design goal pattern while maintaining helical structure."
+      },
+      {
+        "position": 12,
+        "current_residue": "N",
+        "proposed_residue": "A",
+        "confidence": 0.8,
+        "reason": "Introducing Alanine (A) increases hydrophobic content while maintaining the helical structure, contributing to core stability and sequence diversity."
       },
       {
         "position": 13,
-        "current_residue": "V",
-        "proposed_residue": "G",
+        "current_residue": "N",
+        "proposed_residue": "A",
         "confidence": 0.8,
-        "reason": "Glycine introduces flexibility and promotes turn formation, which aligns well with the design goal of introducing flexibility while breaking the long repeat of 'V' residues."
+        "reason": "A is a hydrophobic residue that fits the helical context and introduces diversity to the sequence, aligning with the design goal."
       },
       {
         "position": 14,
-        "current_residue": "V",
-        "proposed_residue": "G",
-        "confidence": 0.9,
-        "reason": "Glycine is a turn-promoting residue that introduces flexibility and can help break the repetitive sequence while still allowing for structural integrity."
+        "current_residue": "N",
+        "proposed_residue": "A",
+        "confidence": 0.8,
+        "reason": "Introducing alanine (A) increases hydrophobic character, supporting the design goal of Hydrophobic-Polar-Glycine-Aromatic pattern and enhancing the overall stability of the alpha helix."
       },
       {
         "position": 15,
-        "current_residue": "V",
-        "proposed_residue": "G",
+        "current_residue": "N",
+        "proposed_residue": "I",
+        "confidence": 0.9,
+        "reason": "Changing N to I introduces a hydrophobic residue to fulfill the design goal pattern of Hydrophobic-Polar-Glycine-Aromatic and improves sequence diversity."
+      },
+      {
+        "position": 16,
+        "current_residue": "Q",
+        "proposed_residue": "L",
         "confidence": 0.8,
-        "reason": "Glycine (G) introduces flexibility and can promote turns, which aligns with the design goal while breaking the repetitive sequence."
+        "reason": "Leucine (L) is hydrophobic and will help maintain the hydrophobic-Polar-Glycine-Aromatic pattern while ensuring stability in the alpha helix."
       },
       {
         "position": 17,
-        "current_residue": "V",
-        "proposed_residue": "G",
+        "current_residue": "N",
+        "proposed_residue": "A",
         "confidence": 0.8,
-        "reason": "Glycine is a turn-promoting residue that can introduce flexibility while diversifying the sequence, despite previous rejections."
+        "reason": "Introducing a hydrophobic residue (A) at this position aligns with the design goal pattern and can enhance the stability of the helix while breaking up the repeat stretch."
+      },
+      {
+        "position": 18,
+        "current_residue": "N",
+        "proposed_residue": "I",
+        "confidence": 0.8,
+        "reason": "Isoleucine is a hydrophobic residue that can help break the long stretch of polar residues, aligning with the design goal of introducing diversity and stabilizing the structure."
+      },
+      {
+        "position": 19,
+        "current_residue": "N",
+        "proposed_residue": "A",
+        "confidence": 0.8,
+        "reason": "Introducing a hydrophobic residue (A) enhances the sequence diversity and contributes to the design goal of Hydrophobic-Polar-Glycine-Aromatic pattern, while maintaining structural stability."
       }
     ],
     "fold_result": {
       "pdb_path": "outputs/iter_1.relaxed.pdb",
-      "energy": 0.324866,
-      "objective_score": 0.271565,
-      "combined_score": 0.237387,
-      "rosetta_total_score": 4.63
+      "energy": 0.769452,
+      "objective_score": 0.397893,
+      "combined_score": 0.450026,
+      "rosetta_total_score": -34.1
     },
-    "accepted": false,
-    "score_delta": -0.010426000000000019
+    "accepted": true,
+    "score_delta": 0.08665799999999996
   },
   {
     "iteration": 2,
-    "sequence_before": "VVVVVVVVVVVVVVVVVVVV",
-    "sequence_after": "VVNSVVVVVVVVVVVPGVVG",
+    "sequence_before": "AAEELEAALAIAAAAILAIA",
+    "sequence_after": "NNNNENNNNNNNNNNNQNNN",
     "mutations": [
       {
-        "position": 2,
-        "current_residue": "V",
+        "position": 0,
+        "current_residue": "A",
         "proposed_residue": "N",
-        "confidence": 0.8,
-        "reason": "Asparagine (N) is a turn-promoting residue that can introduce flexibility while maintaining some interaction potential, helping to break the repetitive nature of the sequence."
+        "confidence": 0.9,
+        "reason": "Asparagine (N) introduces a polar residue that fits the design goal pattern and increases sequence diversity while maintaining a stable structure."
+      },
+      {
+        "position": 1,
+        "current_residue": "A",
+        "proposed_residue": "N",
+        "confidence": 0.9,
+        "reason": "N introduces a polar residue to break the hydrophobic stretch, enhancing sequence diversity and supporting the design goal."
+      },
+      {
+        "position": 2,
+        "current_residue": "E",
+        "proposed_residue": "N",
+        "confidence": 0.9,
+        "reason": "N is a polar residue that fits the required pattern and can help improve sequence diversity while maintaining the structural integrity of the helix."
       },
       {
         "position": 3,
-        "current_residue": "V",
-        "proposed_residue": "S",
+        "current_residue": "E",
+        "proposed_residue": "N",
+        "confidence": 0.85,
+        "reason": "N is a polar residue that fits the design goal pattern and introduces diversity while maintaining structural integrity in the alpha helix."
+      },
+      {
+        "position": 4,
+        "current_residue": "L",
+        "proposed_residue": "E",
         "confidence": 0.8,
-        "reason": "Serine (S) is a turn-promoting residue that introduces flexibility while maintaining a degree of hydrophilicity, which can help reduce aggregation and improve overall structural diversity."
+        "reason": "Glutamic acid (E) is a polar residue that fits well into the desired pattern of Hydrophobic-Polar-Glycine-Aromatic, helps introduce diversity, and maintains structural integrity in the alpha helix."
+      },
+      {
+        "position": 5,
+        "current_residue": "E",
+        "proposed_residue": "N",
+        "confidence": 0.9,
+        "reason": "N is a polar residue that fits the design goal and introduces diversity while maintaining the helical structure."
+      },
+      {
+        "position": 6,
+        "current_residue": "A",
+        "proposed_residue": "N",
+        "confidence": 0.9,
+        "reason": "N is a polar residue that breaks the repetitive stretch of A, maintaining helical stability and helping to achieve the desired hydrophobic-polar-glycine-aromatic pattern."
+      },
+      {
+        "position": 7,
+        "current_residue": "A",
+        "proposed_residue": "N",
+        "confidence": 0.9,
+        "reason": "N introduces polarity, breaking the hydrophobic pattern while maintaining stability in the alpha helix, aligning with the design goal."
+      },
+      {
+        "position": 8,
+        "current_residue": "L",
+        "proposed_residue": "N",
+        "confidence": 0.9,
+        "reason": "Asparagine (N) introduces a polar residue, aligning with the design goal of alternating Hydrophobic-Polar-Glycine-Aromatic and adds necessary diversity while maintaining helix stability."
+      },
+      {
+        "position": 9,
+        "current_residue": "A",
+        "proposed_residue": "N",
+        "confidence": 0.9,
+        "reason": "N introduces polarity to the sequence, breaking the long repeat stretch while maintaining compatibility with the helical structure."
+      },
+      {
+        "position": 10,
+        "current_residue": "I",
+        "proposed_residue": "N",
+        "confidence": 0.9,
+        "reason": "Introducing a polar residue (N) at position 10 aligns with the design goal and enhances sequence diversity while maintaining stability in the alpha helix."
+      },
+      {
+        "position": 11,
+        "current_residue": "A",
+        "proposed_residue": "N",
+        "confidence": 0.9,
+        "reason": "N introduces polarity to break the hydrophobic stretch and aligns with the design goal for the sequence pattern."
+      },
+      {
+        "position": 12,
+        "current_residue": "A",
+        "proposed_residue": "N",
+        "confidence": 0.9,
+        "reason": "Asparagine (N) introduces a polar residue that aligns with the design goal pattern and maintains the helix stability while improving sequence diversity."
+      },
+      {
+        "position": 13,
+        "current_residue": "A",
+        "proposed_residue": "N",
+        "confidence": 0.9,
+        "reason": "N is a polar residue that introduces necessary diversity and fits the helical context, aligning with the design goal for sequence diversity and hydrophobic-polar pattern."
+      },
+      {
+        "position": 14,
+        "current_residue": "A",
+        "proposed_residue": "N",
+        "confidence": 0.9,
+        "reason": "Asparagine (N) introduces the required polar character to fulfill the design goal of Hydrophobic-Polar-Glycine-Aromatic while maintaining stability in the helical structure."
       },
       {
         "position": 15,
-        "current_residue": "V",
-        "proposed_residue": "P",
-        "confidence": 0.7,
-        "reason": "Proline (P) can introduce turns and disrupt the helical structure, promoting flexibility while creating a unique residue in the sequence."
+        "current_residue": "I",
+        "proposed_residue": "N",
+        "confidence": 0.9,
+        "reason": "Introducing N adds a polar residue to fulfill the design goal while maintaining helix stability and promoting sequence diversity."
       },
       {
         "position": 16,
-        "current_residue": "V",
-        "proposed_residue": "G",
-        "confidence": 0.8,
-        "reason": "Glycine introduces flexibility and can promote turns, which aligns with the design goal of introducing flexibility while creating repeating sequence patterns."
+        "current_residue": "L",
+        "proposed_residue": "Q",
+        "confidence": 0.9,
+        "reason": "Glutamine (Q) introduces polar character to support the design pattern, while maintaining structural stability in the alpha helix."
+      },
+      {
+        "position": 17,
+        "current_residue": "A",
+        "proposed_residue": "N",
+        "confidence": 0.9,
+        "reason": "Introducing a polar residue (N) aligns with the design goal of Hydrophobic-Polar-Glycine-Aromatic pattern while maintaining stability in the alpha-helix."
+      },
+      {
+        "position": 18,
+        "current_residue": "I",
+        "proposed_residue": "N",
+        "confidence": 0.9,
+        "reason": "N is a polar residue that breaks the long stretch of hydrophobic residues, aligning with the design goal of introducing a polar residue in the sequence pattern."
       },
       {
         "position": 19,
-        "current_residue": "V",
-        "proposed_residue": "G",
-        "confidence": 0.8,
-        "reason": "Glycine promotes flexibility and can introduce the necessary turns while helping to break the repetitive stretch, aligning with the design goal."
+        "current_residue": "A",
+        "proposed_residue": "N",
+        "confidence": 0.9,
+        "reason": "Introducing a polar residue (N) enhances sequence diversity and aligns with the hydrophobic-polar-glycine-aromatic pattern."
       }
     ],
     "fold_result": {
       "pdb_path": "outputs/iter_2.relaxed.pdb",
-      "energy": 0.447346,
-      "objective_score": 0.309554,
-      "combined_score": 0.297367,
-      "rosetta_total_score": -5.77
+      "energy": 0.774712,
+      "objective_score": 0.202661,
+      "combined_score": 0.363357,
+      "rosetta_total_score": -34.7
     },
-    "accepted": true,
-    "score_delta": 0.04955399999999999
+    "accepted": false,
+    "score_delta": -0.086669
   },
   {
     "iteration": 3,
-    "sequence_before": "VVNSVVVVVVVVVVVPGVVG",
-    "sequence_after": "GVGGGGVGGGGVGGVGSGGS",
+    "sequence_before": "AAEELEAALAIAAAAILAIA",
+    "sequence_after": "NNNNENNLNNNNNNNNQNNN",
     "mutations": [
       {
         "position": 0,
-        "current_residue": "V",
-        "proposed_residue": "G",
-        "confidence": 0.8,
-        "reason": "Glycine is a strong turn-promoting residue that would introduce flexibility and help achieve the design goal of breaking up the repetitive sequence pattern."
+        "current_residue": "A",
+        "proposed_residue": "N",
+        "confidence": 0.7,
+        "reason": "Asparagine (N) introduces a polar residue that aligns with the design goal while increasing sequence diversity and fitting the hydrophobic-polar pattern."
+      },
+      {
+        "position": 1,
+        "current_residue": "A",
+        "proposed_residue": "N",
+        "confidence": 0.5,
+        "reason": "Introducing a polar residue (N) enhances sequence diversity while maintaining helical stability."
       },
       {
         "position": 2,
-        "current_residue": "N",
-        "proposed_residue": "G",
-        "confidence": 0.8,
-        "reason": "Glycine (G) is a strong turn-promoting residue that introduces flexibility, aligning with the design goal of enhancing structural diversity while maintaining a turn-promoting role."
+        "current_residue": "E",
+        "proposed_residue": "N",
+        "confidence": 0.5,
+        "reason": "N is a polar residue that fits the required pattern, potentially improving sequence diversity while maintaining helical structure."
       },
       {
         "position": 3,
-        "current_residue": "S",
-        "proposed_residue": "G",
-        "confidence": 0.8,
-        "reason": "Glycine (G) is a strong turn-promoting residue that introduces flexibility and can help break up the repetitive sequence, aligning with the design goal."
+        "current_residue": "E",
+        "proposed_residue": "N",
+        "confidence": 0.5,
+        "reason": "N is a polar residue that fits the design goal pattern and may improve sequence diversity."
       },
       {
         "position": 4,
-        "current_residue": "V",
-        "proposed_residue": "G",
-        "confidence": 0.8,
-        "reason": "Glycine is a strong turn-promoting residue that introduces flexibility at this position, which is critical for achieving the design goal of promoting turns and enhancing sequence diversity."
+        "current_residue": "L",
+        "proposed_residue": "E",
+        "confidence": 0.7,
+        "reason": "Glutamic acid (E) introduces polarity to achieve the design goal pattern and maintains structural integrity in the alpha helix."
       },
       {
         "position": 5,
-        "current_residue": "V",
-        "proposed_residue": "G",
-        "confidence": 0.8,
-        "reason": "Glycine (G) is a strong turn-promoting residue that will introduce flexibility and aid in achieving the design goal of creating repeating sequence patterns."
+        "current_residue": "E",
+        "proposed_residue": "N",
+        "confidence": 0.5,
+        "reason": "N introduces a polar residue to balance the high hydrophobic content, fitting the design goal pattern while maintaining some stability."
+      },
+      {
+        "position": 6,
+        "current_residue": "A",
+        "proposed_residue": "N",
+        "confidence": 0.5,
+        "reason": "N introduces a polar residue that helps break the repetitive stretch while maintaining the helical structure, despite previous rejection."
       },
       {
         "position": 7,
-        "current_residue": "V",
-        "proposed_residue": "G",
+        "current_residue": "A",
+        "proposed_residue": "L",
         "confidence": 0.8,
-        "reason": "Glycine is a strong turn-promoting residue that can introduce flexibility and help break the repetitive sequence pattern, aligning with the design goal."
+        "reason": "L (Leucine) is a hydrophobic residue that fits the design goal, maintains the helical structure, and introduces diversity without breaking the hydrophobic pattern."
       },
       {
         "position": 8,
-        "current_residue": "V",
-        "proposed_residue": "G",
-        "confidence": 0.8,
-        "reason": "Glycine (G) introduces flexibility and promotes turn formation, aligning with the design goal of introducing flexibility while creating a repeating pattern."
+        "current_residue": "L",
+        "proposed_residue": "N",
+        "confidence": 0.5,
+        "reason": "Asparagine (N) introduces a polar residue which helps in breaking the hydrophobic character and aligns with the required pattern, but it was previously rejected."
       },
       {
         "position": 9,
-        "current_residue": "V",
-        "proposed_residue": "G",
-        "confidence": 0.8,
-        "reason": "Glycine introduces flexibility and promotes turns, aligning with the design goal to enhance flexibility and break up the repeating sequence pattern."
+        "current_residue": "A",
+        "proposed_residue": "N",
+        "confidence": 0.7,
+        "reason": "N introduces polarity to the sequence, which can help diversify the amino acid composition while maintaining helical structure and stability."
       },
       {
         "position": 10,
-        "current_residue": "V",
-        "proposed_residue": "G",
-        "confidence": 0.6,
-        "reason": "Glycine is a strong turn-promoting residue that can introduce flexibility and break up the repeating sequence pattern, aligning with the design goal."
+        "current_residue": "I",
+        "proposed_residue": "N",
+        "confidence": 0.8,
+        "reason": "Introducing a polar residue (N) aligns with the design goal of alternating hydrophobic and polar residues, enhancing sequence diversity while maintaining stability in the helical structure."
+      },
+      {
+        "position": 11,
+        "current_residue": "A",
+        "proposed_residue": "N",
+        "confidence": 0.5,
+        "reason": "Introducing N provides polarity to fulfill the design goal of alternating hydrophobic and polar residues, which may enhance stability and diversity."
       },
       {
         "position": 12,
-        "current_residue": "V",
-        "proposed_residue": "G",
-        "confidence": 0.8,
-        "reason": "Glycine (G) is a strong turn-promoting residue that introduces flexibility, aligning with the design goal of creating turn-promoting residues while improving sequence diversity."
+        "current_residue": "A",
+        "proposed_residue": "N",
+        "confidence": 0.5,
+        "reason": "Asparagine (N) introduces a polar residue that aligns with the design goal of alternating hydrophobic and polar residues, potentially improving sequence diversity while maintaining structural integrity."
       },
       {
         "position": 13,
-        "current_residue": "V",
-        "proposed_residue": "G",
-        "confidence": 0.8,
-        "reason": "Glycine introduces flexibility and promotes turn formation, which aligns with the design goal of increasing flexibility and creating turning residues."
+        "current_residue": "A",
+        "proposed_residue": "N",
+        "confidence": 0.7,
+        "reason": "N introduces necessary diversity and fits the helical context while allowing for the design goal of hydrophobic-polar-glycine-aromatic."
+      },
+      {
+        "position": 14,
+        "current_residue": "A",
+        "proposed_residue": "N",
+        "confidence": 0.7,
+        "reason": "Asparagine introduces the required polar character to fulfill the hydrophobic-polar-glycine-aromatic design pattern while maintaining some stability in the alpha helix."
       },
       {
         "position": 15,
-        "current_residue": "P",
-        "proposed_residue": "G",
-        "confidence": 0.7,
-        "reason": "Glycine (G) introduces flexibility and promotes turns, which could help achieve the design goal of enhancing flexibility and creating repeating sequence patterns."
+        "current_residue": "I",
+        "proposed_residue": "N",
+        "confidence": 0.8,
+        "reason": "Introducing N adds a polar residue to fulfill the design goal pattern and improves sequence diversity while maintaining a balance with hydrophobic residues."
       },
       {
         "position": 16,
-        "current_residue": "G",
-        "proposed_residue": "S",
-        "confidence": 0.8,
-        "reason": "Serine is a turn-promoting residue that increases flexibility and introduces diversity without significantly disrupting the existing structure."
+        "current_residue": "L",
+        "proposed_residue": "Q",
+        "confidence": 0.7,
+        "reason": "Glutamine (Q) introduces polar character which helps meet the design goal pattern, despite previous rejection, it diversifies the sequence and maintains structural integrity."
       },
       {
         "position": 17,
-        "current_residue": "V",
-        "proposed_residue": "G",
+        "current_residue": "A",
+        "proposed_residue": "N",
         "confidence": 0.7,
-        "reason": "Glycine promotes flexibility and can help introduce turns in the sequence, aligning with the design goal of creating more flexible, turn-promoting residues."
+        "reason": "Introducing a polar residue (N) aligns with the design goal of alternating hydrophobic and polar residues, while also enhancing sequence diversity."
       },
       {
         "position": 18,
-        "current_residue": "V",
-        "proposed_residue": "G",
-        "confidence": 0.8,
-        "reason": "Glycine (G) is a strong turn-promoting residue that introduces flexibility, fitting the design goal of increasing flexibility while breaking up the repetitive sequence."
+        "current_residue": "I",
+        "proposed_residue": "N",
+        "confidence": 0.5,
+        "reason": "N is a polar residue that introduces diversity and aligns with the design goal pattern without causing significant disruption to the helical structure."
       },
       {
         "position": 19,
-        "current_residue": "G",
-        "proposed_residue": "S",
-        "confidence": 0.8,
-        "reason": "Serine (S) is a turn-promoting residue that introduces flexibility and maintains surface exposure, aligning with the design goal of promoting turns while enhancing sequence diversity."
+        "current_residue": "A",
+        "proposed_residue": "N",
+        "confidence": 0.7,
+        "reason": "Introducing a polar residue (N) increases sequence diversity and aligns with the design goal pattern of Hydrophobic-Polar-Glycine-Aromatic."
       }
     ],
     "fold_result": {
       "pdb_path": "outputs/iter_3.relaxed.pdb",
-      "energy": 0.360709,
-      "objective_score": 0.327061,
-      "combined_score": 0.275104,
-      "rosetta_total_score": 1.45
+      "energy": 0.745762,
+      "objective_score": 0.278445,
+      "combined_score": 0.387436,
+      "rosetta_total_score": -31.52
     },
     "accepted": false,
-    "score_delta": -0.022262999999999977
+    "score_delta": -0.06258999999999998
   },
   {
     "iteration": 4,
-    "sequence_before": "VVNSVVVVVVVVVVVPGVVG",
-    "sequence_after": "VVSGVVVVVVVVVVVGSVVS",
+    "sequence_before": "AAEELEAALAIAAAAILAIA",
+    "sequence_after": "NNNEENEANLNNNNNNQNNN",
     "mutations": [
       {
-        "position": 2,
-        "current_residue": "N",
-        "proposed_residue": "S",
+        "position": 0,
+        "current_residue": "A",
+        "proposed_residue": "N",
         "confidence": 0.8,
-        "reason": "Serine (S) is a turn-promoting residue that introduces flexibility, maintains sequence diversity, and is compatible with the surrounding structure."
+        "reason": "Asparagine (N) introduces a polar residue that aligns with the design goal while maintaining the pattern of Hydrophobic-Polar-Glycine-Aromatic."
       },
       {
-        "position": 3,
-        "current_residue": "S",
-        "proposed_residue": "G",
+        "position": 1,
+        "current_residue": "A",
+        "proposed_residue": "N",
+        "confidence": 0.7,
+        "reason": "Introducing a polar residue (N) enhances sequence diversity and supports the hydrophobic-polar-glycine-aromatic pattern, while maintaining acceptable energy levels."
+      },
+      {
+        "position": 2,
+        "current_residue": "E",
+        "proposed_residue": "N",
+        "confidence": 0.6,
+        "reason": "N is a polar residue that fits the required pattern and can help achieve the design goal while maintaining helix stability."
+      },
+      {
+        "position": 4,
+        "current_residue": "L",
+        "proposed_residue": "E",
+        "confidence": 0.7,
+        "reason": "Glutamic acid (E) introduces necessary polarity to achieve the design goal while maintaining the helical structure."
+      },
+      {
+        "position": 5,
+        "current_residue": "E",
+        "proposed_residue": "N",
+        "confidence": 0.7,
+        "reason": "N is a polar residue that fits the design goal of introducing diversity and maintains the hydrophobic-polar-glycine-aromatic pattern."
+      },
+      {
+        "position": 6,
+        "current_residue": "A",
+        "proposed_residue": "E",
+        "confidence": 0.7,
+        "reason": "E (Glutamic acid) introduces a polar residue that helps break the long repeat stretch of A, maintaining the helical structure while aligning with the design goal."
+      },
+      {
+        "position": 8,
+        "current_residue": "L",
+        "proposed_residue": "N",
+        "confidence": 0.7,
+        "reason": "Asparagine (N) introduces a polar residue which aligns with the design goal of having a polar residue in the sequence pattern, improving sequence diversity and reducing hydrophobic content."
+      },
+      {
+        "position": 9,
+        "current_residue": "A",
+        "proposed_residue": "L",
         "confidence": 0.8,
-        "reason": "Glycine (G) is a strong turn-promoting residue that introduces flexibility and can help break the repetitive sequence patterns."
+        "reason": "L is hydrophobic, maintaining the required pattern while enhancing sequence diversity and supporting helix stability."
+      },
+      {
+        "position": 10,
+        "current_residue": "I",
+        "proposed_residue": "N",
+        "confidence": 0.7,
+        "reason": "Introducing a polar residue (N) aligns with the design goal of alternating hydrophobic and polar residues, improving sequence diversity and potentially reducing aggregation."
+      },
+      {
+        "position": 11,
+        "current_residue": "A",
+        "proposed_residue": "N",
+        "confidence": 0.7,
+        "reason": "Introducing N adds polarity to balance the hydrophobic stretch, aligning with the design goal of Hydrophobic-Polar-Glycine-Aromatic while maintaining some structural integrity."
+      },
+      {
+        "position": 12,
+        "current_residue": "A",
+        "proposed_residue": "N",
+        "confidence": 0.6,
+        "reason": "Asparagine (N) introduces a polar residue that can balance the hydrophobic content and contribute to breaking the repeat stretch, while also maintaining helical structure."
+      },
+      {
+        "position": 13,
+        "current_residue": "A",
+        "proposed_residue": "N",
+        "confidence": 0.8,
+        "reason": "N is a polar residue that introduces necessary diversity and fits the helical context while aligning with the design goal of alternating hydrophobic and polar residues."
+      },
+      {
+        "position": 14,
+        "current_residue": "A",
+        "proposed_residue": "N",
+        "confidence": 0.7,
+        "reason": "Asparagine introduces the required polar character to fulfill the design goal while maintaining a balance with the hydrophobic neighbors."
       },
       {
         "position": 15,
-        "current_residue": "P",
-        "proposed_residue": "G",
-        "confidence": 0.9,
-        "reason": "Glycine (G) is a strong turn-promoting residue that introduces flexibility, which aligns with the design goal of creating flexible turns while maintaining sequence diversity."
+        "current_residue": "I",
+        "proposed_residue": "N",
+        "confidence": 0.8,
+        "reason": "Introducing N adds a polar residue to fulfill the design goal of Hydrophobic-Polar-Glycine-Aromatic pattern and improves sequence diversity."
       },
       {
         "position": 16,
-        "current_residue": "G",
-        "proposed_residue": "S",
+        "current_residue": "L",
+        "proposed_residue": "Q",
+        "confidence": 0.7,
+        "reason": "Glutamine (Q) introduces a polar character which helps meet the design goal while maintaining acceptable energy levels."
+      },
+      {
+        "position": 17,
+        "current_residue": "A",
+        "proposed_residue": "N",
+        "confidence": 0.7,
+        "reason": "N introduces polarity to the sequence, aligning with the design goal of alternating hydrophobic and polar residues."
+      },
+      {
+        "position": 18,
+        "current_residue": "I",
+        "proposed_residue": "N",
         "confidence": 0.6,
-        "reason": "Serine is a turn-promoting residue that can introduce flexibility and potentially enhance the structural diversity at this position."
+        "reason": "N is a polar residue that introduces diversity and helps to break the long stretch of hydrophobic residues while maintaining helix stability."
       },
       {
         "position": 19,
-        "current_residue": "G",
-        "proposed_residue": "S",
+        "current_residue": "A",
+        "proposed_residue": "N",
         "confidence": 0.8,
-        "reason": "Serine is a turn-promoting residue that can enhance flexibility and introduce necessary turns while maintaining surface exposure."
+        "reason": "Introducing a polar residue (N) enhances sequence diversity and aligns with the design goal."
       }
     ],
     "fold_result": {
       "pdb_path": "outputs/iter_4.relaxed.pdb",
-      "energy": 0.432862,
-      "objective_score": 0.247551,
-      "combined_score": 0.264453,
-      "rosetta_total_score": -4.6
+      "energy": 0.767075,
+      "objective_score": 0.371334,
+      "combined_score": 0.436793,
+      "rosetta_total_score": -33.84
     },
     "accepted": false,
-    "score_delta": -0.032914
+    "score_delta": -0.013232999999999995
   },
   {
     "iteration": 5,
-    "sequence_before": "VVNSVVVVVVVVVVVPGVVG",
-    "sequence_after": "VVNSVVGVVVVVVVVPSVVG",
+    "sequence_before": "AAEELEAALAIAAAAILAIA",
+    "sequence_after": "NEEEENNANNNNINCILNNN",
     "mutations": [
       {
-        "position": 6,
-        "current_residue": "V",
-        "proposed_residue": "G",
+        "position": 0,
+        "current_residue": "A",
+        "proposed_residue": "N",
         "confidence": 0.8,
-        "reason": "Glycine introduces flexibility and promotes turns, aligning with the design goal of increasing flexibility while creating a diverse sequence."
+        "reason": "Asparagine (N) introduces a polar residue that aligns with the design goal pattern and improves sequence diversity."
       },
       {
-        "position": 16,
-        "current_residue": "G",
-        "proposed_residue": "S",
+        "position": 1,
+        "current_residue": "A",
+        "proposed_residue": "E",
         "confidence": 0.8,
-        "reason": "Serine is a turn-promoting residue that can introduce flexibility and improve sequence diversity, which aligns with the design goal."
+        "reason": "Changing A to E introduces a polar residue that breaks the hydrophobic stretch, enhancing sequence diversity and supporting the design goal."
+      },
+      {
+        "position": 4,
+        "current_residue": "L",
+        "proposed_residue": "E",
+        "confidence": 0.8,
+        "reason": "Glutamic acid (E) introduces necessary polarity to fit the design goal's pattern and maintains secondary structure, despite past rejection."
+      },
+      {
+        "position": 5,
+        "current_residue": "E",
+        "proposed_residue": "N",
+        "confidence": 0.8,
+        "reason": "N is a polar residue that fits the design goal by introducing diversity and maintaining the hydrophobic-polar-glycine-aromatic pattern."
+      },
+      {
+        "position": 6,
+        "current_residue": "A",
+        "proposed_residue": "N",
+        "confidence": 0.7,
+        "reason": "N introduces polar character which helps break the hydrophobic stretch while maintaining helix stability."
+      },
+      {
+        "position": 8,
+        "current_residue": "L",
+        "proposed_residue": "N",
+        "confidence": 0.8,
+        "reason": "Asparagine (N) introduces a polar residue that aligns with the design goal of Hydrophobic-Polar-Glycine-Aromatic pattern, improving sequence diversity and potentially stabilizing the alpha helix."
+      },
+      {
+        "position": 9,
+        "current_residue": "A",
+        "proposed_residue": "N",
+        "confidence": 0.8,
+        "reason": "N introduces polarity needed to break the long repeat stretch while maintaining the helical structure."
+      },
+      {
+        "position": 10,
+        "current_residue": "I",
+        "proposed_residue": "N",
+        "confidence": 0.8,
+        "reason": "Introducing a polar residue (N) aligns with the design goal of varying the sequence and breaking the repetitive stretch, despite past rejections."
+      },
+      {
+        "position": 11,
+        "current_residue": "A",
+        "proposed_residue": "N",
+        "confidence": 0.7,
+        "reason": "N introduces polarity to help fulfill the design goal pattern while maintaining acceptable energy levels."
+      },
+      {
+        "position": 12,
+        "current_residue": "A",
+        "proposed_residue": "I",
+        "confidence": 0.8,
+        "reason": "Isoleucine (I) maintains hydrophobicity while potentially fitting the design goal pattern, enhancing structural stability in the alpha helix."
+      },
+      {
+        "position": 13,
+        "current_residue": "A",
+        "proposed_residue": "N",
+        "confidence": 0.8,
+        "reason": "N is a polar residue that introduces necessary diversity, fits the helical context, and aligns with the design goal of alternating residue types."
+      },
+      {
+        "position": 14,
+        "current_residue": "A",
+        "proposed_residue": "C",
+        "confidence": 0.7,
+        "reason": "Cysteine introduces a hydrophobic character while providing potential disulfide bond formation, fulfilling the pattern requirement and increasing sequence diversity."
+      },
+      {
+        "position": 17,
+        "current_residue": "A",
+        "proposed_residue": "N",
+        "confidence": 0.8,
+        "reason": "Introducing N adds polarity to the sequence, aligning with the design goal of alternating hydrophobic and polar residues, while maintaining helical structure."
+      },
+      {
+        "position": 18,
+        "current_residue": "I",
+        "proposed_residue": "N",
+        "confidence": 0.8,
+        "reason": "N is a polar residue that introduces diversity and aligns with the design goal without disrupting the helical structure."
+      },
+      {
+        "position": 19,
+        "current_residue": "A",
+        "proposed_residue": "N",
+        "confidence": 0.8,
+        "reason": "Introducing a polar residue (N) enhances sequence diversity and aligns with the design goal for creating a balanced pattern of Hydrophobic-Polar-Glycine-Aromatic."
       }
     ],
     "fold_result": {
       "pdb_path": "outputs/iter_5.relaxed.pdb",
-      "energy": 0.441698,
-      "objective_score": 0.354827,
-      "combined_score": 0.315837,
-      "rosetta_total_score": -5.31
+      "energy": 0.7839,
+      "objective_score": 0.457628,
+      "combined_score": 0.481706,
+      "rosetta_total_score": -35.77
     },
     "accepted": true,
-    "score_delta": 0.018469999999999986
+    "score_delta": 0.03168000000000004
   },
   {
     "iteration": 6,
-    "sequence_before": "VVNSVVGVVVVVVVVPSVVG",
-    "sequence_after": "GVNSVVSVVVVVVVVPGVVS",
+    "sequence_before": "NEEEENNANNNNINCILNNN",
+    "sequence_after": "AAENLEALLAIAAAAIIAIA",
     "mutations": [
       {
         "position": 0,
-        "current_residue": "V",
-        "proposed_residue": "G",
-        "confidence": 0.8,
-        "reason": "Glycine is a strong turn-promoting residue that can enhance flexibility and help break up the long repeat stretch, despite being previously rejected."
+        "current_residue": "N",
+        "proposed_residue": "A",
+        "confidence": 0.9,
+        "reason": "Alanine (A) introduces a hydrophobic residue that aligns with the design goal pattern and improves sequence diversity."
+      },
+      {
+        "position": 1,
+        "current_residue": "E",
+        "proposed_residue": "A",
+        "confidence": 0.9,
+        "reason": "A hydrophobic residue will break the repeat stretch and stabilize the helix while aligning with the design goal."
+      },
+      {
+        "position": 3,
+        "current_residue": "E",
+        "proposed_residue": "N",
+        "confidence": 0.7,
+        "reason": "N is a polar residue that fits the design goal pattern and can improve sequence diversity while maintaining the helical structure."
+      },
+      {
+        "position": 4,
+        "current_residue": "E",
+        "proposed_residue": "L",
+        "confidence": 0.9,
+        "reason": "Leucine (L) is a hydrophobic residue that fits well in an alpha helix, improving stability and helping to achieve the design goal pattern."
+      },
+      {
+        "position": 5,
+        "current_residue": "N",
+        "proposed_residue": "E",
+        "confidence": 0.9,
+        "reason": "E is a polar residue that fits the design goal and maintains structural integrity in the alpha helix while enhancing the diversity of the sequence."
       },
       {
         "position": 6,
-        "current_residue": "G",
-        "proposed_residue": "S",
+        "current_residue": "N",
+        "proposed_residue": "A",
+        "confidence": 0.9,
+        "reason": "A (Alanine) is hydrophobic and helps to break the repetitive stretch while maintaining the stability of the alpha-helical structure."
+      },
+      {
+        "position": 7,
+        "current_residue": "A",
+        "proposed_residue": "L",
+        "confidence": 0.5,
+        "reason": "L (Leucine) is a hydrophobic residue that fits the design goal of maintaining the hydrophobic pattern, despite previous rejection due to energy considerations."
+      },
+      {
+        "position": 8,
+        "current_residue": "N",
+        "proposed_residue": "L",
+        "confidence": 0.9,
+        "reason": "Leucine (L) is hydrophobic and fits the design goal pattern, promoting stability in the helical structure while enhancing sequence diversity."
+      },
+      {
+        "position": 9,
+        "current_residue": "N",
+        "proposed_residue": "A",
+        "confidence": 0.9,
+        "reason": "A introduces hydrophobicity needed to meet the design goal of the sequence pattern, while maintaining stability in the helix."
+      },
+      {
+        "position": 10,
+        "current_residue": "N",
+        "proposed_residue": "I",
+        "confidence": 0.9,
+        "reason": "Introducing a hydrophobic residue (I) enhances stability and aligns with the hydrophobic-polar-glycine-aromatic pattern, improving sequence diversity."
+      },
+      {
+        "position": 11,
+        "current_residue": "N",
+        "proposed_residue": "A",
+        "confidence": 0.9,
+        "reason": "A introduces hydrophobicity to fulfill the design goal pattern and maintains alpha-helix stability."
+      },
+      {
+        "position": 12,
+        "current_residue": "I",
+        "proposed_residue": "A",
         "confidence": 0.8,
-        "reason": "Serine (S) is a turn-promoting residue that introduces flexibility while maintaining a diverse sequence pattern."
+        "reason": "Alanine (A) enhances hydrophobicity and aligns with the design goal of maintaining the hydrophobic-polar-glycine-aromatic pattern."
+      },
+      {
+        "position": 13,
+        "current_residue": "N",
+        "proposed_residue": "A",
+        "confidence": 0.9,
+        "reason": "A is a hydrophobic residue that fits the helical context and introduces necessary diversity to break the repeat stretch."
+      },
+      {
+        "position": 14,
+        "current_residue": "C",
+        "proposed_residue": "A",
+        "confidence": 0.9,
+        "reason": "Alanine (A) fulfills the hydrophobic requirement while maintaining compatibility with the alpha helix structure and improves sequence diversity."
       },
       {
         "position": 16,
-        "current_residue": "S",
-        "proposed_residue": "G",
+        "current_residue": "L",
+        "proposed_residue": "I",
         "confidence": 0.8,
-        "reason": "Glycine is a turn-promoting residue that can introduce flexibility and improve sequence diversity, aligning with the design goal."
+        "reason": "Isoleucine (I) is hydrophobic, supports helix formation, and adheres to the design goal while introducing diversity."
+      },
+      {
+        "position": 17,
+        "current_residue": "N",
+        "proposed_residue": "A",
+        "confidence": 0.9,
+        "reason": "A hydrophobic residue at this position aligns with the design goal pattern and improves sequence diversity."
+      },
+      {
+        "position": 18,
+        "current_residue": "N",
+        "proposed_residue": "I",
+        "confidence": 0.8,
+        "reason": "Isoleucine introduces hydrophobicity, aligning with the design goal pattern and enhancing stability in the alpha helix while providing diversity."
       },
       {
         "position": 19,
-        "current_residue": "G",
-        "proposed_residue": "S",
-        "confidence": 0.6,
-        "reason": "Serine (S) is a turn-promoting residue that can introduce flexibility while maintaining some sequence diversity."
+        "current_residue": "N",
+        "proposed_residue": "A",
+        "confidence": 0.9,
+        "reason": "Introducing a hydrophobic residue (A) enhances sequence diversity and aligns with the design goal of maintaining the pattern of Hydrophobic-Polar-Glycine-Aromatic."
       }
     ],
     "fold_result": {
       "pdb_path": "outputs/iter_6.relaxed.pdb",
-      "energy": 0.281067,
-      "objective_score": 0.366129,
-      "combined_score": 0.264574,
-      "rosetta_total_score": 8.78
+      "energy": 0.783147,
+      "objective_score": 0.437996,
+      "combined_score": 0.472837,
+      "rosetta_total_score": -35.68
     },
     "accepted": false,
-    "score_delta": -0.051263
+    "score_delta": -0.008869000000000016
   },
   {
     "iteration": 7,
-    "sequence_before": "VVNSVVGVVVVVVVVPSVVG",
-    "sequence_after": "NVCGVVSVVVVVVVVGGVVG",
+    "sequence_before": "NEEEENNANNNNINCILNNN",
+    "sequence_after": "ANEAGENNNNINNNCLLNIG",
     "mutations": [
       {
         "position": 0,
-        "current_residue": "V",
-        "proposed_residue": "N",
-        "confidence": 0.8,
-        "reason": "Asparagine (N) is a polar residue that can introduce flexibility and promote turns, aligning with the design goal while also increasing sequence diversity."
+        "current_residue": "N",
+        "proposed_residue": "A",
+        "confidence": 0.5,
+        "reason": "Alanine (A) introduces a hydrophobic residue to align with the design goal of a hydrophobic-polar-glycine-aromatic pattern, while also providing moderate sequence diversity."
       },
       {
-        "position": 2,
-        "current_residue": "N",
-        "proposed_residue": "C",
-        "confidence": 0.8,
-        "reason": "Cysteine introduces diversity and may promote flexibility through disulfide bond formation while minimally disrupting the current sequence context."
+        "position": 1,
+        "current_residue": "E",
+        "proposed_residue": "N",
+        "confidence": 0.5,
+        "reason": "N is a polar residue that can enhance diversity while maintaining a stable helical structure, aligning better with the design goal."
       },
       {
         "position": 3,
-        "current_residue": "S",
-        "proposed_residue": "G",
+        "current_residue": "E",
+        "proposed_residue": "A",
         "confidence": 0.8,
-        "reason": "Glycine (G) is a strong turn-promoting residue that can introduce flexibility, aligning with the design goal despite previous rejections."
+        "reason": "A fits the hydrophobic role in the pattern while also breaking the repeat stretch and maintaining the helical structure."
       },
       {
-        "position": 6,
-        "current_residue": "G",
-        "proposed_residue": "S",
+        "position": 4,
+        "current_residue": "E",
+        "proposed_residue": "G",
+        "confidence": 0.8,
+        "reason": "Glycine (G) fits the design goal of Hydrophobic-Polar-Glycine-Aromatic patterns and is suitable for the alpha helical environment."
+      },
+      {
+        "position": 5,
+        "current_residue": "N",
+        "proposed_residue": "E",
+        "confidence": 0.7,
+        "reason": "E is a polar residue that fits the design goal pattern and maintains the helical structure, while also introducing some diversity to the sequence."
+      },
+      {
+        "position": 7,
+        "current_residue": "A",
+        "proposed_residue": "N",
+        "confidence": 0.5,
+        "reason": "N (Asparagine) maintains polarity in the design goal pattern and could improve sequence diversity, despite being previously rejected."
+      },
+      {
+        "position": 10,
+        "current_residue": "N",
+        "proposed_residue": "I",
         "confidence": 0.6,
-        "reason": "Serine is a turn-promoting residue that can introduce flexibility while providing some diversity in the sequence."
+        "reason": "Introducing a hydrophobic residue (I) can enhance the stability of the alpha helix while contributing to the desired hydrophobic-polar-glycine-aromatic pattern."
+      },
+      {
+        "position": 12,
+        "current_residue": "I",
+        "proposed_residue": "N",
+        "confidence": 0.7,
+        "reason": "Asparagine (N) maintains the helical structure and introduces a polar residue that can balance the overall pattern while avoiding disruption to local folding."
       },
       {
         "position": 15,
-        "current_residue": "P",
-        "proposed_residue": "G",
+        "current_residue": "I",
+        "proposed_residue": "L",
         "confidence": 0.8,
-        "reason": "Glycine (G) introduces flexibility and promotes turns, which aligns with the design goal of introducing flexibility while creating repeating sequence patterns."
+        "reason": "L (Leucine) is a hydrophobic residue that fits the design goal pattern and maintains the alpha-helix structure while enhancing sequence diversity."
       },
       {
-        "position": 16,
-        "current_residue": "S",
+        "position": 18,
+        "current_residue": "N",
+        "proposed_residue": "I",
+        "confidence": 0.6,
+        "reason": "Isoleucine introduces hydrophobicity, potentially aligning better with the design goal while maintaining structural integrity in the alpha helix."
+      },
+      {
+        "position": 19,
+        "current_residue": "N",
         "proposed_residue": "G",
         "confidence": 0.8,
-        "reason": "Glycine promotes flexibility and can introduce turns, aligning with the design goal of enhancing flexibility."
+        "reason": "Introducing glycine (G) aligns with the design goal pattern of Hydrophobic-Polar-Glycine-Aromatic and adds flexibility without disrupting the secondary structure."
       }
     ],
     "fold_result": {
       "pdb_path": "outputs/iter_7.relaxed.pdb",
-      "energy": 0.385714,
-      "objective_score": 0.360367,
-      "combined_score": 0.298636,
-      "rosetta_total_score": -0.69
+      "energy": 0.197735,
+      "objective_score": 0.521703,
+      "combined_score": 0.305074,
+      "rosetta_total_score": 18.01
     },
     "accepted": false,
-    "score_delta": -0.017200999999999966
+    "score_delta": -0.176632
   },
   {
     "iteration": 8,
-    "sequence_before": "VVNSVVGVVVVVVVVPSVVG",
-    "sequence_after": "VGNSVVSVVVVVVVVPSVVG",
+    "sequence_before": "NEEEENNANNNNINCILNNN",
+    "sequence_after": "ANEEENNLNNNNANCILNGN",
     "mutations": [
       {
-        "position": 1,
-        "current_residue": "V",
-        "proposed_residue": "G",
-        "confidence": 0.8,
-        "reason": "Glycine (G) introduces flexibility and promotes turns, aligning with the design goal to enhance flexibility and break repetitive patterns."
+        "position": 0,
+        "current_residue": "N",
+        "proposed_residue": "A",
+        "confidence": 0.7,
+        "reason": "Alanine (A) introduces a hydrophobic residue, aligning with the design goal pattern and potentially improving sequence diversity while maintaining structural integrity."
       },
       {
-        "position": 6,
-        "current_residue": "G",
-        "proposed_residue": "S",
+        "position": 1,
+        "current_residue": "E",
+        "proposed_residue": "N",
+        "confidence": 0.6,
+        "reason": "N is a polar residue that can enhance diversity and fits within the design goal pattern."
+      },
+      {
+        "position": 7,
+        "current_residue": "A",
+        "proposed_residue": "L",
+        "confidence": 0.8,
+        "reason": "Leucine is a hydrophobic residue that fits the design goal pattern and can maintain stability in the alpha-helix structure, improving overall energy."
+      },
+      {
+        "position": 12,
+        "current_residue": "I",
+        "proposed_residue": "A",
         "confidence": 0.7,
-        "reason": "Serine is a turn-promoting residue that can introduce flexibility and help diversify the sequence, aligning well with the design goal."
+        "reason": "Alanine (A) enhances hydrophobicity and aligns with the design goal pattern, while maintaining a stable helical structure."
+      },
+      {
+        "position": 18,
+        "current_residue": "N",
+        "proposed_residue": "G",
+        "confidence": 0.8,
+        "reason": "Glycine fits the design goal pattern and maintains structural integrity in the alpha helix while introducing diversity."
       }
     ],
     "fold_result": {
       "pdb_path": "outputs/iter_8.relaxed.pdb",
-      "energy": 0.457706,
-      "objective_score": 0.366129,
-      "combined_score": 0.326466,
-      "rosetta_total_score": -6.61
+      "energy": 0.652991,
+      "objective_score": 0.505762,
+      "combined_score": 0.457314,
+      "rosetta_total_score": -22.64
     },
-    "accepted": true,
-    "score_delta": 0.010629
+    "accepted": false,
+    "score_delta": -0.024392000000000025
   },
   {
     "iteration": 9,
-    "sequence_before": "VGNSVVSVVVVVVVVPSVVG",
-    "sequence_after": "VNNGVVGVGGVVGVGGGGVG",
+    "sequence_before": "NEEEENNANNNNINCILNNN",
+    "sequence_after": "NNNEENNALNNNINCILNNN",
     "mutations": [
       {
         "position": 1,
-        "current_residue": "G",
+        "current_residue": "E",
         "proposed_residue": "N",
         "confidence": 0.8,
-        "reason": "Asparagine (N) is a turn-promoting residue that introduces flexibility and breaks the repetitive pattern while maintaining polar character, which enhances sequence diversity."
+        "reason": "N is a polar residue that enhances diversity and fits the design goal pattern, while maintaining a stable helical structure."
       },
       {
-        "position": 3,
-        "current_residue": "S",
-        "proposed_residue": "G",
+        "position": 2,
+        "current_residue": "E",
+        "proposed_residue": "N",
         "confidence": 0.8,
-        "reason": "Glycine (G) is a strong turn-promoting residue that will enhance flexibility while maintaining the desired repeating sequence pattern."
-      },
-      {
-        "position": 6,
-        "current_residue": "S",
-        "proposed_residue": "G",
-        "confidence": 0.8,
-        "reason": "Glycine promotes flexibility and can introduce turns, aligning with the design goal of creating flexible structures while breaking up repetitive sequences."
+        "reason": "N is a polar residue that fits the required pattern and can help achieve the design goal while maintaining stability in the alpha-helix."
       },
       {
         "position": 8,
-        "current_residue": "V",
-        "proposed_residue": "G",
-        "confidence": 0.8,
-        "reason": "Glycine (G) introduces flexibility and promotes turn formation, which aligns with the design goal of enhancing flexibility while breaking up the repetitive sequence."
-      },
-      {
-        "position": 9,
-        "current_residue": "V",
-        "proposed_residue": "G",
-        "confidence": 0.8,
-        "reason": "Glycine promotes flexibility and turn formation, aligning with the design goal to introduce flexibility in a highly flexible position."
-      },
-      {
-        "position": 12,
-        "current_residue": "V",
-        "proposed_residue": "G",
-        "confidence": 0.8,
-        "reason": "Glycine (G) introduces flexibility and promotes turn formation, aligning with the design goal of creating flexibility through turn-promoting residues."
-      },
-      {
-        "position": 14,
-        "current_residue": "V",
-        "proposed_residue": "G",
-        "confidence": 0.9,
-        "reason": "Glycine is a strong turn-promoting residue that can introduce flexibility, fitting the design goal of enhancing flexibility while improving sequence diversity."
-      },
-      {
-        "position": 15,
-        "current_residue": "P",
-        "proposed_residue": "G",
-        "confidence": 0.8,
-        "reason": "Glycine (G) promotes flexibility and allows for turns, addressing the design goal for introducing flexibility despite past rejections."
-      },
-      {
-        "position": 16,
-        "current_residue": "S",
-        "proposed_residue": "G",
-        "confidence": 0.8,
-        "reason": "Glycine promotes turn formation and flexibility, aligning with the design goal despite past rejections."
-      },
-      {
-        "position": 17,
-        "current_residue": "V",
-        "proposed_residue": "G",
-        "confidence": 0.8,
-        "reason": "Glycine is a strong turn-promoting residue that can introduce flexibility, which aligns with the design goal of creating turning structures and improving sequence diversity."
+        "current_residue": "N",
+        "proposed_residue": "L",
+        "confidence": 0.7,
+        "reason": "Leucine (L) introduces hydrophobicity, aligning with the design goal pattern and enhancing stability in the alpha helix."
       }
     ],
     "fold_result": {
       "pdb_path": "outputs/iter_9.relaxed.pdb",
-      "energy": 0.346832,
-      "objective_score": 0.345959,
-      "combined_score": 0.278504,
-      "rosetta_total_score": 2.66
+      "energy": 0.77746,
+      "objective_score": 0.463159,
+      "combined_score": 0.481945,
+      "rosetta_total_score": -35.02
+    },
+    "accepted": true,
+    "score_delta": 0.00023899999999998922
+  },
+  {
+    "iteration": 10,
+    "sequence_before": "NNNEENNALNNNINCILNNN",
+    "sequence_after": "NEEELNNANNNNINCILNNA",
+    "mutations": [
+      {
+        "position": 1,
+        "current_residue": "N",
+        "proposed_residue": "E",
+        "confidence": 0.8,
+        "reason": "E is a polar residue that enhances diversity and fits well with the helical structure while allowing for the desired pattern of Hydrophobic-Polar-Glycine-Aromatic."
+      },
+      {
+        "position": 2,
+        "current_residue": "N",
+        "proposed_residue": "E",
+        "confidence": 0.9,
+        "reason": "E is a polar residue that fits the required pattern and has shown to improve energy in previous iterations, aligning with the design goal."
+      },
+      {
+        "position": 4,
+        "current_residue": "E",
+        "proposed_residue": "L",
+        "confidence": 0.6,
+        "reason": "Leucine (L) is hydrophobic and fits well with the alpha-helix structure, improving the sequence to align with the design goal."
+      },
+      {
+        "position": 8,
+        "current_residue": "L",
+        "proposed_residue": "N",
+        "confidence": 0.7,
+        "reason": "Asparagine (N) introduces a polar character, aligning with the design goal of Hydrophobic-Polar-Glycine-Aromatic pattern and maintaining stability in the alpha helix."
+      },
+      {
+        "position": 19,
+        "current_residue": "N",
+        "proposed_residue": "A",
+        "confidence": 0.6,
+        "reason": "A hydrophobic residue (A) can enhance sequence diversity and aligns with the design goal pattern."
+      }
+    ],
+    "fold_result": {
+      "pdb_path": "outputs/iter_10.relaxed.pdb",
+      "energy": 0.810345,
+      "objective_score": 0.476507,
+      "combined_score": 0.499414,
+      "rosetta_total_score": -39.05
+    },
+    "accepted": true,
+    "score_delta": 0.017469000000000012
+  },
+  {
+    "iteration": 11,
+    "sequence_before": "NEEELNNANNNNINCILNNA",
+    "sequence_after": "EANNEEENLANNNNCNLNNN",
+    "mutations": [
+      {
+        "position": 0,
+        "current_residue": "N",
+        "proposed_residue": "E",
+        "confidence": 0.8,
+        "reason": "Glutamic acid (E) is a polar residue that fits the design goal, maintains structural stability, and helps break the repeat stretch of 'N'."
+      },
+      {
+        "position": 1,
+        "current_residue": "E",
+        "proposed_residue": "A",
+        "confidence": 0.6,
+        "reason": "A hydrophobic residue will help break the repeat stretch while stabilizing the helix."
+      },
+      {
+        "position": 2,
+        "current_residue": "E",
+        "proposed_residue": "N",
+        "confidence": 0.7,
+        "reason": "N is a polar residue that fits the required pattern and can help achieve the design goal of alternating hydrophobic and polar residues."
+      },
+      {
+        "position": 3,
+        "current_residue": "E",
+        "proposed_residue": "N",
+        "confidence": 0.6,
+        "reason": "N is a polar residue fitting the design goal pattern and has previously shown acceptable energy performance."
+      },
+      {
+        "position": 4,
+        "current_residue": "L",
+        "proposed_residue": "E",
+        "confidence": 0.8,
+        "reason": "Glutamic acid (E) introduces necessary polarity to fit the design goal of Hydrophobic-Polar-Glycine-Aromatic pattern and is consistent with the observed structural context."
+      },
+      {
+        "position": 5,
+        "current_residue": "N",
+        "proposed_residue": "E",
+        "confidence": 0.7,
+        "reason": "E is a polar residue that fits the design goal pattern and maintains secondary structure stability in the alpha helix."
+      },
+      {
+        "position": 6,
+        "current_residue": "N",
+        "proposed_residue": "E",
+        "confidence": 0.7,
+        "reason": "E introduces polar character that breaks the repetitive stretch and maintains secondary structure stability."
+      },
+      {
+        "position": 7,
+        "current_residue": "A",
+        "proposed_residue": "N",
+        "confidence": 0.8,
+        "reason": "Asparagine maintains the polar part of the design goal and is compatible with the alpha-helix structure, providing a balance between polarity and structural stability."
+      },
+      {
+        "position": 8,
+        "current_residue": "N",
+        "proposed_residue": "L",
+        "confidence": 0.7,
+        "reason": "Leucine (L) introduces hydrophobicity, aligning with the design goal pattern and improving overall sequence diversity."
+      },
+      {
+        "position": 9,
+        "current_residue": "N",
+        "proposed_residue": "A",
+        "confidence": 0.5,
+        "reason": "A introduces hydrophobicity needed to meet the design goal pattern, despite past rejections."
+      },
+      {
+        "position": 12,
+        "current_residue": "I",
+        "proposed_residue": "N",
+        "confidence": 0.5,
+        "reason": "Asparagine (N) introduces a polar character that can help maintain the helical structure while potentially aligning with the design goal."
+      },
+      {
+        "position": 15,
+        "current_residue": "I",
+        "proposed_residue": "N",
+        "confidence": 0.9,
+        "reason": "Introducing N adds a polar residue to fulfill the design goal pattern and maintains structural integrity in the alpha helix."
+      },
+      {
+        "position": 19,
+        "current_residue": "A",
+        "proposed_residue": "N",
+        "confidence": 0.8,
+        "reason": "Introducing a polar residue (N) aligns with the design goal pattern and enhances sequence diversity while maintaining stability in the exposed turn structure."
+      }
+    ],
+    "fold_result": {
+      "pdb_path": "outputs/iter_11.relaxed.pdb",
+      "energy": 0.540529,
+      "objective_score": 0.428373,
+      "combined_score": 0.38313,
+      "rosetta_total_score": -13.25
     },
     "accepted": false,
-    "score_delta": -0.047962000000000005
+    "score_delta": -0.116284
+  },
+  {
+    "iteration": 12,
+    "sequence_before": "NEEELNNANNNNINCILNNA",
+    "sequence_after": "NNNEEEAALNNAINCILNGN",
+    "mutations": [
+      {
+        "position": 1,
+        "current_residue": "E",
+        "proposed_residue": "N",
+        "confidence": 0.8,
+        "reason": "N is a polar residue that enhances diversity and fits well with the design goal while maintaining helix structure."
+      },
+      {
+        "position": 2,
+        "current_residue": "E",
+        "proposed_residue": "N",
+        "confidence": 0.7,
+        "reason": "N fits the polar requirement of the design goal and has shown some acceptance in past iterations, balancing diversity and stability in the helical structure."
+      },
+      {
+        "position": 4,
+        "current_residue": "L",
+        "proposed_residue": "E",
+        "confidence": 0.7,
+        "reason": "Glutamic acid (E) introduces necessary polarity to fit the design goal of Hydrophobic-Polar-Glycine-Aromatic while maintaining stability in the alpha helix."
+      },
+      {
+        "position": 5,
+        "current_residue": "N",
+        "proposed_residue": "E",
+        "confidence": 0.7,
+        "reason": "E maintains the polar character necessary for the design goal and has previously shown to improve energy while fitting the sequence context."
+      },
+      {
+        "position": 6,
+        "current_residue": "N",
+        "proposed_residue": "A",
+        "confidence": 0.5,
+        "reason": "Alanine is hydrophobic and can help break the repetitive pattern while supporting the alpha helix structure."
+      },
+      {
+        "position": 8,
+        "current_residue": "N",
+        "proposed_residue": "L",
+        "confidence": 0.7,
+        "reason": "Leucine (L) introduces hydrophobicity, aligning with the design goal for the hydrophobic position in the helix and enhancing overall stability."
+      },
+      {
+        "position": 11,
+        "current_residue": "N",
+        "proposed_residue": "A",
+        "confidence": 0.5,
+        "reason": "A introduces hydrophobicity to fulfill the design goal pattern while maintaining the secondary structure."
+      },
+      {
+        "position": 18,
+        "current_residue": "N",
+        "proposed_residue": "G",
+        "confidence": 0.6,
+        "reason": "Glycine fits the design goal pattern and can aid in maintaining flexibility in the turn structure."
+      },
+      {
+        "position": 19,
+        "current_residue": "A",
+        "proposed_residue": "N",
+        "confidence": 0.8,
+        "reason": "Introducing a polar residue (N) aligns with the design goal for sequence diversity and fits the turn/coil secondary structure, while also breaking the hydrophobic repeat."
+      }
+    ],
+    "fold_result": {
+      "pdb_path": "outputs/iter_12.relaxed.pdb",
+      "energy": 0.790741,
+      "objective_score": 0.536421,
+      "combined_score": 0.519584,
+      "rosetta_total_score": -36.59
+    },
+    "accepted": true,
+    "score_delta": 0.02017000000000002
+  },
+  {
+    "iteration": 13,
+    "sequence_before": "NNNEEEAALNNAINCILNGN",
+    "sequence_after": "NNEELNAALNNAINCILNGA",
+    "mutations": [
+      {
+        "position": 2,
+        "current_residue": "N",
+        "proposed_residue": "E",
+        "confidence": 0.8,
+        "reason": "E is a polar residue that maintains the pattern and contributes to the stability of the alpha helix while improving energy."
+      },
+      {
+        "position": 4,
+        "current_residue": "E",
+        "proposed_residue": "L",
+        "confidence": 0.8,
+        "reason": "Leucine (L) is hydrophobic and fits well in the alpha-helix structure while also aligning with the design goal of maintaining a hydrophobic residue in the sequence pattern."
+      },
+      {
+        "position": 5,
+        "current_residue": "E",
+        "proposed_residue": "N",
+        "confidence": 0.7,
+        "reason": "N is a polar residue that fits the design goal pattern, maintaining the helical structure and enhancing sequence diversity."
+      },
+      {
+        "position": 19,
+        "current_residue": "N",
+        "proposed_residue": "A",
+        "confidence": 0.7,
+        "reason": "A hydrophobic residue (A) aligns with the design goal pattern and enhances sequence diversity."
+      }
+    ],
+    "fold_result": {
+      "pdb_path": "outputs/iter_13.relaxed.pdb",
+      "energy": 0.825527,
+      "objective_score": 0.551527,
+      "combined_score": 0.538607,
+      "rosetta_total_score": -41.08
+    },
+    "accepted": true,
+    "score_delta": 0.0190229999999999
+  },
+  {
+    "iteration": 14,
+    "sequence_before": "NNEELNAALNNAINCILNGA",
+    "sequence_after": "NNNEEENANNNNINCILNNN",
+    "mutations": [
+      {
+        "position": 2,
+        "current_residue": "E",
+        "proposed_residue": "N",
+        "confidence": 0.7,
+        "reason": "N is a polar residue that fits the design goal pattern and has shown success in prior iterations."
+      },
+      {
+        "position": 4,
+        "current_residue": "L",
+        "proposed_residue": "E",
+        "confidence": 0.8,
+        "reason": "Glutamic acid (E) introduces the necessary polarity to fit the design goal, maintaining alpha-helix stability while promoting hydrophobic-polar-glycine-aromatic pattern."
+      },
+      {
+        "position": 5,
+        "current_residue": "N",
+        "proposed_residue": "E",
+        "confidence": 0.8,
+        "reason": "E is a polar residue that fits the design goal pattern while maintaining the helical structure and improving overall energy."
+      },
+      {
+        "position": 6,
+        "current_residue": "A",
+        "proposed_residue": "N",
+        "confidence": 0.8,
+        "reason": "N is polar and helps break the repetitive stretch while maintaining the structural integrity of the alpha helix."
+      },
+      {
+        "position": 8,
+        "current_residue": "L",
+        "proposed_residue": "N",
+        "confidence": 0.8,
+        "reason": "Asparagine (N) introduces a polar character, aligning with the design goal of the hydrophobic-polar-glycine-aromatic pattern, and has shown recent acceptance trends."
+      },
+      {
+        "position": 11,
+        "current_residue": "A",
+        "proposed_residue": "N",
+        "confidence": 0.75,
+        "reason": "N introduces polarity to fulfill the design goal pattern, balancing the hydrophobic stretch while maintaining helix stability."
+      },
+      {
+        "position": 18,
+        "current_residue": "G",
+        "proposed_residue": "N",
+        "confidence": 0.7,
+        "reason": "N is a polar residue that maintains sequence diversity and fits the design goal pattern."
+      },
+      {
+        "position": 19,
+        "current_residue": "A",
+        "proposed_residue": "N",
+        "confidence": 0.8,
+        "reason": "N is a polar residue that aligns with the design goal pattern and promotes sequence diversity."
+      }
+    ],
+    "fold_result": {
+      "pdb_path": "outputs/iter_14.relaxed.pdb",
+      "energy": 0.76767,
+      "objective_score": 0.449666,
+      "combined_score": 0.472371,
+      "rosetta_total_score": -33.9
+    },
+    "accepted": false,
+    "score_delta": -0.06623599999999996
+  },
+  {
+    "iteration": 15,
+    "sequence_before": "NNEELNAALNNAINCILNGA",
+    "sequence_after": "NENEEEAANNNNINCILNNN",
+    "mutations": [
+      {
+        "position": 1,
+        "current_residue": "N",
+        "proposed_residue": "E",
+        "confidence": 0.8,
+        "reason": "E is a polar residue that enhances sequence diversity and fits well within the helical structure while aligning with the design goal pattern."
+      },
+      {
+        "position": 2,
+        "current_residue": "E",
+        "proposed_residue": "N",
+        "confidence": 0.8,
+        "reason": "N is a polar residue that fits the design goal pattern and maintains stability in the alpha helix structure."
+      },
+      {
+        "position": 4,
+        "current_residue": "L",
+        "proposed_residue": "E",
+        "confidence": 0.8,
+        "reason": "Glutamic acid (E) introduces necessary polarity to fit the design goal of Hydrophobic-Polar-Glycine-Aromatic while maintaining the helical structure."
+      },
+      {
+        "position": 5,
+        "current_residue": "N",
+        "proposed_residue": "E",
+        "confidence": 0.8,
+        "reason": "E is a polar residue that maintains the necessary polar character for the design goal pattern while potentially improving stability in the alpha-helix."
+      },
+      {
+        "position": 8,
+        "current_residue": "L",
+        "proposed_residue": "N",
+        "confidence": 0.7,
+        "reason": "Asparagine (N) introduces a polar character that aligns with the design goal, maintaining the pattern while promoting structural stability."
+      },
+      {
+        "position": 11,
+        "current_residue": "A",
+        "proposed_residue": "N",
+        "confidence": 0.7,
+        "reason": "N introduces polarity to help fulfill the design goal pattern while maintaining some sequence diversity and stability in the alpha helix."
+      },
+      {
+        "position": 18,
+        "current_residue": "G",
+        "proposed_residue": "N",
+        "confidence": 0.7,
+        "reason": "N is a polar residue that can maintain the diversity of the sequence and aligns with the design goal pattern."
+      },
+      {
+        "position": 19,
+        "current_residue": "A",
+        "proposed_residue": "N",
+        "confidence": 0.8,
+        "reason": "N is a polar residue that aligns well with the design goal pattern and has shown positive energy trends in past iterations."
+      }
+    ],
+    "fold_result": {
+      "pdb_path": "outputs/iter_15.relaxed.pdb",
+      "energy": 0.786929,
+      "objective_score": 0.470745,
+      "combined_score": 0.488663,
+      "rosetta_total_score": -36.13
+    },
+    "accepted": false,
+    "score_delta": -0.04994399999999993
+  },
+  {
+    "iteration": 16,
+    "sequence_before": "NNEELNAALNNAINCILNGA",
+    "sequence_after": "NEEELEAALNNAINCILNGN",
+    "mutations": [
+      {
+        "position": 1,
+        "current_residue": "N",
+        "proposed_residue": "E",
+        "confidence": 0.8,
+        "reason": "E is a polar residue that enhances diversity and fits the design goal of having a polar residue in the first position of the 4-residue pattern."
+      },
+      {
+        "position": 5,
+        "current_residue": "N",
+        "proposed_residue": "E",
+        "confidence": 0.8,
+        "reason": "E is a polar residue that maintains the necessary polar character while fitting the design goal pattern and has shown positive energy trends in past iterations."
+      },
+      {
+        "position": 19,
+        "current_residue": "A",
+        "proposed_residue": "N",
+        "confidence": 0.8,
+        "reason": "N is a polar residue that aligns well with the design goal pattern and has shown acceptance in previous iterations, enhancing sequence diversity."
+      }
+    ],
+    "fold_result": {
+      "pdb_path": "outputs/iter_16.relaxed.pdb",
+      "energy": 0.833707,
+      "objective_score": 0.547945,
+      "combined_score": 0.53985,
+      "rosetta_total_score": -42.24
+    },
+    "accepted": true,
+    "score_delta": 0.0012430000000001051
+  },
+  {
+    "iteration": 17,
+    "sequence_before": "NEEELEAALNNAINCILNGN",
+    "sequence_after": "NNNEENAANNNLINCILNGA",
+    "mutations": [
+      {
+        "position": 1,
+        "current_residue": "E",
+        "proposed_residue": "N",
+        "confidence": 0.7,
+        "reason": "N is a polar residue that enhances diversity, fits the design goal pattern, and maintains stability in the helical structure."
+      },
+      {
+        "position": 2,
+        "current_residue": "E",
+        "proposed_residue": "N",
+        "confidence": 0.8,
+        "reason": "N is a polar residue that maintains the design goal pattern and has potential for improved energy stability in the helical environment."
+      },
+      {
+        "position": 4,
+        "current_residue": "L",
+        "proposed_residue": "E",
+        "confidence": 0.7,
+        "reason": "Glutamic acid (E) introduces necessary polarity to fit the design goal and is compatible with the alpha-helix structure."
+      },
+      {
+        "position": 5,
+        "current_residue": "E",
+        "proposed_residue": "N",
+        "confidence": 0.8,
+        "reason": "N is a polar residue that fits the design goal pattern while maintaining the necessary polar character; it has shown a favorable acceptance rate in previous iterations."
+      },
+      {
+        "position": 8,
+        "current_residue": "L",
+        "proposed_residue": "N",
+        "confidence": 0.8,
+        "reason": "Asparagine (N) introduces polar character, aligns with design goal pattern, and previous iterations show energy improvement."
+      },
+      {
+        "position": 11,
+        "current_residue": "A",
+        "proposed_residue": "L",
+        "confidence": 0.8,
+        "reason": "L is hydrophobic, maintains alpha-helix stability, and fits the design goal pattern."
+      },
+      {
+        "position": 19,
+        "current_residue": "N",
+        "proposed_residue": "A",
+        "confidence": 0.67,
+        "reason": "A hydrophobic residue (A) enhances sequence diversity and aligns with the design goal pattern."
+      }
+    ],
+    "fold_result": {
+      "pdb_path": "outputs/iter_17.relaxed.pdb",
+      "energy": 0.791178,
+      "objective_score": 0.52821,
+      "combined_score": 0.516034,
+      "rosetta_total_score": -36.64
+    },
+    "accepted": false,
+    "score_delta": -0.02381600000000006
+  },
+  {
+    "iteration": 18,
+    "sequence_before": "NEEELEAALNNAINCILNGN",
+    "sequence_after": "NEEEEEAALNNAINCILNGN",
+    "mutations": [
+      {
+        "position": 4,
+        "current_residue": "L",
+        "proposed_residue": "E",
+        "confidence": 0.7,
+        "reason": "Glutamic acid (E) introduces necessary polarity to fit the design goal of Hydrophobic-Polar-Glycine-Aromatic while maintaining alpha-helical stability."
+      }
+    ],
+    "fold_result": {
+      "pdb_path": "outputs/iter_18.relaxed.pdb",
+      "energy": 0.820124,
+      "objective_score": 0.523989,
+      "combined_score": 0.524329,
+      "rosetta_total_score": -40.34
+    },
+    "accepted": false,
+    "score_delta": -0.015521000000000007
+  },
+  {
+    "iteration": 19,
+    "sequence_before": "NEEELEAALNNAINCILNGN",
+    "sequence_after": "NEEELNNALNNAINCILNGA",
+    "mutations": [
+      {
+        "position": 5,
+        "current_residue": "E",
+        "proposed_residue": "N",
+        "confidence": 0.67,
+        "reason": "N is a polar residue that aligns with the design goal pattern and has shown previous acceptance."
+      },
+      {
+        "position": 6,
+        "current_residue": "A",
+        "proposed_residue": "N",
+        "confidence": 0.7,
+        "reason": "N is polar and contributes to breaking the repetitive stretch while maintaining structural integrity in the alpha helix."
+      },
+      {
+        "position": 19,
+        "current_residue": "N",
+        "proposed_residue": "A",
+        "confidence": 0.7,
+        "reason": "A is a hydrophobic residue that aligns well with the design goal pattern and enhances sequence diversity."
+      }
+    ],
+    "fold_result": {
+      "pdb_path": "outputs/iter_19.relaxed.pdb",
+      "energy": 0.827031,
+      "objective_score": 0.543796,
+      "combined_score": 0.535655,
+      "rosetta_total_score": -41.29
+    },
+    "accepted": false,
+    "score_delta": -0.00419500000000006
   }
 ]

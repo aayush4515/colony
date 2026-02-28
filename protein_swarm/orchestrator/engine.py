@@ -197,7 +197,11 @@ class DesignEngine:
 
         emit({"type": "run_start", "sequence_length": len(sequence), "max_iterations": self._cfg.max_iterations})
 
+        if self._cfg.modal_fold:
+            emit({"type": "log", "message": "Warming up modal container for esmfold", "icon": "spinner"})
         initial_fold = self._fold(current_seq, objective, output_dir, -1)
+        if self._cfg.modal_fold:
+            emit({"type": "log", "message": "Warming up modal container for esmfold", "icon": "check"})
         best_score = initial_fold.combined_score
         score_history.append(best_score)
         last_pdb_path = initial_fold.pdb_path
@@ -222,6 +226,7 @@ class DesignEngine:
             "mean_plddt": float(initial_fold.energy * 100.0) if initial_fold.energy is not None else None,
         })
 
+        early_stop_reason: str = ""
         for iteration in range(self._cfg.max_iterations):
             emit({"type": "iteration_start", "iteration": iteration, "max_iterations": self._cfg.max_iterations})
             log_iteration_header(iteration, self._cfg.max_iterations)
@@ -248,7 +253,12 @@ class DesignEngine:
                     f"Energy trend: {global_stats.energy_trend}"
                 )
 
-            emit({"type": "agents_started", "iteration": iteration, "num_agents": len(current_seq)})
+            num_agents = len(current_seq)
+            if iteration == 0 and self._cfg.modal_parallel and self._cfg.use_llm_agents:
+                emit({"type": "log", "message": "Warming up modal container for llm agents", "icon": "spinner"})
+            spawn_msg = f"Spawning {num_agents} agents for iteration {iteration + 1}"
+            emit({"type": "agents_started", "iteration": iteration, "num_agents": num_agents})
+            emit({"type": "log", "message": spawn_msg, "icon": "spinner"})
             proposals = self._run_agents(
                 current_seq, memory, objective, iteration,
                 mutation_rate_override=eff_mutation_rate,
@@ -256,7 +266,10 @@ class DesignEngine:
                 global_stats=global_stats,
                 goal_eval=goal_eval,
             )
+            emit({"type": "log", "message": spawn_msg, "icon": "check"})
 
+            if iteration == 0 and self._cfg.modal_parallel and self._cfg.use_llm_agents:
+                emit({"type": "log", "message": "Warming up modal container for llm agents", "icon": "check"})
             proposals = validate_proposals(proposals, objective, len(current_seq))
 
             if self._cfg.debug:
@@ -285,6 +298,10 @@ class DesignEngine:
                 "accepted": accepted,
                 "best_score": float(new_best),
             })
+            if accepted:
+                emit({"type": "log", "message": "sequence accepted", "icon": None, "variant": "success"})
+            else:
+                emit({"type": "log", "message": f"sequence rejected (Δ score {score_delta:+.4f})", "icon": None, "variant": "error"})
 
             record = IterationRecord(
                 iteration=iteration,
@@ -354,6 +371,8 @@ class DesignEngine:
 
             stop, reason = should_stop(iteration, score_history, self._cfg)
             if stop:
+                early_stop_reason = reason
+                emit({"type": "log", "message": f"Terminated early: {reason}", "icon": "check"})
                 log_early_stop(reason)
                 break
 
@@ -371,11 +390,13 @@ class DesignEngine:
         )
 
         self._save_artefacts(result, output_dir)
+        emit({"type": "log", "message": f"Final Protein Design: {current_seq}", "icon": "check"})
         emit({
             "type": "run_complete",
             "final_sequence": current_seq,
             "best_score": float(best_score),
             "total_iterations": len(history),
+            "early_stop_reason": early_stop_reason if early_stop_reason else None,
         })
         return result
 

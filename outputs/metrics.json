@@ -1,8 +1,8 @@
 {
-  "initial_sequence": "VVVVVVVVVVVVVVVVVVVV",
-  "final_sequence": "VGNSVVSVVVVVVVVPSVVG",
-  "objective": "introduce flexibility through\nturn-promoting residues while\ncreating repeating sequence\npatterns",
-  "best_score": 0.326466,
-  "total_iterations": 10,
+  "initial_sequence": "AAAAAAAAAAAAAAAAAAAA",
+  "final_sequence": "NEEELEAALNNAINCILNGN",
+  "objective": "every 4 residues must\nfollow the pattern of Hydrophobic-Polar-Glycine-Aromatic",
+  "best_score": 0.53985,
+  "total_iterations": 20,
   "final_pdb_path": "outputs/final_structure.pdb"
 }

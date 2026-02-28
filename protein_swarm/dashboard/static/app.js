@@ -3,18 +3,84 @@
   const runBtn = document.getElementById("run-btn");
   const inProgressContent = document.getElementById("in-progress-content");
   const completedContent = document.getElementById("completed-content");
+  const inProgressBadge = document.getElementById("in-progress-badge");
+  const completedBadge = document.getElementById("completed-badge");
   const currentSequenceEl = document.getElementById("current-sequence");
   const bestScoreEl = document.getElementById("best-score");
   const rosettaEnergyEl = document.getElementById("rosetta-energy");
   const energyTrendEl = document.getElementById("energy-trend");
   const meanPlddtEl = document.getElementById("mean-plddt");
+  const logContent = document.getElementById("log-content");
 
   let eventSource = null;
   let lastSequence = "";
+  let currentIteration = 0;
+  let completedCount = 0;
+
+  const spinnerSvg = "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><line x1=\"12\" y1=\"2\" x2=\"12\" y2=\"6\"/><line x1=\"12\" y1=\"18\" x2=\"12\" y2=\"22\"/><line x1=\"4.93\" y1=\"4.93\" x2=\"7.76\" y2=\"7.76\"/><line x1=\"16.24\" y1=\"16.24\" x2=\"19.07\" y2=\"19.07\"/><line x1=\"2\" y1=\"12\" x2=\"6\" y2=\"12\"/><line x1=\"18\" y1=\"12\" x2=\"22\" y2=\"12\"/><line x1=\"4.93\" y1=\"19.07\" x2=\"7.76\" y2=\"16.24\"/><line x1=\"16.24\" y1=\"7.76\" x2=\"19.07\" y2=\"4.93\"/></svg>";
+  const checkSvg = "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M22 11.08V12a10 10 0 1 1-5.93-9.14\"/><polyline points=\"22 4 12 14.01 9 11.01\"/></svg>";
+
+  function escapeHtml(s) {
+    const div = document.createElement("div");
+    div.textContent = s;
+    return div.innerHTML;
+  }
+
+  const TERMINAL_PREFIX = "colony.tech > ";
+  const isFinalMessage = function (m) { return m.indexOf("Final Protein Design:") === 0; };
+
+  function appendLog(message, icon, variant) {
+    if (!logContent) return;
+    if (icon === "check") {
+      const entries = logContent.querySelectorAll(".log-entry[data-icon=\"spinner\"]");
+      for (let i = entries.length - 1; i >= 0; i--) {
+        const el = entries[i];
+        if (el.getAttribute("data-message") === message) {
+          const iconEl = el.querySelector(".log-entry__icon");
+          if (iconEl) {
+            iconEl.className = "log-entry__icon log-entry__icon--check";
+            iconEl.innerHTML = checkSvg;
+            el.setAttribute("data-icon", "check");
+          }
+          return;
+        }
+      }
+    }
+    const iconClass = icon === "spinner" ? "log-entry__icon log-entry__icon--spinner" : icon === "check" ? "log-entry__icon log-entry__icon--check" : "log-entry__icon";
+    const iconHtml = icon === "spinner" ? "<span class=\"" + iconClass + "\">" + spinnerSvg + "</span>" : icon === "check" ? "<span class=\"" + iconClass + "\">" + checkSvg + "</span>" : "<span class=\"log-entry__icon\"></span>";
+    const prefixHtml = "<span class=\"log-entry__prefix\">" + escapeHtml(TERMINAL_PREFIX) + "</span>";
+    var lineContent = "";
+    var extraClass = "";
+    if (variant === "success") extraClass += " log-entry--success";
+    if (variant === "error") extraClass += " log-entry--error";
+    if (isFinalMessage(message)) {
+      extraClass += " log-entry--final";
+      var seq = message.slice("Final Protein Design:".length).trim();
+      lineContent = "<span class=\"log-entry__text\">Final Protein Design:<br><span class=\"log-final-box\">" + escapeHtml(seq) + "</span></span>";
+    } else {
+      lineContent = "<span class=\"log-entry__text\">" + escapeHtml(message) + "</span>";
+    }
+    const entry = document.createElement("div");
+    entry.className = "log-entry" + extraClass;
+    entry.setAttribute("data-message", message);
+    entry.setAttribute("data-icon", icon || "none");
+    entry.innerHTML = iconHtml + prefixHtml + "<span class=\"log-entry__line\">" + lineContent + "</span>";
+    logContent.appendChild(entry);
+    logContent.scrollTop = logContent.scrollHeight;
+  }
 
   function setRunning(running) {
     runBtn.disabled = running;
     runBtn.textContent = running ? "Running…" : "Run";
+  }
+
+  function trendPillClass(trend) {
+    if (!trend) return "blue";
+    const t = String(trend).toLowerCase();
+    if (t === "improving") return "green";
+    if (t === "worsening") return "red";
+    if (t === "flat") return "yellow";
+    return "blue";
   }
 
   function fmtScore(v) {
@@ -34,6 +100,7 @@
     bestScoreEl.textContent = fmtScore(data.best_score);
     rosettaEnergyEl.textContent = data.rosetta_energy != null ? fmtScore(data.rosetta_energy) : "—";
     energyTrendEl.textContent = data.energy_trend || "—";
+    energyTrendEl.className = "status-pill status-pill--" + trendPillClass(data.energy_trend);
     meanPlddtEl.textContent = fmtPlddt(data.mean_plddt);
   }
 
@@ -136,9 +203,13 @@
 
     setRunning(true);
     lastSequence = "";
-    appliedSet = null;
+    currentIteration = 0;
+    completedCount = 0;
+    if (inProgressBadge) inProgressBadge.textContent = "0";
+    if (completedBadge) completedBadge.textContent = "0";
     inProgressContent.innerHTML = "";
     completedContent.innerHTML = "";
+    if (logContent) logContent.innerHTML = "";
 
     try {
       const res = await fetch("/api/run", {
@@ -170,6 +241,8 @@
             );
             break;
           case "iteration_start":
+            currentIteration = event.iteration + 1;
+            if (inProgressBadge) inProgressBadge.textContent = String(currentIteration);
             addInProgress(
               "<span class=\"iter\">Iteration " + (event.iteration + 1) + "</span> / " + event.max_iterations + " <span class=\"status\">— starting</span>"
             );
@@ -193,6 +266,8 @@
               "combined=" + fmtScore(fold.combined_score) + " " +
               "rosetta=" + fmtScore(fold.rosetta_total_score) +
               "</div>";
+            completedCount++;
+            if (completedBadge) completedBadge.textContent = String(completedCount);
             addCompleted(
               "<div class=\"completed-header\">" +
               "<span class=\"iter\">Iteration " + (event.iteration + 1) + "</span> " + summary + "</div>" +
@@ -204,12 +279,16 @@
           case "sequence_update":
             updateSequencePanel(event);
             break;
+          case "log":
+            appendLog(event.message || "", event.icon !== undefined ? event.icon : null, event.variant || null);
+            break;
           case "run_complete":
             if (eventSource) {
               eventSource.close();
               eventSource = null;
             }
             setRunning(false);
+            if (inProgressBadge) inProgressBadge.textContent = "—";
             addInProgress(
               "<span class=\"iter\">Run complete.</span> Final length " + (event.final_sequence ? event.final_sequence.length : 0) +
               ", total iterations " + event.total_iterations + "."
