@@ -1,8 +1,8 @@
 {
   "initial_sequence": "RRRRRRRRRRRRRRRRRRRR",
-  "final_sequence": "EEEEKEEKEEKEKEKEEEER",
+  "final_sequence": "KKEKRAERRAAREREERREE",
   "objective": "create a helix-turn-helix motif",
-  "best_score": 0.757678,
-  "total_iterations": 16,
+  "best_score": 0.738807,
+  "total_iterations": 15,
   "final_pdb_path": "outputs/final_structure.pdb"
 }

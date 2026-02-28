@@ -2,1527 +2,1543 @@
   {
     "iteration": 0,
     "sequence_before": "RRRRRRRRRRRRRRRRRRRR",
-    "sequence_after": "KKKKKKKEKKKKKKKKKKKG",
+    "sequence_after": "GKKKEKLEKAAGAEEAAEKG",
     "mutations": [
       {
         "position": 0,
         "current_residue": "R",
-        "proposed_residue": "K",
+        "proposed_residue": "G",
         "confidence": 0.8,
-        "reason": "Lysine (K) maintains helical propensity, introduces diversity, and is charged, which may enhance interactions in the surface-exposed position."
+        "reason": "Glycine introduces flexibility and promotes turn formation, aligning with the design goal of creating a helix-turn-helix motif while enhancing sequence diversity."
       },
       {
         "position": 1,
         "current_residue": "R",
         "proposed_residue": "K",
         "confidence": 0.8,
-        "reason": "Maintains helical structure while introducing diversity and a charged residue that can stabilize the turn."
+        "reason": "Lysine (K) introduces sequence diversity while maintaining helical stability and providing a charged side chain that can enhance interactions in a helix-turn-helix motif."
       },
       {
         "position": 2,
         "current_residue": "R",
         "proposed_residue": "K",
         "confidence": 0.8,
-        "reason": "Lysine (K) maintains helix stability while introducing diversity and improving surface charge interactions."
+        "reason": "Lysine (K) is a helix-favoring residue that introduces diversity and maintains the helical structure while also being positively charged, which can enhance interactions in a helix-turn-helix motif."
       },
       {
         "position": 3,
         "current_residue": "R",
         "proposed_residue": "K",
         "confidence": 0.8,
-        "reason": "Lysine (K) maintains helical structure while introducing diversity and has a favorable charge that can stabilize interactions in a moderately constrained environment."
+        "reason": "Lysine (K) is a helix-favoring residue that can maintain the helical structure while introducing necessary diversity to the sequence."
       },
       {
         "position": 4,
         "current_residue": "R",
-        "proposed_residue": "K",
+        "proposed_residue": "E",
         "confidence": 0.8,
-        "reason": "Lysine (K) maintains helical structure while introducing diversity and potential charge, enhancing stability in the helix-turn-helix motif."
+        "reason": "Glutamic acid (E) introduces diversity, maintains helical structure, and provides surface exposure while contributing to the helix-turn-helix motif."
       },
       {
         "position": 5,
         "current_residue": "R",
         "proposed_residue": "K",
-        "confidence": 0.8,
-        "reason": "Lysine (K) is a positively charged residue that can help introduce sequence diversity while maintaining helical structure and stability, fitting the design goal."
+        "confidence": 0.85,
+        "reason": "Lysine (K) maintains helix stability and introduces diversity, while supporting the formation of a helix-turn-helix motif."
       },
       {
         "position": 6,
         "current_residue": "R",
-        "proposed_residue": "K",
+        "proposed_residue": "L",
         "confidence": 0.8,
-        "reason": "Lysine (K) maintains helix stability while improving sequence diversity and potentially enhancing core stability."
+        "reason": "Leucine (L) is a hydrophobic residue that can enhance core stability while maintaining the helical structure, thus supporting the design goal of creating a helix-turn-helix motif."
       },
       {
         "position": 7,
         "current_residue": "R",
         "proposed_residue": "E",
         "confidence": 0.8,
-        "reason": "Glutamic acid (E) introduces diversity and maintains helical structure while also adding some hydrophilicity, which may enhance surface interactions."
+        "reason": "Glutamic acid (E) introduces diversity, maintains helical structure, and may enhance surface accessibility while providing some stability due to its charged nature."
       },
       {
         "position": 8,
         "current_residue": "R",
         "proposed_residue": "K",
         "confidence": 0.8,
-        "reason": "Lysine (K) maintains alpha-helix stability and introduces sequence diversity while keeping charged character, which is suitable for the moderately exposed position."
+        "reason": "Lysine (K) maintains helical structure, introduces charge diversity, and provides improved stability while keeping the helical motif intact."
       },
       {
         "position": 9,
         "current_residue": "R",
-        "proposed_residue": "K",
+        "proposed_residue": "A",
         "confidence": 0.8,
-        "reason": "K is an alpha-helix favoring residue that introduces diversity, maintains helical structure, and improves potential hydrophobic packing."
+        "reason": "Introducing alanine (A) increases sequence diversity and supports helix formation while providing a hydrophobic character that may enhance core stability."
       },
       {
         "position": 10,
         "current_residue": "R",
-        "proposed_residue": "K",
-        "confidence": 0.8,
-        "reason": "Lysine (K) maintains helix stability, adds diversity, and is favorable for helical structures, balancing surface accessibility and core stability."
+        "proposed_residue": "A",
+        "confidence": 0.7,
+        "reason": "Alanine (A) is a helix-favoring residue that introduces diversity and may enhance the stability of the helix-turn-helix motif while maintaining the helical structure."
       },
       {
         "position": 11,
         "current_residue": "R",
-        "proposed_residue": "K",
+        "proposed_residue": "G",
         "confidence": 0.8,
-        "reason": "Lysine (K) is a helix-favoring residue that introduces diversity while maintaining the helical structure, improving both stability and surface interaction."
+        "reason": "Glycine promotes flexibility and can facilitate the turn in a helix-turn-helix motif, while diversifying the sequence and maintaining the helical structure."
       },
       {
         "position": 12,
         "current_residue": "R",
-        "proposed_residue": "K",
+        "proposed_residue": "A",
         "confidence": 0.8,
-        "reason": "Lysine (K) maintains helical structure and introduces charge diversity, while also being compatible with the surrounding residues."
+        "reason": "Alanine is a helix-favoring residue that introduces diversity while maintaining the helical structure, and it enhances packing in the core."
       },
       {
         "position": 13,
         "current_residue": "R",
-        "proposed_residue": "K",
+        "proposed_residue": "E",
         "confidence": 0.8,
-        "reason": "Lysine (K) maintains helical structure and introduces diversity while being surface exposed, enhancing stability and functionality in the helix-turn-helix motif."
+        "reason": "Glutamic acid (E) introduces diversity while maintaining the helical structure and potentially stabilizing the motif through charge interactions."
       },
       {
         "position": 14,
         "current_residue": "R",
-        "proposed_residue": "K",
+        "proposed_residue": "E",
         "confidence": 0.8,
-        "reason": "Lysine (K) maintains helical structure while introducing diversity and can support the formation of the helix-turn-helix motif."
+        "reason": "Glutamic acid (E) introduces diversity, maintains helix stability, and enhances hydrophilicity in the moderately exposed position."
       },
       {
         "position": 15,
         "current_residue": "R",
-        "proposed_residue": "K",
+        "proposed_residue": "A",
         "confidence": 0.8,
-        "reason": "Lysine (K) maintains helical properties, introduces sequence diversity, and is favorable for helix-turn-helix motif without disrupting secondary structure."
+        "reason": "Alanine (A) is a strong helix-forming residue that adds diversity to the sequence while maintaining the helical structure, improving stability and packing."
       },
       {
         "position": 16,
         "current_residue": "R",
-        "proposed_residue": "K",
+        "proposed_residue": "A",
         "confidence": 0.8,
-        "reason": "Lysine (K) maintains helix stability, adds diversity, and is positively charged, which may enhance interactions in a moderately exposed position."
+        "reason": "Alanine is a strong helix-forming residue that increases sequence diversity and introduces hydrophobic character, which may enhance stability in the helix-turn-helix motif."
       },
       {
         "position": 17,
         "current_residue": "R",
-        "proposed_residue": "K",
+        "proposed_residue": "E",
         "confidence": 0.8,
-        "reason": "K is an alpha-helix favorable residue that introduces diversity while maintaining helical stability, improving overall structure."
+        "reason": "Glutamic acid (E) introduces diversity, maintains helical structure, and adds surface charge, potentially improving stability and function in the helix-turn-helix motif."
       },
       {
         "position": 18,
         "current_residue": "R",
         "proposed_residue": "K",
         "confidence": 0.8,
-        "reason": "Lysine (K) is a helix-favoring, charged residue that can introduce diversity while maintaining the helical structure, improving stability and functionality without significant disruption."
+        "reason": "Lysine (K) maintains the helix structure while introducing sequence diversity and a positive charge, promoting stability in a moderately constrained environment."
       },
       {
         "position": 19,
         "current_residue": "R",
         "proposed_residue": "G",
         "confidence": 0.8,
-        "reason": "Glycine promotes flexibility and is a strong turn/bend residue, which is beneficial for creating a helix-turn-helix motif while diversifying the sequence."
+        "reason": "Glycine promotes flexibility in turns, aiding in the formation of the helix-turn-helix motif while increasing sequence diversity."
       }
     ],
     "fold_result": {
       "pdb_path": "outputs/iter_0.relaxed.pdb",
-      "energy": 0.832994,
-      "objective_score": 0.95,
-      "combined_score": 0.720448,
-      "rosetta_total_score": -42.14
+      "energy": 0.80096,
+      "objective_score": 0.85,
+      "combined_score": 0.664309,
+      "rosetta_total_score": -37.85
     },
-    "accepted": true,
-    "score_delta": 0.03306399999999998
+    "accepted": false,
+    "score_delta": -0.02308599999999994
   },
   {
     "iteration": 1,
-    "sequence_before": "KKKKKKKEKKKKKKKKKKKG",
-    "sequence_after": "EEEEEEEKEEEEEEREEEER",
+    "sequence_before": "RRRRRRRRRRRRRRRRRRRR",
+    "sequence_after": "KREEEEEEARGAGEEEEEKR",
     "mutations": [
       {
         "position": 0,
-        "current_residue": "K",
-        "proposed_residue": "E",
-        "confidence": 0.8,
-        "reason": "Glutamic acid (E) introduces diversity while maintaining helical propensity and providing surface exposure, aiding in the formation of the helix-turn-helix motif."
-      },
-      {
-        "position": 1,
-        "current_residue": "K",
-        "proposed_residue": "E",
-        "confidence": 0.8,
-        "reason": "Introducing E enhances the diversity and maintains the helical structure while providing a negatively charged side chain that may improve interactions in the helix-turn-helix motif."
+        "current_residue": "R",
+        "proposed_residue": "K",
+        "confidence": 0.7,
+        "reason": "Lysine (K) maintains helical propensity while adding diversity and stabilizing potential through electrostatic interactions."
       },
       {
         "position": 2,
-        "current_residue": "K",
+        "current_residue": "R",
         "proposed_residue": "E",
         "confidence": 0.8,
-        "reason": "Glutamic acid (E) introduces diversity and maintains helical stability while allowing for potential interactions that can enhance the helix-turn-helix motif."
+        "reason": "Glutamic acid (E) introduces diversity, maintains helix formation, and is compatible with the helical structure while potentially stabilizing the motif."
       },
       {
         "position": 3,
-        "current_residue": "K",
+        "current_residue": "R",
         "proposed_residue": "E",
         "confidence": 0.8,
-        "reason": "Glutamic acid (E) can maintain helical structure while introducing diversity and potentially enhancing surface interactions."
+        "reason": "Glutamic acid (E) introduces sequence diversity, is compatible with alpha helices, and can help stabilize the structure while maintaining the helix-turn-helix motif."
       },
       {
         "position": 4,
-        "current_residue": "K",
+        "current_residue": "R",
         "proposed_residue": "E",
         "confidence": 0.8,
-        "reason": "Glutamic acid (E) introduces sequence diversity while maintaining helical structure, and its negative charge may enhance interactions in the helix-turn-helix motif."
+        "reason": "Glutamic acid (E) introduces diversity and maintains helical structure, potentially improving stability in the helix-turn-helix motif."
       },
       {
         "position": 5,
-        "current_residue": "K",
+        "current_residue": "R",
         "proposed_residue": "E",
-        "confidence": 0.8,
-        "reason": "Glutamic acid (E) introduces diversity, can maintain helical structure, and helps break the long stretch of K residues, improving sequence variety and potentially stabilizing the motif."
+        "confidence": 0.7,
+        "reason": "Glutamic acid (E) can introduce diversity while maintaining helix stability, and it provides potential for hydrogen bonding, which may aid in structural integrity."
       },
       {
         "position": 6,
-        "current_residue": "K",
+        "current_residue": "R",
         "proposed_residue": "E",
-        "confidence": 0.8,
-        "reason": "Glutamic acid (E) introduces diversity while maintaining helical stability and can enhance the turn structure, balancing sequence diversity and structural integrity."
+        "confidence": 0.7,
+        "reason": "Glutamic acid (E) introduces diversity while maintaining helix stability and potential for surface interaction, aiding in the formation of the helix-turn-helix motif."
       },
       {
         "position": 7,
-        "current_residue": "E",
-        "proposed_residue": "K",
-        "confidence": 0.8,
-        "reason": "Lysine (K) is a helix-favoring residue, introduces diversity, and maintains helical structure while providing potential for stabilizing interactions."
+        "current_residue": "R",
+        "proposed_residue": "E",
+        "confidence": 0.6,
+        "reason": "Introducing Glutamic acid (E) enhances sequence diversity and maintains helical structure, despite previous rejection; it may also help to stabilize interactions in the helix-turn-helix motif."
       },
       {
         "position": 8,
-        "current_residue": "K",
-        "proposed_residue": "E",
+        "current_residue": "R",
+        "proposed_residue": "A",
         "confidence": 0.8,
-        "reason": "Glutamic acid (E) introduces diversity, maintains helical stability, and can provide surface charge, beneficial for helix-turn-helix motifs."
-      },
-      {
-        "position": 9,
-        "current_residue": "K",
-        "proposed_residue": "E",
-        "confidence": 0.8,
-        "reason": "E introduces sequence diversity while maintaining helix stability and could aid in forming the helix-turn-helix motif."
+        "reason": "Alanine (A) is a helix-favoring residue that introduces diversity while maintaining helical structure and could enhance core stability."
       },
       {
         "position": 10,
-        "current_residue": "K",
-        "proposed_residue": "E",
+        "current_residue": "R",
+        "proposed_residue": "G",
         "confidence": 0.8,
-        "reason": "Glutamic acid (E) introduces diversity, maintains helix stability, and can improve the overall energetic profile while complementing the surrounding charged residues."
+        "reason": "Glycine (G) is a flexible residue that can promote the turn in a helix-turn-helix motif, providing the necessary structural diversity and aiding in the stabilization of the helix-turn transition."
       },
       {
         "position": 11,
-        "current_residue": "K",
-        "proposed_residue": "E",
-        "confidence": 0.8,
-        "reason": "Glutamic acid (E) introduces diversity and can maintain helical stability while potentially improving hydrophobic interactions."
+        "current_residue": "R",
+        "proposed_residue": "A",
+        "confidence": 0.7,
+        "reason": "Ala is a helix-promoting residue that adds diversity while maintaining the helical structure."
       },
       {
         "position": 12,
-        "current_residue": "K",
-        "proposed_residue": "E",
+        "current_residue": "R",
+        "proposed_residue": "G",
         "confidence": 0.8,
-        "reason": "Glutamic acid (E) introduces a charged side chain that can stabilize the helix-turn-helix motif while also increasing sequence diversity."
+        "reason": "Glycine introduces flexibility, which is beneficial for the turn in the helix-turn-helix motif while maintaining the helical structure."
       },
       {
         "position": 13,
-        "current_residue": "K",
+        "current_residue": "R",
         "proposed_residue": "E",
-        "confidence": 0.8,
-        "reason": "Glutamic acid (E) introduces diversity while maintaining a helical structure, improving sequence variety and potentially enhancing stability."
+        "confidence": 0.7,
+        "reason": "Glutamic acid (E) introduces diversity and maintains helix stability, potentially improving the structural integrity and functionality of the helix-turn-helix motif."
       },
       {
         "position": 14,
-        "current_residue": "K",
-        "proposed_residue": "R",
-        "confidence": 0.8,
-        "reason": "Arginine (R) introduces diversity and maintains helical structure while enhancing potential interactions in the helix-turn-helix motif."
+        "current_residue": "R",
+        "proposed_residue": "E",
+        "confidence": 0.6,
+        "reason": "Glutamic acid (E) introduces diversity while maintaining helix stability, contributing to a potential turn in the helix-turn-helix motif."
       },
       {
         "position": 15,
-        "current_residue": "K",
+        "current_residue": "R",
         "proposed_residue": "E",
-        "confidence": 0.8,
-        "reason": "Glutamic acid (E) introduces diversity, retains helix stability, and is conducive to helix-turn-helix motifs."
+        "confidence": 0.7,
+        "reason": "Glutamic acid (E) can enhance helix stability while increasing sequence diversity and maintaining a surface-exposed position."
       },
       {
         "position": 16,
-        "current_residue": "K",
+        "current_residue": "R",
         "proposed_residue": "E",
         "confidence": 0.8,
-        "reason": "Glutamic acid (E) introduces diversity and can stabilize the helical structure while maintaining surface accessibility."
+        "reason": "Glutamic acid (E) introduces diversity and maintains helix stability while potentially aiding in the formation of a turn in the helix-turn-helix motif."
       },
       {
         "position": 17,
-        "current_residue": "K",
+        "current_residue": "R",
         "proposed_residue": "E",
-        "confidence": 0.8,
-        "reason": "Glutamic acid (E) introduces diversity, is helix-favorable, and maintains structural stability while potentially reducing the long stretch of lysines."
+        "confidence": 0.7,
+        "reason": "Glutamic acid (E) introduces diversity and maintains helical structure while potentially stabilizing the motif."
       },
       {
         "position": 18,
-        "current_residue": "K",
-        "proposed_residue": "E",
-        "confidence": 0.8,
-        "reason": "Glutamic acid (E) introduces diversity while maintaining helix propensity and contributes to surface interactions."
-      },
-      {
-        "position": 19,
-        "current_residue": "G",
-        "proposed_residue": "R",
-        "confidence": 0.8,
-        "reason": "Arginine is a charged residue that can enhance stability and interactions in a surface-exposed position, helping to break the repetitive stretch and contribute to the helix-turn-helix motif."
+        "current_residue": "R",
+        "proposed_residue": "K",
+        "confidence": 0.6,
+        "reason": "Lysine (K) maintains the helix structure while adding some diversity and is suitable for a moderately exposed position."
       }
     ],
     "fold_result": {
       "pdb_path": "outputs/iter_1.relaxed.pdb",
-      "energy": 0.837812,
-      "objective_score": 1.0,
-      "combined_score": 0.744787,
-      "rosetta_total_score": -42.84
+      "energy": 0.841206,
+      "objective_score": 0.9,
+      "combined_score": 0.700869,
+      "rosetta_total_score": -43.34
     },
     "accepted": true,
-    "score_delta": 0.024339
+    "score_delta": 0.013473999999999986
   },
   {
     "iteration": 2,
-    "sequence_before": "EEEEEEEKEEEEEEREEEER",
-    "sequence_after": "KKKKKKKEKKKKKKKKKKKG",
+    "sequence_before": "KREEEEEEARGAGEEEEEKR",
+    "sequence_after": "RKRKRARRRAARRRARRREE",
     "mutations": [
       {
         "position": 0,
-        "current_residue": "E",
-        "proposed_residue": "K",
-        "confidence": 0.9,
-        "reason": "Lysine (K) introduces diversity while maintaining helical propensity and stabilizing the structure."
+        "current_residue": "K",
+        "proposed_residue": "R",
+        "confidence": 0.8,
+        "reason": "Replacing K with R maintains helical propensity and introduces more sequence diversity, aligning with the design goal."
       },
       {
         "position": 1,
-        "current_residue": "E",
+        "current_residue": "R",
         "proposed_residue": "K",
-        "confidence": 0.9,
-        "reason": "K maintains helical structure while introducing diversity and enhancing potential interactions in the helix-turn-helix motif."
+        "confidence": 0.7,
+        "reason": "Lysine (K) introduces sequence diversity while maintaining potential for helical structure and stability."
       },
       {
         "position": 2,
         "current_residue": "E",
-        "proposed_residue": "K",
+        "proposed_residue": "R",
         "confidence": 0.8,
-        "reason": "Lysine (K) introduces diversity, maintains helix stability, and is favorable for the helix-turn-helix motif."
+        "reason": "Arginine (R) maintains the helix structure and introduces diversity while being a helix-favoring residue, which supports the design goal of creating a helix-turn-helix motif."
       },
       {
         "position": 3,
         "current_residue": "E",
         "proposed_residue": "K",
-        "confidence": 0.9,
-        "reason": "Lysine (K) introduces diversity, maintains helical structure, and can enhance stability in the helix-turn-helix motif."
+        "confidence": 0.8,
+        "reason": "Lysine (K) is a helix-favoring residue that can enhance the stability of the helix-turn-helix motif while also increasing sequence diversity."
       },
       {
         "position": 4,
         "current_residue": "E",
-        "proposed_residue": "K",
+        "proposed_residue": "R",
         "confidence": 0.8,
-        "reason": "Lysine (K) introduces sequence diversity, maintains the helical structure, and is favorable for helix-turn-helix motifs."
+        "reason": "Arginine (R) introduces diversity, maintains helical structure, and provides a positively charged side chain that can stabilize the helix-turn-helix motif."
       },
       {
         "position": 5,
         "current_residue": "E",
-        "proposed_residue": "K",
+        "proposed_residue": "A",
         "confidence": 0.8,
-        "reason": "Lysine (K) introduces diversity, maintains helix stability, and may improve hydrophobic core interactions."
+        "reason": "Alanine (A) is an alpha-helix favoring residue that can introduce diversity while maintaining stability in the helical structure."
       },
       {
         "position": 6,
         "current_residue": "E",
-        "proposed_residue": "K",
-        "confidence": 0.9,
-        "reason": "Lysine (K) introduces diversity, maintains helix stability, and fits well within the helical context, enhancing the potential for a helix-turn-helix motif."
+        "proposed_residue": "R",
+        "confidence": 0.8,
+        "reason": "Arginine (R) can help maintain helix stability and provides more sequence diversity while fitting well in the helical context."
       },
       {
         "position": 7,
-        "current_residue": "K",
-        "proposed_residue": "E",
+        "current_residue": "E",
+        "proposed_residue": "R",
         "confidence": 0.8,
-        "reason": "Glutamic acid (E) maintains helical structure while introducing diversity, which is crucial for achieving the design goal."
+        "reason": "Retaining R at this position maintains helical structure and introduces a positively charged residue that can stabilize the motif, while also breaking up the repeat stretch of E residues."
       },
       {
         "position": 8,
-        "current_residue": "E",
-        "proposed_residue": "K",
-        "confidence": 0.9,
-        "reason": "Lysine (K) introduces diversity, maintains helical stability, and enhances potential core hydrophobic interactions."
+        "current_residue": "A",
+        "proposed_residue": "R",
+        "confidence": 0.8,
+        "reason": "Arginine (R) maintains the helical structure while introducing charge diversity, optimizing for the helix-turn-helix motif."
       },
       {
         "position": 9,
-        "current_residue": "E",
-        "proposed_residue": "K",
-        "confidence": 0.9,
-        "reason": "K is an alpha-helix favoring residue that introduces diversity and stabilizes the helix-turn-helix motif."
+        "current_residue": "R",
+        "proposed_residue": "A",
+        "confidence": 0.6,
+        "reason": "Introducing alanine (A) increases sequence diversity and retains the helical structure while reducing potential steric clashes."
       },
       {
         "position": 10,
-        "current_residue": "E",
-        "proposed_residue": "K",
-        "confidence": 0.9,
-        "reason": "Lysine (K) maintains helix stability, introduces diversity, and is favorable in helical environments."
+        "current_residue": "G",
+        "proposed_residue": "A",
+        "confidence": 0.7,
+        "reason": "Alanine (A) introduces diversity and maintains helical stability, aligning with the design goal of a helix-turn-helix motif."
       },
       {
         "position": 11,
-        "current_residue": "E",
-        "proposed_residue": "K",
-        "confidence": 0.9,
-        "reason": "Lysine (K) is a helix-favoring residue that introduces diversity and improves the structural stability of the helix-turn-helix motif."
+        "current_residue": "A",
+        "proposed_residue": "R",
+        "confidence": 0.8,
+        "reason": "Retaining R maintains the helical structure while adding surface charge, enhancing stability and diversity without disrupting the helix-turn-helix motif."
       },
       {
         "position": 12,
-        "current_residue": "E",
-        "proposed_residue": "K",
-        "confidence": 0.9,
-        "reason": "Lysine (K) maintains helical structure, introduces charge, and enhances sequence diversity, aligning with the design goal to create a helix-turn-helix motif."
+        "current_residue": "G",
+        "proposed_residue": "R",
+        "confidence": 0.8,
+        "reason": "Arginine maintains helix stability and adds diversity, improving the overall structure towards the helix-turn-helix motif."
       },
       {
         "position": 13,
         "current_residue": "E",
-        "proposed_residue": "K",
-        "confidence": 0.9,
-        "reason": "Lysine (K) introduces diversity, maintains the helical structure, and is favorable for the design goal of creating a helix-turn-helix motif."
+        "proposed_residue": "R",
+        "confidence": 0.8,
+        "reason": "Arginine (R) maintains helix stability while increasing sequence diversity and introduces a positive charge that can enhance interactions in the helix-turn-helix motif."
       },
       {
         "position": 14,
-        "current_residue": "R",
-        "proposed_residue": "K",
-        "confidence": 0.9,
-        "reason": "Lysine (K) maintains helical structure while introducing diversity and improving hydrophobic content."
+        "current_residue": "E",
+        "proposed_residue": "A",
+        "confidence": 0.8,
+        "reason": "Alanine (A) is a helix-favoring residue that introduces diversity while maintaining the helical structure, potentially improving the stability and compactness of the motif."
       },
       {
         "position": 15,
         "current_residue": "E",
-        "proposed_residue": "K",
-        "confidence": 0.9,
-        "reason": "Lysine (K) introduces diversity while maintaining helical stability, helping to create the helix-turn-helix motif effectively."
+        "proposed_residue": "R",
+        "confidence": 0.8,
+        "reason": "Arginine (R) is a helix-stabilizing residue that can enhance the overall structure without significantly disrupting the existing helical motif."
       },
       {
         "position": 16,
         "current_residue": "E",
-        "proposed_residue": "K",
-        "confidence": 0.9,
-        "reason": "Lysine (K) introduces diversity, maintains helix stability, and improves potential interactions in the helix-turn-helix motif."
+        "proposed_residue": "R",
+        "confidence": 0.8,
+        "reason": "Arginine (R) maintains helix formation, introduces diversity, and is favorable in the context of the surrounding charged residues."
       },
       {
         "position": 17,
         "current_residue": "E",
-        "proposed_residue": "K",
-        "confidence": 0.9,
-        "reason": "Lysine (K) is an alpha-helix favorable residue that introduces diversity and maintains stability in the helix-turn-helix motif."
+        "proposed_residue": "R",
+        "confidence": 0.7,
+        "reason": "Arginine (R) can introduce diversity, maintain helical structure, and provide favorable interactions in a helical-turn environment."
       },
       {
         "position": 18,
-        "current_residue": "E",
-        "proposed_residue": "K",
-        "confidence": 0.9,
-        "reason": "Lysine (K) introduces diversity while maintaining helical stability, enhancing the likelihood of achieving the helix-turn-helix motif."
+        "current_residue": "K",
+        "proposed_residue": "E",
+        "confidence": 0.8,
+        "reason": "Glutamic acid (E) introduces diversity, maintains helix stability, and promotes turn structure, aligning with design goals."
       },
       {
         "position": 19,
         "current_residue": "R",
-        "proposed_residue": "G",
-        "confidence": 0.9,
-        "reason": "Glycine promotes flexibility and is a strong turn/bend residue, aligning well with the design goal of creating a helix-turn-helix motif."
+        "proposed_residue": "E",
+        "confidence": 0.8,
+        "reason": "Glutamic acid (E) promotes turn formation, maintains helix stability, and introduces sequence diversity without significantly disrupting the secondary structure."
       }
     ],
     "fold_result": {
       "pdb_path": "outputs/iter_2.relaxed.pdb",
-      "energy": 0.833,
-      "objective_score": 0.95,
-      "combined_score": 0.72045,
-      "rosetta_total_score": -42.14
+      "energy": 0.74202,
+      "objective_score": 1.0,
+      "combined_score": 0.711203,
+      "rosetta_total_score": -31.13
     },
-    "accepted": false,
-    "score_delta": -0.024336999999999942
+    "accepted": true,
+    "score_delta": 0.010334000000000065
   },
   {
     "iteration": 3,
-    "sequence_before": "EEEEEEEKEEEEEEREEEER",
-    "sequence_after": "KKKKKKKEKKKKKKKKKKKK",
+    "sequence_before": "RKRKRARRRAARRRARRREE",
+    "sequence_after": "KREEEEEEARGAGEEEEEKR",
     "mutations": [
       {
         "position": 0,
-        "current_residue": "E",
+        "current_residue": "R",
         "proposed_residue": "K",
-        "confidence": 0.7,
-        "reason": "Lysine (K) introduces diversity and maintains helical propensity, which is beneficial for the design goal of creating a helix-turn-helix motif."
+        "confidence": 0.9,
+        "reason": "Lysine (K) maintains helical propensity while introducing diversity, fitting the design goal for a helix-turn-helix motif."
       },
       {
         "position": 1,
-        "current_residue": "E",
-        "proposed_residue": "K",
-        "confidence": 0.7,
-        "reason": "K introduces diversity while maintaining helical structure, aligning with the design goal."
+        "current_residue": "K",
+        "proposed_residue": "R",
+        "confidence": 0.8,
+        "reason": "Arginine (R) maintains the helix structure while improving sequence diversity and stability in the helix-turn-helix motif."
       },
       {
         "position": 2,
-        "current_residue": "E",
-        "proposed_residue": "K",
-        "confidence": 0.8,
-        "reason": "Lysine (K) introduces diversity, maintains helix stability, and is favored in helical structures."
+        "current_residue": "R",
+        "proposed_residue": "E",
+        "confidence": 0.9,
+        "reason": "Glutamic acid (E) introduces diversity while maintaining the helix structure and has been accepted in previous iterations."
       },
       {
         "position": 3,
-        "current_residue": "E",
-        "proposed_residue": "K",
-        "confidence": 0.7,
-        "reason": "Lysine (K) introduces diversity while maintaining the helical structure, potentially improving overall stability and fulfilling the design goal."
+        "current_residue": "K",
+        "proposed_residue": "E",
+        "confidence": 0.9,
+        "reason": "Glutamic acid (E) introduces sequence diversity and is compatible with the helix-turn-helix motif, improving the structural and energetic landscape."
       },
       {
         "position": 4,
-        "current_residue": "E",
-        "proposed_residue": "K",
-        "confidence": 0.7,
-        "reason": "Lysine (K) introduces sequence diversity while maintaining helical structure and stabilizing the motif, despite previous rejections."
+        "current_residue": "R",
+        "proposed_residue": "E",
+        "confidence": 0.8,
+        "reason": "Glutamic acid (E) introduces diversity while maintaining helical structure, aligning with the design goal for a helix-turn-helix motif."
       },
       {
         "position": 5,
-        "current_residue": "E",
-        "proposed_residue": "K",
-        "confidence": 0.7,
-        "reason": "Lysine (K) introduces sequence diversity while maintaining helix stability and can enhance interactions in the helix-turn-helix motif."
+        "current_residue": "A",
+        "proposed_residue": "E",
+        "confidence": 0.9,
+        "reason": "Glutamic acid (E) maintains the helix structure while introducing diversity, aligning with the design goal for a helix-turn-helix motif."
       },
       {
         "position": 6,
-        "current_residue": "E",
-        "proposed_residue": "K",
-        "confidence": 0.7,
-        "reason": "Lysine (K) introduces diversity and maintains helix stability while improving the energetic profile of the structure."
+        "current_residue": "R",
+        "proposed_residue": "E",
+        "confidence": 0.9,
+        "reason": "Glutamic acid (E) introduces diversity while maintaining helix stability, enhancing the helix-turn-helix motif."
       },
       {
         "position": 7,
-        "current_residue": "K",
+        "current_residue": "R",
         "proposed_residue": "E",
-        "confidence": 0.6,
-        "reason": "Glutamic acid (E) maintains helical structure while improving sequence diversity."
+        "confidence": 0.8,
+        "reason": "Introducing Glutamic acid (E) enhances sequence diversity while maintaining the helical structure."
       },
       {
         "position": 8,
-        "current_residue": "E",
-        "proposed_residue": "K",
-        "confidence": 0.7,
-        "reason": "Lysine (K) introduces diversity, maintains helical stability, and may enhance the structural integrity of the helix-turn-helix motif."
+        "current_residue": "R",
+        "proposed_residue": "A",
+        "confidence": 0.9,
+        "reason": "Alanine (A) is a helix-favoring residue that enhances the helix-turn-helix motif while introducing more sequence diversity."
       },
       {
         "position": 9,
-        "current_residue": "E",
-        "proposed_residue": "K",
-        "confidence": 0.7,
-        "reason": "K is an alpha-helix favoring residue that maintains the helical structure while introducing sequence diversity."
+        "current_residue": "A",
+        "proposed_residue": "R",
+        "confidence": 0.8,
+        "reason": "Maintaining R at this position supports the helix structure while also promoting stability and sequence diversity."
       },
       {
         "position": 10,
-        "current_residue": "E",
-        "proposed_residue": "K",
-        "confidence": 0.6,
-        "reason": "Lysine (K) introduces diversity and maintains helix stability, potentially improving the overall structure."
+        "current_residue": "A",
+        "proposed_residue": "G",
+        "confidence": 0.9,
+        "reason": "Glycine (G) introduces flexibility and can promote the turn in a helix-turn-helix motif, while maintaining structural integrity."
       },
       {
         "position": 11,
-        "current_residue": "E",
-        "proposed_residue": "K",
-        "confidence": 0.7,
-        "reason": "Lysine (K) is a helix-favoring residue that can introduce diversity while maintaining helical structure, which aligns with the design goal."
+        "current_residue": "R",
+        "proposed_residue": "A",
+        "confidence": 0.9,
+        "reason": "Ala is a helix-promoting residue that introduces diversity while maintaining the helical structure."
       },
       {
         "position": 12,
-        "current_residue": "E",
-        "proposed_residue": "K",
-        "confidence": 0.7,
-        "reason": "Lysine (K) maintains helical structure, introduces charge, and improves sequence diversity, aligning with the design goal to create a helix-turn-helix motif."
+        "current_residue": "R",
+        "proposed_residue": "G",
+        "confidence": 0.9,
+        "reason": "Glycine introduces flexibility which is beneficial for the helix-turn-helix motif and maintains structural integrity."
       },
       {
         "position": 13,
-        "current_residue": "E",
-        "proposed_residue": "K",
+        "current_residue": "R",
+        "proposed_residue": "E",
         "confidence": 0.7,
-        "reason": "Lysine (K) introduces diversity and maintains the helical structure while potentially improving stability in this semi-buried position."
+        "reason": "Glutamic acid (E) introduces diversity while maintaining helix stability, supporting the design goal of a helix-turn-helix motif."
       },
       {
         "position": 14,
-        "current_residue": "R",
-        "proposed_residue": "K",
+        "current_residue": "A",
+        "proposed_residue": "E",
         "confidence": 0.7,
-        "reason": "Lysine (K) introduces diversity while maintaining helical structure and is favorable for stability."
+        "reason": "Glutamic acid (E) introduces diversity while maintaining helical stability, aligning with the goal of creating a helix-turn-helix motif."
       },
       {
         "position": 15,
-        "current_residue": "E",
-        "proposed_residue": "K",
-        "confidence": 0.7,
-        "reason": "Lysine (K) introduces diversity while maintaining the helical structure, potentially stabilizing the motif."
+        "current_residue": "R",
+        "proposed_residue": "E",
+        "confidence": 0.9,
+        "reason": "Glutamic acid (E) is a helix-stabilizing residue that can enhance the formation of the helix-turn-helix motif while maintaining structural integrity."
       },
       {
         "position": 16,
-        "current_residue": "E",
-        "proposed_residue": "K",
-        "confidence": 0.7,
-        "reason": "Lysine (K) introduces diversity and maintains helix stability, which aligns with the design goal of creating a helix-turn-helix motif."
+        "current_residue": "R",
+        "proposed_residue": "E",
+        "confidence": 0.9,
+        "reason": "Glutamic acid (E) introduces diversity while maintaining helical structure and stability, supported by previous acceptance."
       },
       {
         "position": 17,
-        "current_residue": "E",
-        "proposed_residue": "K",
-        "confidence": 0.7,
-        "reason": "Lysine (K) is an alpha-helix favorable residue that introduces diversity and maintains structural integrity in the helix-turn-helix motif."
+        "current_residue": "R",
+        "proposed_residue": "E",
+        "confidence": 0.8,
+        "reason": "Glutamic acid (E) maintains helical structure and introduces diversity, which is beneficial given the current low sequence diversity."
       },
       {
         "position": 18,
         "current_residue": "E",
         "proposed_residue": "K",
         "confidence": 0.8,
-        "reason": "Lysine (K) is a helix-favoring residue that introduces diversity while maintaining helical stability, aligning with the design goal."
+        "reason": "Lysine (K) maintains helix stability while introducing diversity, which is important for achieving the design goal of a helix-turn-helix motif."
       },
       {
         "position": 19,
-        "current_residue": "R",
-        "proposed_residue": "K",
-        "confidence": 0.7,
-        "reason": "Lysine (K) maintains the positive charge while potentially enhancing stability and promoting a turn structure, which aligns with the design goal."
+        "current_residue": "E",
+        "proposed_residue": "R",
+        "confidence": 0.8,
+        "reason": "Arginine (R) maintains potential turn formation and introduces diversity while supporting the helix-turn-helix motif."
       }
     ],
     "fold_result": {
       "pdb_path": "outputs/iter_3.relaxed.pdb",
-      "energy": 0.856794,
-      "objective_score": 1.0,
-      "combined_score": 0.7513,
-      "rosetta_total_score": -45.78
+      "energy": 0.836418,
+      "objective_score": 0.9,
+      "combined_score": 0.699193,
+      "rosetta_total_score": -42.64
     },
-    "accepted": true,
-    "score_delta": 0.006512999999999991
+    "accepted": false,
+    "score_delta": -0.012010000000000076
   },
   {
     "iteration": 4,
-    "sequence_before": "KKKKKKKEKKKKKKKKKKKK",
-    "sequence_after": "EEEEEEEKEEEEEEREEEER",
+    "sequence_before": "RKRKRARRRAARRRARRREE",
+    "sequence_after": "KRRKEARERRGRREEEREKK",
     "mutations": [
       {
         "position": 0,
-        "current_residue": "K",
-        "proposed_residue": "E",
-        "confidence": 0.8,
-        "reason": "Glutamic acid (E) introduces diversity while maintaining the helical structure, potentially improving the overall stability and achieving the design goal of a helix-turn-helix motif."
+        "current_residue": "R",
+        "proposed_residue": "K",
+        "confidence": 0.7,
+        "reason": "Lysine (K) maintains helical propensity and introduces diversity while being compatible with the surrounding residues."
       },
       {
         "position": 1,
         "current_residue": "K",
-        "proposed_residue": "E",
+        "proposed_residue": "R",
         "confidence": 0.8,
-        "reason": "E introduces diversity while maintaining helical structure, enhancing the potential for a helix-turn-helix motif."
-      },
-      {
-        "position": 2,
-        "current_residue": "K",
-        "proposed_residue": "E",
-        "confidence": 0.85,
-        "reason": "Glutamic acid (E) introduces necessary diversity while maintaining helical stability, enhancing the potential for a helix-turn-helix motif."
-      },
-      {
-        "position": 3,
-        "current_residue": "K",
-        "proposed_residue": "E",
-        "confidence": 0.8,
-        "reason": "Glutamic acid (E) introduces diversity while maintaining the helix structure and could improve overall stability."
+        "reason": "Arginine (R) maintains the helical structure while improving sequence diversity and is more favorable based on past iterations."
       },
       {
         "position": 4,
-        "current_residue": "K",
+        "current_residue": "R",
         "proposed_residue": "E",
-        "confidence": 0.9,
-        "reason": "Glutamic acid (E) introduces sequence diversity and maintains helical structure while being a favorable residue for helix-turn-helix motifs."
-      },
-      {
-        "position": 5,
-        "current_residue": "K",
-        "proposed_residue": "E",
-        "confidence": 0.9,
-        "reason": "Glutamic acid (E) introduces sequence diversity, maintains helical stability, and improves overall energy based on past successful iterations."
-      },
-      {
-        "position": 6,
-        "current_residue": "K",
-        "proposed_residue": "E",
-        "confidence": 0.8,
-        "reason": "Glutamic acid (E) introduces diversity and maintains helix stability, contributing to the formation of a helix-turn-helix motif."
+        "confidence": 0.7,
+        "reason": "Glutamic acid (E) can introduce diversity while still maintaining a helical structure, potentially improving overall stability and achieving the design goal."
       },
       {
         "position": 7,
-        "current_residue": "E",
-        "proposed_residue": "K",
-        "confidence": 0.9,
-        "reason": "Lysine (K) is a helix-favoring residue that introduces diversity while maintaining the helical structure, improving sequence variability in the protein."
-      },
-      {
-        "position": 8,
-        "current_residue": "K",
+        "current_residue": "R",
         "proposed_residue": "E",
-        "confidence": 0.8,
-        "reason": "Glutamic acid (E) introduces diversity and maintains helical stability, beneficial for breaking repeat stretches."
+        "confidence": 0.7,
+        "reason": "Introducing Glutamic acid (E) enhances sequence diversity and may still allow for helical structure maintenance."
       },
       {
         "position": 9,
-        "current_residue": "K",
-        "proposed_residue": "E",
-        "confidence": 0.8,
-        "reason": "E introduces sequence diversity while maintaining helix stability and contributes positively to the overall structural integrity."
+        "current_residue": "A",
+        "proposed_residue": "R",
+        "confidence": 0.9,
+        "reason": "Maintaining R supports the helical structure and minimizes disruption, while also being a common residue in helix-turn-helix motifs."
       },
       {
         "position": 10,
-        "current_residue": "K",
-        "proposed_residue": "E",
-        "confidence": 0.75,
-        "reason": "Glutamic acid (E) introduces sequence diversity, maintains helix stability, and aligns with the design goal of creating a helix-turn-helix motif."
-      },
-      {
-        "position": 11,
-        "current_residue": "K",
-        "proposed_residue": "E",
+        "current_residue": "A",
+        "proposed_residue": "G",
         "confidence": 0.8,
-        "reason": "Glutamic acid (E) introduces diversity and is compatible with helix formation, helping to break the long repeat while maintaining structural integrity."
-      },
-      {
-        "position": 12,
-        "current_residue": "K",
-        "proposed_residue": "E",
-        "confidence": 0.9,
-        "reason": "Glutamic acid (E) introduces charge, maintains helical structure, and improves sequence diversity, contributing positively to the design goal."
+        "reason": "Glycine (G) introduces flexibility that may support the helix-turn-helix motif while maintaining structural integrity."
       },
       {
         "position": 13,
-        "current_residue": "K",
+        "current_residue": "R",
         "proposed_residue": "E",
-        "confidence": 0.9,
-        "reason": "Glutamic acid (E) introduces diversity, maintains helical structure, and improves potential interactions while balancing core stability."
+        "confidence": 0.7,
+        "reason": "Glutamic acid (E) introduces diversity while maintaining helix stability, which aligns with the design goal of creating a helix-turn-helix motif."
       },
       {
         "position": 14,
-        "current_residue": "K",
-        "proposed_residue": "R",
-        "confidence": 0.8,
-        "reason": "Arginine (R) introduces diversity and maintains helical structure, which aligns well with the design goal of creating a helix-turn-helix motif."
+        "current_residue": "A",
+        "proposed_residue": "E",
+        "confidence": 0.7,
+        "reason": "Glutamic acid (E) introduces diversity while maintaining helix stability, which is beneficial for the helix-turn-helix motif."
       },
       {
         "position": 15,
-        "current_residue": "K",
+        "current_residue": "R",
         "proposed_residue": "E",
-        "confidence": 0.8,
-        "reason": "Glutamic acid (E) introduces sequence diversity and maintains helical properties, which aligns well with the design goal of creating a helix-turn-helix motif."
-      },
-      {
-        "position": 16,
-        "current_residue": "K",
-        "proposed_residue": "E",
-        "confidence": 0.8,
-        "reason": "Glutamic acid (E) introduces diversity, stabilizes helix structure, and improves overall sequence variety."
+        "confidence": 0.7,
+        "reason": "Glutamic acid (E) is a helix-stabilizing residue that can enhance the formation of the helix-turn-helix motif, balancing helix stability with surface accessibility."
       },
       {
         "position": 17,
-        "current_residue": "K",
+        "current_residue": "R",
         "proposed_residue": "E",
-        "confidence": 0.8,
-        "reason": "Glutamic acid (E) introduces diversity, is helix-favorable, and can potentially stabilize the turn in a helix-turn-helix motif."
+        "confidence": 0.7,
+        "reason": "Glutamic acid (E) maintains helical structure while introducing diversity, aligning with the design goal."
       },
       {
         "position": 18,
-        "current_residue": "K",
-        "proposed_residue": "E",
-        "confidence": 0.85,
-        "reason": "Glutamic acid (E) introduces diversity and maintains helical stability, improving overall structural balance."
+        "current_residue": "E",
+        "proposed_residue": "K",
+        "confidence": 0.8,
+        "reason": "Lysine (K) maintains helix stability while introducing sequence diversity, aligning with the design goal of creating a helix-turn-helix motif."
       },
       {
         "position": 19,
-        "current_residue": "K",
-        "proposed_residue": "R",
+        "current_residue": "E",
+        "proposed_residue": "K",
         "confidence": 0.8,
-        "reason": "Arginine (R) introduces diversity and maintains positive charge, enhancing stability and contributing to the helix-turn-helix motif."
+        "reason": "Lysine (K) is a helix-favoring residue that can promote turn formation while maintaining reasonable sequence diversity and stability in the structure."
       }
     ],
     "fold_result": {
       "pdb_path": "outputs/iter_4.relaxed.pdb",
-      "energy": 0.845896,
-      "objective_score": 1.0,
-      "combined_score": 0.747616,
-      "rosetta_total_score": -44.06
+      "energy": 0.808698,
+      "objective_score": 0.95,
+      "combined_score": 0.712036,
+      "rosetta_total_score": -38.83
     },
-    "accepted": false,
-    "score_delta": -0.0036840000000000206
+    "accepted": true,
+    "score_delta": 0.0008329999999999727
   },
   {
     "iteration": 5,
-    "sequence_before": "KKKKKKKEKKKKKKKKKKKK",
-    "sequence_after": "EEKKEEKKEEEEKEKEEEEG",
+    "sequence_before": "KRRKEARERRGRREEEREKK",
+    "sequence_after": "RKEEREERAAAAGRAREREE",
     "mutations": [
       {
         "position": 0,
         "current_residue": "K",
-        "proposed_residue": "E",
-        "confidence": 0.7,
-        "reason": "Glutamic acid (E) introduces diversity and can stabilize the turn/bend region, aligning with the design goal of creating a helix-turn-helix motif."
+        "proposed_residue": "R",
+        "confidence": 0.9,
+        "reason": "Reverting to R maintains helical propensity, enhances sequence diversity, and aligns with previous successful mutations."
       },
       {
         "position": 1,
+        "current_residue": "R",
+        "proposed_residue": "K",
+        "confidence": 0.8,
+        "reason": "Lysine (K) introduces sequence diversity while maintaining helical structure and is favorable for the compact, stable folding required for a helix-turn-helix motif."
+      },
+      {
+        "position": 2,
+        "current_residue": "R",
+        "proposed_residue": "E",
+        "confidence": 0.7,
+        "reason": "Glutamic acid (E) introduces diversity while maintaining the helix structure, and previous iterations show it has favorable energy."
+      },
+      {
+        "position": 3,
         "current_residue": "K",
         "proposed_residue": "E",
         "confidence": 0.7,
-        "reason": "E introduces diversity while maintaining helical structure and may enhance overall stability."
+        "reason": "Glutamic acid (E) introduces sequence diversity and maintains helical structure, potentially enhancing the helix-turn-helix motif."
       },
       {
         "position": 4,
-        "current_residue": "K",
-        "proposed_residue": "E",
-        "confidence": 0.6,
-        "reason": "Glutamic acid (E) introduces sequence diversity and maintains helical structure, improving overall design goals."
+        "current_residue": "E",
+        "proposed_residue": "R",
+        "confidence": 0.9,
+        "reason": "Arginine (R) is a helix-favoring residue that can enhance stability and introduce necessary diversity, aligning well with the design goal."
       },
       {
         "position": 5,
-        "current_residue": "K",
+        "current_residue": "A",
         "proposed_residue": "E",
-        "confidence": 0.8,
-        "reason": "Glutamic acid (E) can maintain helix stability while introducing sequence diversity, which is necessary to break the long repeat stretch of K and improve structural stability."
+        "confidence": 0.6,
+        "reason": "Glutamic acid (E) can introduce diversity while maintaining the alpha-helix structure, aligning with the design goal of creating a helix-turn-helix motif."
+      },
+      {
+        "position": 6,
+        "current_residue": "R",
+        "proposed_residue": "E",
+        "confidence": 0.7,
+        "reason": "Glutamic acid (E) can introduce diversity while maintaining helix stability, and previous iterations suggest it can improve structural properties."
       },
       {
         "position": 7,
         "current_residue": "E",
-        "proposed_residue": "K",
-        "confidence": 0.7,
-        "reason": "Lysine (K) is a helix-favoring residue that introduces diversity and maintains the helical structure, which aligns with the design goal of creating a helix-turn-helix motif."
+        "proposed_residue": "R",
+        "confidence": 0.9,
+        "reason": "Retaining R enhances helical structure, increases sequence diversity, and is supported by past success."
       },
       {
         "position": 8,
-        "current_residue": "K",
-        "proposed_residue": "E",
-        "confidence": 0.7,
-        "reason": "Glutamic acid (E) introduces diversity and supports helical stability, while also improving overall structural properties."
+        "current_residue": "R",
+        "proposed_residue": "A",
+        "confidence": 0.8,
+        "reason": "Alanine (A) is a helix-favoring residue that enhances the helical structure while introducing sequence diversity."
       },
       {
         "position": 9,
-        "current_residue": "K",
-        "proposed_residue": "E",
-        "confidence": 0.6,
-        "reason": "E introduces sequence diversity while maintaining helix stability, aligning with the goal of creating a helix-turn-helix motif."
+        "current_residue": "R",
+        "proposed_residue": "A",
+        "confidence": 0.7,
+        "reason": "Introducing alanine (A) increases sequence diversity while maintaining helical structure, potentially improving stability and energy."
       },
       {
         "position": 10,
-        "current_residue": "K",
-        "proposed_residue": "E",
+        "current_residue": "G",
+        "proposed_residue": "A",
         "confidence": 0.7,
-        "reason": "Glutamic acid (E) introduces sequence diversity and maintains helix stability, which is essential for achieving the design goal of creating a helix-turn-helix motif."
+        "reason": "Alanine (A) introduces diversity while maintaining helical stability, aiding in the formation of the desired helix-turn-helix motif."
       },
       {
         "position": 11,
-        "current_residue": "K",
-        "proposed_residue": "E",
+        "current_residue": "R",
+        "proposed_residue": "A",
         "confidence": 0.7,
-        "reason": "Glutamic acid (E) introduces diversity, is a helix-favoring residue, and has previously shown a beneficial energy trend."
+        "reason": "Ala is a helix-promoting residue that introduces diversity while maintaining helical structure."
+      },
+      {
+        "position": 12,
+        "current_residue": "R",
+        "proposed_residue": "G",
+        "confidence": 0.6,
+        "reason": "Glycine introduces flexibility which is beneficial for the helix-turn-helix motif while maintaining some stability in the helical structure."
       },
       {
         "position": 13,
-        "current_residue": "K",
-        "proposed_residue": "E",
+        "current_residue": "E",
+        "proposed_residue": "R",
         "confidence": 0.8,
-        "reason": "Glutamic acid (E) introduces diversity, maintains the helical structure, and could improve overall stability."
+        "reason": "Arginine (R) maintains helix stability while increasing sequence diversity, which aligns with the goal of creating a helix-turn-helix motif."
+      },
+      {
+        "position": 14,
+        "current_residue": "E",
+        "proposed_residue": "A",
+        "confidence": 0.9,
+        "reason": "Alanine (A) is a helix-favoring residue that introduces diversity while maintaining the helical structure, improving overall stability and energy."
       },
       {
         "position": 15,
-        "current_residue": "K",
-        "proposed_residue": "E",
-        "confidence": 0.7,
-        "reason": "Glutamic acid (E) maintains helix stability, introduces sequence diversity, and has been accepted in previous iterations."
+        "current_residue": "E",
+        "proposed_residue": "R",
+        "confidence": 0.8,
+        "reason": "Arginine (R) is a helix-stabilizing residue that can enhance the formation of the helix-turn-helix motif while improving sequence diversity."
       },
       {
         "position": 16,
-        "current_residue": "K",
+        "current_residue": "R",
         "proposed_residue": "E",
         "confidence": 0.7,
-        "reason": "Glutamic acid (E) introduces diversity, can stabilize the helix, and improves the overall sequence balance."
+        "reason": "Glutamic acid (E) maintains helix formation, introduces diversity, and has been positively evaluated in past iterations."
       },
       {
         "position": 17,
-        "current_residue": "K",
-        "proposed_residue": "E",
-        "confidence": 0.8,
-        "reason": "Glutamic acid (E) introduces diversity, is helix-favorable, and may improve structural stability in the helix-turn-helix motif."
+        "current_residue": "E",
+        "proposed_residue": "R",
+        "confidence": 0.9,
+        "reason": "Arginine (R) maintains helical structure while introducing diversity and improving overall energy."
       },
       {
         "position": 18,
         "current_residue": "K",
         "proposed_residue": "E",
-        "confidence": 0.7,
-        "reason": "Glutamic acid (E) introduces diversity while maintaining helical structure and could improve energy."
+        "confidence": 0.9,
+        "reason": "Glutamic acid (E) introduces diversity while maintaining helix stability and is favorable in this compact helical environment."
       },
       {
         "position": 19,
         "current_residue": "K",
-        "proposed_residue": "G",
+        "proposed_residue": "E",
         "confidence": 0.8,
-        "reason": "Glycine (G) is a strong turn/bend residue that can introduce flexibility in the helix-turn-helix motif, promoting the desired structural feature without disrupting the overall helix content."
+        "reason": "Glutamic acid (E) promotes turn formation and maintains helix stability, aligning well with the design goal of creating a helix-turn-helix motif."
       }
     ],
     "fold_result": {
       "pdb_path": "outputs/iter_5.relaxed.pdb",
-      "energy": 0.841454,
+      "energy": 0.779607,
       "objective_score": 0.95,
-      "combined_score": 0.723556,
-      "rosetta_total_score": -43.38
+      "combined_score": 0.701895,
+      "rosetta_total_score": -35.27
     },
     "accepted": false,
-    "score_delta": -0.02774399999999999
+    "score_delta": -0.010140999999999956
   },
   {
     "iteration": 6,
-    "sequence_before": "KKKKKKKEKKKKKKKKKKKK",
-    "sequence_after": "EEEEKEEKEEKEKEKEEEER",
+    "sequence_before": "KRRKEARERRGRREEEREKK",
+    "sequence_after": "KKEEREERAEAAGREREREE",
     "mutations": [
       {
-        "position": 0,
-        "current_residue": "K",
-        "proposed_residue": "E",
-        "confidence": 0.8,
-        "reason": "Glutamic acid (E) increases diversity and helps maintain helix stability while potentially promoting a turn structure."
-      },
-      {
         "position": 1,
-        "current_residue": "K",
-        "proposed_residue": "E",
-        "confidence": 0.7,
-        "reason": "E introduces diversity while maintaining helical structure and is favored in the context of a helix-turn-helix motif."
+        "current_residue": "R",
+        "proposed_residue": "K",
+        "confidence": 0.8,
+        "reason": "Lysine (K) maintains helical structure while introducing sequence diversity and improving energy stability."
       },
       {
         "position": 2,
-        "current_residue": "K",
+        "current_residue": "R",
         "proposed_residue": "E",
         "confidence": 0.7,
-        "reason": "Glutamic acid (E) introduces necessary diversity while maintaining helix stability and may improve overall structural integrity."
+        "reason": "Glutamic acid (E) introduces diversity and maintains the helical structure, while potentially improving interaction dynamics."
       },
       {
         "position": 3,
         "current_residue": "K",
         "proposed_residue": "E",
         "confidence": 0.7,
-        "reason": "Glutamic acid (E) introduces diversity and maintains helical structure, potentially improving stability and fulfilling the design goal."
+        "reason": "Glutamic acid (E) maintains helical structure while increasing sequence diversity and is compatible with nearby residues."
+      },
+      {
+        "position": 4,
+        "current_residue": "E",
+        "proposed_residue": "R",
+        "confidence": 0.6,
+        "reason": "Arginine (R) is a helix-favoring residue that can enhance the stability of the alpha-helix while also introducing some diversity to the sequence."
       },
       {
         "position": 5,
-        "current_residue": "K",
+        "current_residue": "A",
         "proposed_residue": "E",
-        "confidence": 0.7,
-        "reason": "Glutamic acid (E) introduces sequence diversity and can stabilize the helix, aligning with the design goal of creating a helix-turn-helix motif."
+        "confidence": 0.6,
+        "reason": "Glutamic acid (E) maintains helical structure while introducing diversity, despite previous rejections. The current sequence shows low hydrophobic content, and E can help improve that."
       },
       {
         "position": 6,
-        "current_residue": "K",
+        "current_residue": "R",
         "proposed_residue": "E",
         "confidence": 0.7,
-        "reason": "Glutamic acid (E) introduces diversity and maintains helix stability, improving the potential for a helix-turn-helix motif."
+        "reason": "Glutamic acid (E) can introduce diversity and is compatible with maintaining the helical structure, supporting the design goal of creating a helix-turn-helix motif."
       },
       {
         "position": 7,
         "current_residue": "E",
-        "proposed_residue": "K",
-        "confidence": 0.7,
-        "reason": "Lysine (K) is a helix-favoring residue that can help maintain the helical structure while introducing some diversity, which is beneficial given the low sequence diversity observed."
+        "proposed_residue": "R",
+        "confidence": 0.8,
+        "reason": "Retaining R enhances helical structure and maintains stability while increasing sequence diversity."
       },
       {
         "position": 8,
-        "current_residue": "K",
-        "proposed_residue": "E",
-        "confidence": 0.7,
-        "reason": "Glutamic acid (E) introduces diversity, maintains helical stability, and improves sequence variety."
+        "current_residue": "R",
+        "proposed_residue": "A",
+        "confidence": 0.8,
+        "reason": "Alanine (A) is a helix-favoring residue that can enhance the helical structure while providing better sequence diversity."
       },
       {
         "position": 9,
-        "current_residue": "K",
+        "current_residue": "R",
         "proposed_residue": "E",
         "confidence": 0.7,
-        "reason": "E introduces sequence diversity while maintaining helix stability, which aligns with the design goal."
+        "reason": "Glutamic acid (E) maintains helical structure while introducing diversity and slight hydrophilicity, potentially improving surface interactions."
+      },
+      {
+        "position": 10,
+        "current_residue": "G",
+        "proposed_residue": "A",
+        "confidence": 0.7,
+        "reason": "Alanine (A) introduces diversity while maintaining helical stability, contributing positively to the helix-turn-helix motif."
       },
       {
         "position": 11,
-        "current_residue": "K",
-        "proposed_residue": "E",
+        "current_residue": "R",
+        "proposed_residue": "A",
         "confidence": 0.7,
-        "reason": "Glutamic acid (E) can introduce diversity and is a helix-favoring residue, which may enhance the helix-turn-helix motif."
+        "reason": "Ala is a helix-promoting residue that can introduce diversity while maintaining the helical structure."
+      },
+      {
+        "position": 12,
+        "current_residue": "R",
+        "proposed_residue": "G",
+        "confidence": 0.6,
+        "reason": "Glycine introduces flexibility that may benefit the helix-turn-helix motif and increase sequence diversity."
       },
       {
         "position": 13,
-        "current_residue": "K",
-        "proposed_residue": "E",
+        "current_residue": "E",
+        "proposed_residue": "R",
         "confidence": 0.7,
-        "reason": "Glutamic acid (E) introduces diversity and maintains the helical structure, improving overall sequence variety while potentially stabilizing the helix-turn-helix motif."
+        "reason": "Arginine (R) maintains helix stability, increases sequence diversity, and fits well within the alpha-helical context."
       },
       {
         "position": 15,
-        "current_residue": "K",
-        "proposed_residue": "E",
-        "confidence": 0.7,
-        "reason": "Glutamic acid (E) introduces sequence diversity, maintains helical stability, and could help break the long stretch of K residues."
+        "current_residue": "E",
+        "proposed_residue": "R",
+        "confidence": 0.8,
+        "reason": "Arginine (R) is a helix-stabilizing residue and can enhance the formation of a helix-turn-helix motif while improving energy stability."
       },
       {
         "position": 16,
-        "current_residue": "K",
+        "current_residue": "R",
         "proposed_residue": "E",
         "confidence": 0.7,
-        "reason": "Glutamic acid (E) can introduce diversity, stabilize the helix, and improve the overall energy while maintaining helical structure."
+        "reason": "Glutamic acid (E) supports helix formation while introducing diversity, which is beneficial for achieving the helix-turn-helix motif."
       },
       {
         "position": 17,
-        "current_residue": "K",
-        "proposed_residue": "E",
+        "current_residue": "E",
+        "proposed_residue": "R",
         "confidence": 0.7,
-        "reason": "Glutamic acid (E) introduces diversity and is helical, which aligns with the design goal of creating a helix-turn-helix motif."
+        "reason": "Arginine (R) maintains the helical structure while introducing diversity and improving potential interactions in the helix-turn-helix motif."
       },
       {
         "position": 18,
         "current_residue": "K",
         "proposed_residue": "E",
         "confidence": 0.7,
-        "reason": "Glutamic acid (E) introduces diversity while maintaining helical structure; it is a helix-favoring residue and can enhance overall stability."
+        "reason": "Glutamic acid (E) maintains helix stability while introducing diversity, aligning with the design goal of creating a helix-turn-helix motif."
       },
       {
         "position": 19,
         "current_residue": "K",
-        "proposed_residue": "R",
+        "proposed_residue": "E",
         "confidence": 0.7,
-        "reason": "Arginine (R) maintains charge diversity while possibly enhancing stability and facilitating the helix-turn-helix motif."
+        "reason": "Glutamic acid (E) promotes turn formation and maintains helix stability, which aligns with the design goal of creating a helix-turn-helix motif."
       }
     ],
     "fold_result": {
       "pdb_path": "outputs/iter_6.relaxed.pdb",
-      "energy": 0.874656,
-      "objective_score": 1.0,
-      "combined_score": 0.757678,
-      "rosetta_total_score": -48.86
+      "energy": 0.783386,
+      "objective_score": 0.95,
+      "combined_score": 0.7032,
+      "rosetta_total_score": -35.71
     },
-    "accepted": true,
-    "score_delta": 0.006377999999999995
+    "accepted": false,
+    "score_delta": -0.008835999999999955
   },
   {
     "iteration": 7,
-    "sequence_before": "EEEEKEEKEEKEKEKEEEER",
-    "sequence_after": "KKKKEKKEKKEKEKRKKKKK",
+    "sequence_before": "KRRKEARERRGRREEEREKK",
+    "sequence_after": "KKEKRAERRAAREREERREE",
     "mutations": [
       {
-        "position": 0,
-        "current_residue": "E",
-        "proposed_residue": "K",
-        "confidence": 0.8,
-        "reason": "Lysine (K) introduces diversity and maintains helical propensity, which aligns with the design goal of creating a helix-turn-helix motif."
-      },
-      {
         "position": 1,
-        "current_residue": "E",
+        "current_residue": "R",
         "proposed_residue": "K",
         "confidence": 0.8,
-        "reason": "K introduces diversity while maintaining helical structure and potentially stabilizing the motif."
+        "reason": "Lysine (K) maintains the helical structure while introducing sequence diversity, which is important for the design goal of creating a helix-turn-helix motif."
       },
       {
         "position": 2,
-        "current_residue": "E",
-        "proposed_residue": "K",
+        "current_residue": "R",
+        "proposed_residue": "E",
         "confidence": 0.8,
-        "reason": "Lysine (K) introduces necessary diversity while maintaining helix stability, supporting the design goal of a helix-turn-helix motif."
-      },
-      {
-        "position": 3,
-        "current_residue": "E",
-        "proposed_residue": "K",
-        "confidence": 0.7,
-        "reason": "Lysine (K) introduces diversity and maintains the helical structure, aligning with the design goal of creating a helix-turn-helix motif."
+        "reason": "Glutamic acid (E) introduces diversity while maintaining helix stability, which aligns with the design goal of creating a helix-turn-helix motif."
       },
       {
         "position": 4,
-        "current_residue": "K",
-        "proposed_residue": "E",
-        "confidence": 0.7,
-        "reason": "Glutamic acid (E) introduces sequence diversity while maintaining helical structure, supporting the design goal for a helix-turn-helix motif."
-      },
-      {
-        "position": 5,
         "current_residue": "E",
-        "proposed_residue": "K",
+        "proposed_residue": "R",
         "confidence": 0.8,
-        "reason": "Lysine (K) introduces sequence diversity, maintains helix stability, and its positive charge can enhance interactions in a helix-turn-helix motif."
+        "reason": "Arginine (R) is a helix-favoring residue that can enhance stability while also introducing diversity to the sequence."
       },
       {
         "position": 6,
-        "current_residue": "E",
-        "proposed_residue": "K",
+        "current_residue": "R",
+        "proposed_residue": "E",
         "confidence": 0.8,
-        "reason": "Lysine (K) introduces diversity and enhances helix stability, aligning with the design goal for a helix-turn-helix motif."
+        "reason": "Glutamic acid (E) introduces diversity and maintains helical stability, aligning with the design goal of creating a helix-turn-helix motif."
       },
       {
         "position": 7,
-        "current_residue": "K",
-        "proposed_residue": "E",
-        "confidence": 0.8,
-        "reason": "Glutamic acid (E) maintains helical structure while improving sequence diversity and reducing repeat stretch."
-      },
-      {
-        "position": 8,
         "current_residue": "E",
-        "proposed_residue": "K",
+        "proposed_residue": "R",
         "confidence": 0.8,
-        "reason": "Lysine (K) introduces diversity and maintains helical stability, while also potentially improving energy profile."
+        "reason": "Retaining R enhances helical structure and maintains stability while introducing more sequence diversity."
       },
       {
         "position": 9,
-        "current_residue": "E",
-        "proposed_residue": "K",
-        "confidence": 0.85,
-        "reason": "K is an alpha-helix favoring residue that enhances stability and introduces diversity in the sequence."
+        "current_residue": "R",
+        "proposed_residue": "A",
+        "confidence": 0.7,
+        "reason": "Introducing alanine (A) increases sequence diversity while maintaining the helical structure, which is favorable for the design goal."
       },
       {
         "position": 10,
-        "current_residue": "K",
-        "proposed_residue": "E",
-        "confidence": 0.75,
-        "reason": "Glutamic acid (E) introduces sequence diversity and maintains helix stability, supporting the formation of a helix-turn-helix motif."
-      },
-      {
-        "position": 11,
-        "current_residue": "E",
-        "proposed_residue": "K",
-        "confidence": 0.8,
-        "reason": "Lysine (K) is a helix-favoring residue that introduces diversity and can stabilize the helix-turn-helix motif while breaking the long repeat stretch."
+        "current_residue": "G",
+        "proposed_residue": "A",
+        "confidence": 0.7,
+        "reason": "Alanine (A) maintains helical structure while introducing diversity and could enhance the stability of the helix-turn-helix motif."
       },
       {
         "position": 12,
-        "current_residue": "K",
+        "current_residue": "R",
         "proposed_residue": "E",
-        "confidence": 0.6,
-        "reason": "Glutamic acid (E) can introduce charge and promote helix-turn-helix formation while maintaining the helical structure."
+        "confidence": 0.8,
+        "reason": "Glutamic acid (E) introduces diversity and maintains helical structure while being moderately hydrophilic, which is beneficial for the motif."
       },
       {
         "position": 13,
         "current_residue": "E",
-        "proposed_residue": "K",
-        "confidence": 0.7,
-        "reason": "Lysine (K) introduces diversity and is favorable for maintaining helical structure, supporting the design goal of a helix-turn-helix motif."
-      },
-      {
-        "position": 14,
-        "current_residue": "K",
         "proposed_residue": "R",
-        "confidence": 0.8,
-        "reason": "Arginine (R) introduces diversity while maintaining the helical structure, which is beneficial for the helix-turn-helix motif."
-      },
-      {
-        "position": 15,
-        "current_residue": "E",
-        "proposed_residue": "K",
         "confidence": 0.7,
-        "reason": "Lysine (K) introduces sequence diversity and maintains helical stability, fitting the design goal for a helix-turn-helix motif."
-      },
-      {
-        "position": 16,
-        "current_residue": "E",
-        "proposed_residue": "K",
-        "confidence": 0.7,
-        "reason": "Lysine (K) maintains helix stability and introduces diversity, which is needed to enhance the current sequence and meet the design goal."
+        "reason": "Arginine (R) can enhance stability of the helix and introduce diversity, aligning with the design goal of creating a helix-turn-helix motif."
       },
       {
         "position": 17,
         "current_residue": "E",
-        "proposed_residue": "K",
+        "proposed_residue": "R",
         "confidence": 0.8,
-        "reason": "Lysine (K) is a helix-favorable residue that can enhance the structural integrity of the helix-turn-helix motif while introducing diversity and maintaining favorable energy."
+        "reason": "Arginine (R) maintains helical structure and introduces diversity, potentially improving the helix-turn-helix motif."
       },
       {
         "position": 18,
-        "current_residue": "E",
-        "proposed_residue": "K",
-        "confidence": 0.8,
-        "reason": "Lysine (K) is a helix-favoring residue that introduces diversity and maintains the helical structure, improving the overall stability and functionality of the motif."
+        "current_residue": "K",
+        "proposed_residue": "E",
+        "confidence": 0.7,
+        "reason": "Glutamic acid (E) maintains helix stability while introducing diversity, aligning with the goal of creating a helix-turn-helix motif."
       },
       {
         "position": 19,
-        "current_residue": "R",
-        "proposed_residue": "K",
-        "confidence": 0.8,
-        "reason": "Lysine (K) maintains positive charge and promotes helix stability while introducing diversity in the sequence."
+        "current_residue": "K",
+        "proposed_residue": "E",
+        "confidence": 0.7,
+        "reason": "Glutamic acid (E) promotes turn formation, which is beneficial for creating a helix-turn-helix motif, despite previous rejections, the potential energy improvement and structural role are significant."
       }
     ],
     "fold_result": {
       "pdb_path": "outputs/iter_7.relaxed.pdb",
-      "energy": 0.848202,
+      "energy": 0.820984,
       "objective_score": 1.0,
-      "combined_score": 0.748359,
-      "rosetta_total_score": -44.41
+      "combined_score": 0.738807,
+      "rosetta_total_score": -40.46
     },
-    "accepted": false,
-    "score_delta": -0.009318999999999966
+    "accepted": true,
+    "score_delta": 0.02677099999999999
   },
   {
     "iteration": 8,
-    "sequence_before": "EEEEKEEKEEKEKEKEEEER",
-    "sequence_after": "KKKKKKKEKKKKEKRKKKKK",
+    "sequence_before": "KKEKRAERRAAREREERREE",
+    "sequence_after": "KRRRERREERGERERREEKK",
     "mutations": [
       {
-        "position": 0,
-        "current_residue": "E",
-        "proposed_residue": "K",
-        "confidence": 0.8,
-        "reason": "Lysine (K) introduces diversity and maintains helical propensity, which aligns with the design goal of creating a helix-turn-helix motif."
-      },
-      {
         "position": 1,
-        "current_residue": "E",
-        "proposed_residue": "K",
+        "current_residue": "K",
+        "proposed_residue": "R",
         "confidence": 0.7,
-        "reason": "K introduces diversity while maintaining helical structure, which is beneficial for the design goal."
+        "reason": "Arginine (R) maintains helical structure while improving sequence diversity and energy stability."
       },
       {
         "position": 2,
         "current_residue": "E",
-        "proposed_residue": "K",
+        "proposed_residue": "R",
         "confidence": 0.8,
-        "reason": "Lysine (K) introduces necessary diversity while maintaining helix stability, and it has been previously accepted with favorable energy."
+        "reason": "Arginine (R) is a helix-favoring residue that introduces diversity while maintaining the helical structure, supporting the design goal of creating a helix-turn-helix motif."
       },
       {
         "position": 3,
-        "current_residue": "E",
-        "proposed_residue": "K",
+        "current_residue": "K",
+        "proposed_residue": "R",
         "confidence": 0.8,
-        "reason": "Lysine (K) introduces diversity while maintaining the helical structure and improving overall stability."
+        "reason": "Arginine (R) is a helix-favoring residue that maintains the helical structure while increasing sequence diversity, aligning with the design goal."
+      },
+      {
+        "position": 4,
+        "current_residue": "R",
+        "proposed_residue": "E",
+        "confidence": 0.8,
+        "reason": "Glutamic acid (E) introduces diversity while maintaining helical structure, potentially reducing energy and enhancing the overall stability of the motif."
       },
       {
         "position": 5,
-        "current_residue": "E",
-        "proposed_residue": "K",
-        "confidence": 0.7,
-        "reason": "Lysine (K) introduces diversity and maintains helix stability, which is beneficial for achieving a helix-turn-helix motif."
+        "current_residue": "A",
+        "proposed_residue": "R",
+        "confidence": 0.75,
+        "reason": "Arginine (R) maintains the helical structure while providing a charged side chain that enhances stability and introduces diversity."
       },
       {
         "position": 6,
         "current_residue": "E",
-        "proposed_residue": "K",
-        "confidence": 0.8,
-        "reason": "Lysine (K) introduces diversity, maintains helical stability, and potentially improves core packing."
+        "proposed_residue": "R",
+        "confidence": 0.9,
+        "reason": "Arginine (R) enhances helix stability and introduces diversity while maintaining the helical structure."
       },
       {
         "position": 7,
-        "current_residue": "K",
+        "current_residue": "R",
         "proposed_residue": "E",
         "confidence": 0.8,
-        "reason": "Glutamic acid (E) maintains helical structure and introduces diversity, improving overall stability."
+        "reason": "Introducing E enhances sequence diversity and supports the helix structure while maintaining favorable energy."
       },
       {
         "position": 8,
-        "current_residue": "E",
-        "proposed_residue": "K",
-        "confidence": 0.7,
-        "reason": "Lysine (K) provides a balance of helical stability and introduces diversity to the sequence, enhancing the helix-turn-helix motif."
+        "current_residue": "R",
+        "proposed_residue": "E",
+        "confidence": 0.8,
+        "reason": "Glutamic acid (E) maintains helical structure while introducing more sequence diversity and is less likely to destabilize the motif."
       },
       {
         "position": 9,
-        "current_residue": "E",
-        "proposed_residue": "K",
-        "confidence": 0.7,
-        "reason": "K is an alpha-helix favoring residue that enhances structural stability while also introducing sequence diversity."
+        "current_residue": "A",
+        "proposed_residue": "R",
+        "confidence": 0.8,
+        "reason": "Maintaining R supports the helical structure and introduces a charged residue that can enhance stability while promoting the helix-turn-helix motif."
+      },
+      {
+        "position": 10,
+        "current_residue": "A",
+        "proposed_residue": "G",
+        "confidence": 0.8,
+        "reason": "Glycine (G) introduces flexibility that may support the turn in the helix-turn-helix motif while maintaining a favorable helical environment."
       },
       {
         "position": 11,
-        "current_residue": "E",
-        "proposed_residue": "K",
-        "confidence": 0.6,
-        "reason": "Lysine (K) is a helix-favoring residue that can enhance structural stability and introduce necessary diversity."
+        "current_residue": "R",
+        "proposed_residue": "E",
+        "confidence": 0.7,
+        "reason": "Glutamic acid (E) maintains helical structure and introduces diversity while being surface accessible, improving overall sequence diversity."
       },
       {
         "position": 12,
-        "current_residue": "K",
-        "proposed_residue": "E",
-        "confidence": 0.7,
-        "reason": "Glutamic acid (E) maintains helical structure, adds charge for interaction, and improves sequence diversity."
+        "current_residue": "E",
+        "proposed_residue": "R",
+        "confidence": 0.9,
+        "reason": "Arginine (R) maintains helical stability, increases diversity, and has been historically successful at this position."
       },
       {
         "position": 13,
-        "current_residue": "E",
-        "proposed_residue": "K",
-        "confidence": 0.7,
-        "reason": "Lysine (K) maintains helical structure while introducing diversity and enhancing stability in the helix-turn-helix motif."
+        "current_residue": "R",
+        "proposed_residue": "E",
+        "confidence": 0.8,
+        "reason": "Glutamic acid (E) introduces diversity and maintains helix stability, improving sequence variation while still favoring the helical structure."
       },
       {
         "position": 14,
-        "current_residue": "K",
+        "current_residue": "E",
         "proposed_residue": "R",
         "confidence": 0.7,
-        "reason": "Arginine (R) introduces diversity and maintains helical structure, beneficial for achieving the helix-turn-helix motif."
+        "reason": "Arginine (R) maintains helical stability and introduces diversity while complementing neighboring residues."
       },
       {
         "position": 15,
         "current_residue": "E",
-        "proposed_residue": "K",
-        "confidence": 0.7,
-        "reason": "Lysine (K) maintains helical stability, introduces sequence diversity, and is compatible with the helix-turn-helix motif."
+        "proposed_residue": "R",
+        "confidence": 0.8,
+        "reason": "Arginine (R) is a helix-stabilizing residue that can enhance the formation of the helix-turn-helix motif, despite previous rejections, the overall context suggests it may provide better stability."
       },
       {
         "position": 16,
-        "current_residue": "E",
-        "proposed_residue": "K",
-        "confidence": 0.7,
-        "reason": "Lysine (K) maintains helix stability, introduces diversity, and is favorable for the helix-turn-helix motif."
+        "current_residue": "R",
+        "proposed_residue": "E",
+        "confidence": 0.8,
+        "reason": "Glutamic acid (E) maintains helix formation while introducing diversity and has been previously accepted."
       },
       {
         "position": 17,
-        "current_residue": "E",
-        "proposed_residue": "K",
+        "current_residue": "R",
+        "proposed_residue": "E",
         "confidence": 0.8,
-        "reason": "Lysine (K) is a helix-favorable residue that maintains helical structure while introducing diversity, and could improve compactness."
+        "reason": "Glutamic acid (E) will maintain the helical structure while introducing diversity and improving overall energy stability."
       },
       {
         "position": 18,
         "current_residue": "E",
         "proposed_residue": "K",
-        "confidence": 0.6,
-        "reason": "Lysine (K) is a helix-favoring residue that introduces diversity while maintaining helical structure, although it has been previously rejected."
+        "confidence": 0.8,
+        "reason": "Lysine (K) maintains helix stability while introducing sequence diversity, aligning with the design goal of creating a helix-turn-helix motif."
       },
       {
         "position": 19,
-        "current_residue": "R",
+        "current_residue": "E",
         "proposed_residue": "K",
-        "confidence": 0.8,
-        "reason": "Lysine (K) maintains positive charge and promotes helix stability, which aligns with the design goal of creating a helix-turn-helix motif while introducing sequence diversity."
+        "confidence": 0.9,
+        "reason": "Lysine (K) is a helix-favoring residue that can promote turn formation and enhance structural stability due to its charged nature and favorable interactions."
       }
     ],
     "fold_result": {
       "pdb_path": "outputs/iter_8.relaxed.pdb",
-      "energy": 0.856459,
-      "objective_score": 1.0,
-      "combined_score": 0.751199,
-      "rosetta_total_score": -45.72
+      "energy": 0.832681,
+      "objective_score": 0.95,
+      "combined_score": 0.720402,
+      "rosetta_total_score": -42.09
     },
     "accepted": false,
-    "score_delta": -0.0064790000000000125
+    "score_delta": -0.018405000000000005
   },
   {
     "iteration": 9,
-    "sequence_before": "EEEEKEEKEEKEKEKEEEER",
-    "sequence_after": "EEEKKKKEEKKEKEKEEKEK",
+    "sequence_before": "KKEKRAERRAAREREERREE",
+    "sequence_after": "RRRKRARERRGREEREREKK",
     "mutations": [
       {
-        "position": 3,
-        "current_residue": "E",
-        "proposed_residue": "K",
+        "position": 0,
+        "current_residue": "K",
+        "proposed_residue": "R",
         "confidence": 0.7,
-        "reason": "Lysine (K) introduces diversity while maintaining helical structure, and past iterations show potential energy improvements with this mutation."
+        "reason": "Arginine (R) enhances sequence diversity while maintaining helical propensity, aligning with the design goal of a helix-turn-helix motif."
       },
       {
-        "position": 5,
-        "current_residue": "E",
-        "proposed_residue": "K",
+        "position": 1,
+        "current_residue": "K",
+        "proposed_residue": "R",
         "confidence": 0.7,
-        "reason": "Lysine (K) introduces slight diversity while maintaining helical stability, aligning with design goals."
+        "reason": "Arginine (R) maintains helical structure and increases sequence diversity, aligning with the design goal of creating a helix-turn-helix motif."
+      },
+      {
+        "position": 2,
+        "current_residue": "E",
+        "proposed_residue": "R",
+        "confidence": 0.7,
+        "reason": "Arginine (R) is a helix-favoring residue that maintains the helical structure while introducing diversity, aligning with the design goal."
       },
       {
         "position": 6,
         "current_residue": "E",
-        "proposed_residue": "K",
+        "proposed_residue": "R",
         "confidence": 0.8,
-        "reason": "Lysine (K) introduces diversity and enhances helical stability, aligning with the goal of creating a helix-turn-helix motif."
+        "reason": "Arginine (R) enhances helix stability and introduces diversity while maintaining the helical structure."
       },
       {
         "position": 7,
-        "current_residue": "K",
+        "current_residue": "R",
         "proposed_residue": "E",
         "confidence": 0.8,
-        "reason": "Glutamic acid (E) maintains the helical structure while introducing diversity and improving energy stability."
+        "reason": "Introducing E enhances sequence diversity and supports the helix-turn-helix motif while maintaining helical structure."
       },
       {
         "position": 9,
-        "current_residue": "E",
-        "proposed_residue": "K",
+        "current_residue": "A",
+        "proposed_residue": "R",
         "confidence": 0.8,
-        "reason": "K is an alpha-helix favoring residue that can enhance the structural stability while introducing some sequence diversity."
+        "reason": "Maintaining R supports the helical structure and introduces a beneficial charged residue that enhances stability and potential interactions."
+      },
+      {
+        "position": 10,
+        "current_residue": "A",
+        "proposed_residue": "G",
+        "confidence": 0.7,
+        "reason": "Glycine (G) introduces flexibility that may support the turn required for a helix-turn-helix motif, while maintaining the helical structure."
+      },
+      {
+        "position": 13,
+        "current_residue": "R",
+        "proposed_residue": "E",
+        "confidence": 0.8,
+        "reason": "Glutamic acid (E) introduces diversity and maintains the helical structure, improving overall stability while aligning with the design goal."
+      },
+      {
+        "position": 14,
+        "current_residue": "E",
+        "proposed_residue": "R",
+        "confidence": 0.7,
+        "reason": "Arginine (R) maintains helical stability and introduces a positively charged side chain, which may enhance interaction with DNA in a helix-turn-helix motif."
       },
       {
         "position": 17,
+        "current_residue": "R",
+        "proposed_residue": "E",
+        "confidence": 0.6,
+        "reason": "Glutamic acid (E) maintains helical structure, introduces diversity, and has previously shown favorable energy outcomes."
+      },
+      {
+        "position": 18,
         "current_residue": "E",
         "proposed_residue": "K",
         "confidence": 0.8,
-        "reason": "Lysine (K) is an alpha-helix favorable residue that can enhance stability while introducing some diversity, aligning with the design goal of creating a helix-turn-helix motif."
+        "reason": "Lysine (K) is a strong helix stabilizer and introduces diversity while maintaining structural integrity in the helix-turn-helix motif."
       },
       {
         "position": 19,
-        "current_residue": "R",
+        "current_residue": "E",
         "proposed_residue": "K",
-        "confidence": 0.8,
-        "reason": "Lysine (K) maintains positive charge and promotes helix stability while introducing some diversity, aligning with the design goal."
+        "confidence": 0.75,
+        "reason": "Lysine (K) is a helix-favoring residue that can promote turn formation, enhancing the helix-turn-helix motif while introducing more sequence diversity."
       }
     ],
     "fold_result": {
       "pdb_path": "outputs/iter_9.relaxed.pdb",
-      "energy": 0.867693,
-      "objective_score": 1.0,
-      "combined_score": 0.755228,
-      "rosetta_total_score": -47.61
+      "energy": 0.756592,
+      "objective_score": 0.95,
+      "combined_score": 0.69381,
+      "rosetta_total_score": -32.68
     },
     "accepted": false,
-    "score_delta": -0.002449999999999952
+    "score_delta": -0.044996999999999954
   },
   {
     "iteration": 10,
-    "sequence_before": "EEEEKEEKEEKEKEKEEEER",
-    "sequence_after": "EEKEKEKEEKKEKEKEEEEG",
+    "sequence_before": "KKEKRAERRAAREREERREE",
+    "sequence_after": "RKEKRARRRRRRRREEREEK",
     "mutations": [
       {
-        "position": 2,
-        "current_residue": "E",
-        "proposed_residue": "K",
-        "confidence": 0.8,
-        "reason": "Lysine (K) introduces necessary diversity and maintains stability of the helix-turn-helix motif."
+        "position": 0,
+        "current_residue": "K",
+        "proposed_residue": "R",
+        "confidence": 0.7,
+        "reason": "Arginine (R) maintains helical propensity while introducing diversity and is suitable for a turn/bend region."
       },
       {
         "position": 6,
         "current_residue": "E",
-        "proposed_residue": "K",
-        "confidence": 0.8,
-        "reason": "Lysine (K) enhances helical stability and introduces diversity, aligning with design goals for a helix-turn-helix motif."
-      },
-      {
-        "position": 7,
-        "current_residue": "K",
-        "proposed_residue": "E",
-        "confidence": 0.8,
-        "reason": "Glutamic acid (E) maintains the helical structure while improving sequence diversity and fits well in the moderately exposed position."
+        "proposed_residue": "R",
+        "confidence": 0.7,
+        "reason": "Arginine (R) enhances helix stability and introduces diversity, maintaining the helical structure while potentially improving core packing."
       },
       {
         "position": 9,
-        "current_residue": "E",
-        "proposed_residue": "K",
+        "current_residue": "A",
+        "proposed_residue": "R",
         "confidence": 0.8,
-        "reason": "K is an alpha-helix favoring residue that can enhance structural stability and break the repeat stretch, contributing positively to the helix-turn-helix motif."
+        "reason": "Maintaining R supports the helical structure and introduces a positively charged residue, enhancing stability while fulfilling the design goal."
+      },
+      {
+        "position": 10,
+        "current_residue": "A",
+        "proposed_residue": "R",
+        "confidence": 0.75,
+        "reason": "Arginine (R) is a helix-favoring residue that can maintain the helical structure while enhancing stability and introducing some diversity."
+      },
+      {
+        "position": 12,
+        "current_residue": "E",
+        "proposed_residue": "R",
+        "confidence": 0.7,
+        "reason": "Arginine maintains helical stability and introduces diversity, which aligns with the design goal."
+      },
+      {
+        "position": 17,
+        "current_residue": "R",
+        "proposed_residue": "E",
+        "confidence": 0.8,
+        "reason": "Glutamic acid (E) maintains helical structure and introduces diversity while fitting the helix-turn-helix motif."
       },
       {
         "position": 19,
-        "current_residue": "R",
-        "proposed_residue": "G",
-        "confidence": 0.8,
-        "reason": "Glycine (G) is a strong turn/bend residue that increases flexibility and can help in forming the desired helix-turn-helix motif."
+        "current_residue": "E",
+        "proposed_residue": "K",
+        "confidence": 0.7,
+        "reason": "Lysine (K) is a helix-favoring residue that can help promote turn formation in the helix-turn-helix motif, potentially improving the structural stability and achieving the design goal."
       }
     ],
     "fold_result": {
       "pdb_path": "outputs/iter_10.relaxed.pdb",
-      "energy": 0.842366,
-      "objective_score": 0.95,
-      "combined_score": 0.723836,
-      "rosetta_total_score": -43.52
+      "energy": 0.811781,
+      "objective_score": 1.0,
+      "combined_score": 0.735585,
+      "rosetta_total_score": -39.23
     },
     "accepted": false,
-    "score_delta": -0.03384199999999993
+    "score_delta": -0.003221999999999947
   },
   {
     "iteration": 11,
-    "sequence_before": "EEEEKEEKEEKEKEKEEEER",
-    "sequence_after": "EEEEKEKKEEKEKEKEEEER",
+    "sequence_before": "KKEKRAERRAAREREERREE",
+    "sequence_after": "KRRKEARRRRAREREERREE",
     "mutations": [
+      {
+        "position": 1,
+        "current_residue": "K",
+        "proposed_residue": "R",
+        "confidence": 0.8,
+        "reason": "Arginine (R) maintains the helical structure and increases sequence diversity, which is beneficial for achieving the helix-turn-helix motif."
+      },
+      {
+        "position": 2,
+        "current_residue": "E",
+        "proposed_residue": "R",
+        "confidence": 0.8,
+        "reason": "Arginine (R) is a helix-favoring residue that can enhance the structure while maintaining the helical motif."
+      },
+      {
+        "position": 4,
+        "current_residue": "R",
+        "proposed_residue": "E",
+        "confidence": 0.8,
+        "reason": "Glutamic acid (E) introduces diversity while maintaining helical structure and is favorable in the context of a helix-turn-helix motif."
+      },
       {
         "position": 6,
         "current_residue": "E",
-        "proposed_residue": "K",
+        "proposed_residue": "R",
         "confidence": 0.8,
-        "reason": "Lysine (K) enhances helical stability and introduces diversity, which is needed for improving structural integrity while maintaining the helix-turn-helix motif."
+        "reason": "Arginine (R) can enhance helix stability and increase sequence diversity while maintaining the helical structure."
+      },
+      {
+        "position": 9,
+        "current_residue": "A",
+        "proposed_residue": "R",
+        "confidence": 0.9,
+        "reason": "Maintaining R supports the helical structure and minimizes disruption while providing stability in the helix-turn-helix motif."
       }
     ],
     "fold_result": {
       "pdb_path": "outputs/iter_11.relaxed.pdb",
-      "energy": 0.872695,
+      "energy": 0.796535,
       "objective_score": 1.0,
-      "combined_score": 0.756966,
-      "rosetta_total_score": -48.5
+      "combined_score": 0.730253,
+      "rosetta_total_score": -37.3
     },
     "accepted": false,
-    "score_delta": -0.0007119999999999349
+    "score_delta": -0.00855399999999995
   },
   {
     "iteration": 12,
-    "sequence_before": "EEEEKEEKEEKEKEKEEEER",
-    "sequence_after": "EEEEKEEKEEKEKEKEEEER",
-    "mutations": [],
+    "sequence_before": "KKEKRAERRAAREREERREE",
+    "sequence_after": "KREKRARRRAAREREERREE",
+    "mutations": [
+      {
+        "position": 1,
+        "current_residue": "K",
+        "proposed_residue": "R",
+        "confidence": 0.8,
+        "reason": "Arginine (R) maintains the helical structure and introduces sequence diversity, aligning with the design goal of creating a helix-turn-helix motif."
+      },
+      {
+        "position": 6,
+        "current_residue": "E",
+        "proposed_residue": "R",
+        "confidence": 0.8,
+        "reason": "Arginine (R) enhances helix stability and introduces diversity while maintaining the helical structure."
+      }
+    ],
     "fold_result": {
       "pdb_path": "outputs/iter_12.relaxed.pdb",
-      "energy": 0.864239,
+      "energy": 0.787742,
       "objective_score": 1.0,
-      "combined_score": 0.754032,
-      "rosetta_total_score": -47.02
+      "combined_score": 0.727162,
+      "rosetta_total_score": -36.23
     },
     "accepted": false,
-    "score_delta": -0.003645999999999927
+    "score_delta": -0.011645000000000016
   },
   {
     "iteration": 13,
-    "sequence_before": "EEEEKEEKEEKEKEKEEEER",
-    "sequence_after": "EEEEKEEKEEKEKEKEEEER",
-    "mutations": [],
+    "sequence_before": "KKEKRAERRAAREREERREE",
+    "sequence_after": "KKEKRAERRRAREREERREE",
+    "mutations": [
+      {
+        "position": 9,
+        "current_residue": "A",
+        "proposed_residue": "R",
+        "confidence": 0.9,
+        "reason": "Maintaining R supports the helical structure, minimizes disruption, and aligns with the design goal of creating a helix-turn-helix motif."
+      }
+    ],
     "fold_result": {
       "pdb_path": "outputs/iter_13.relaxed.pdb",
-      "energy": 0.869091,
+      "energy": 0.805089,
       "objective_score": 1.0,
-      "combined_score": 0.75573,
-      "rosetta_total_score": -47.86
+      "combined_score": 0.73323,
+      "rosetta_total_score": -38.37
     },
     "accepted": false,
-    "score_delta": -0.0019479999999999498
+    "score_delta": -0.005576999999999943
   },
   {
     "iteration": 14,
-    "sequence_before": "EEEEKEEKEEKEKEKEEEER",
-    "sequence_after": "EEEEKEEKEEKEKEKEEEER",
-    "mutations": [],
+    "sequence_before": "KKEKRAERRAAREREERREE",
+    "sequence_after": "RKEKRAERRAAREREERREE",
+    "mutations": [
+      {
+        "position": 0,
+        "current_residue": "K",
+        "proposed_residue": "R",
+        "confidence": 0.9,
+        "reason": "Arginine (R) maintains helical propensity and enhances sequence diversity while being compatible with the turn structure."
+      }
+    ],
     "fold_result": {
       "pdb_path": "outputs/iter_14.relaxed.pdb",
-      "energy": 0.871635,
+      "energy": 0.80051,
       "objective_score": 1.0,
-      "combined_score": 0.756621,
-      "rosetta_total_score": -48.31
+      "combined_score": 0.73165,
+      "rosetta_total_score": -37.79
     },
     "accepted": false,
-    "score_delta": -0.0010569999999999746
-  },
-  {
-    "iteration": 15,
-    "sequence_before": "EEEEKEEKEEKEKEKEEEER",
-    "sequence_after": "EEEEKEEKEEKEKEKEEEER",
-    "mutations": [],
-    "fold_result": {
-      "pdb_path": "outputs/iter_15.relaxed.pdb",
-      "energy": 0.871633,
-      "objective_score": 1.0,
-      "combined_score": 0.75662,
-      "rosetta_total_score": -48.31
-    },
-    "accepted": false,
-    "score_delta": -0.0010580000000000034
+    "score_delta": -0.007156999999999969
   }
 ]

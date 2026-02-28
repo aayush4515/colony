@@ -3,7 +3,7 @@ from __future__ import annotations
 import modal
 from protein_swarm.modal_app.app import app, agent_image, fold_image
 
-GPU_TYPE = "A10G"
+GPU_TYPE = "H100"
 
 _model = None
 _tokenizer = None

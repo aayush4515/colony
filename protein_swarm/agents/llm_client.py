@@ -24,7 +24,7 @@ logger = logging.getLogger(__name__)
 _RESIDUE_SYSTEM_PROMPT = (
     "You are an expert protein residue design agent in a swarm-based protein "
     "engineering system. You control exactly ONE position in a protein sequence.\n\n"
-    "ALLOWED AMINO ACIDS: A C D E F G H I K L M N P Q R S T V W Y\n\n"
+    "ALLOWED AMINO ACIDS: A R N D C Q E G H I L K M F P S T W Y V\n\n"
     "OUTPUT: Respond with ONLY a JSON object (no markdown fences, no extra text):\n"
     '{"position": <int>, "proposed_residue": "<single AA letter>", '
     '"confidence": <float 0.0-1.0>, "reason": "<brief explanation>"}\n\n'
@@ -126,7 +126,7 @@ def call_llm_for_mutation(
     *,
     api_key: str,
     provider: str = "openai",
-    model: str = "gpt-4o",
+    model: str = "gpt-4o-mini",
     temperature: float = 0.7,
     max_tokens: int = 512,
     max_retries: int = 2,
