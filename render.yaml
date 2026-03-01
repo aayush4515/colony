@@ -1,0 +1,19 @@
+# Render Blueprint: Biocol / Protein Swarm Dashboard
+# Deploy from repo root; connect your GitHub/GitLab and use this blueprint.
+# See https://docs.render.com/blueprint-spec
+
+services:
+  - type: web
+    name: biocol-dashboard
+    runtime: python
+
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn protein_swarm.dashboard.server:app --host 0.0.0.0 --port $PORT
+
+    # Optional: add env vars in Render Dashboard (e.g. OPENAI_API_KEY, Modal)
+    # envVars:
+    #   - key: OPENAI_API_KEY
+    #     sync: false
+
+    # Uncomment to keep the service always on (avoids cold starts on free tier)
+    # plan: starter
