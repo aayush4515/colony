@@ -1,4 +1,1 @@
-{
-  "extraPaths": ["backend"],
-  "typeCheckingMode": "basic"
-}
+{"extraPaths":["backend","frontend"],"typeCheckingMode":"basic"}
