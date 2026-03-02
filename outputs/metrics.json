@@ -1,8 +1,8 @@
 {
-  "initial_sequence": "VVVVVVVVVVVVVVVVVVVV",
-  "final_sequence": "PSSGGGGGGGPSPPGPSGPS",
-  "objective": "introduce flexibility through\nturn-promoting residues while\ncreating repeating sequence\npatterns",
-  "best_score": 0.131212,
-  "total_iterations": 6,
+  "initial_sequence": "VYTVYTVYTVYTVYTVYTVYTVYTVYTVYTGSGSGSGSGSGSGSGSGAELAAELAAELAAELAAELAAELAAELAAELAAELGSGSGSGSGSGSGSGSGSVTVTVTVTVTVTVTVTVTVTVTVTVTVTVTVTVTVT",
+  "final_sequence": "LHLEHKHHLHHHHKLHHAHHLLHALLLLLLAAHHAGTTTTETKHVLGEKALLAALEKALLLELLLALEAAELKAEEKAELKMLELLHHSHAEEHSAAAATLEEVAEEVAELVAVLVTEAVLEITLETVIVLELLLH",
+  "objective": "design a 2-domain protein: N-terminal alpha helix domain and C-terminal beta sheet domain each domain must maintain structural integrity while competing for optimal folding space",
+  "best_score": 0.209434,
+  "total_iterations": 13,
   "final_pdb_path": "outputs/final_structure.pdb"
 }

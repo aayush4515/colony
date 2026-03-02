@@ -1,763 +1,2417 @@
 [
   {
     "iteration": 0,
-    "sequence_before": "VVVVVVVVVVVVVVVVVVVV",
-    "sequence_after": "GGGGGGGGGGGGGGGGGGGG",
+    "sequence_before": "VYTVYTVYTVYTVYTVYTVYTVYTVYTVYTGSGSGSGSGSGSGSGSGAELAAELAAELAAELAAELAAELAAELAAELAAELGSGSGSGSGSGSGSGSGSVTVTVTVTVTVTVTVTVTVTVTVTVTVTVTVTVTVT",
+    "sequence_after": "LHLEHKHHLHHHHKLHHAHHLLHALLLLLLAAHHAEEESAHAKHALAEKALLAALEKALLLELLLALEAAELKAEEKAELKMLELLHHSHAEEHSAAAATLEEVAEEVAELVAVLVTEAVLEIVLETVIVLELLLH",
     "mutations": [
       {
         "position": 0,
         "current_residue": "V",
-        "proposed_residue": "G",
-        "confidence": 0.9,
-        "reason": "Glycine introduces flexibility and promotes turns, aligning with the design goal of creating flexibility while breaking the repetitive sequence."
+        "proposed_residue": "L",
+        "confidence": 0.8,
+        "reason": "Leucine (L) is a hydrophobic residue that favors alpha-helix formation, enhancing structural integrity for the N-terminal domain while diversifying the sequence."
       },
       {
         "position": 1,
-        "current_residue": "V",
-        "proposed_residue": "G",
-        "confidence": 0.9,
-        "reason": "Glycine (G) introduces flexibility and promotes turn formation, aligning with the design goal of increasing sequence diversity and flexibility while still considering the surrounding helical structure."
+        "current_residue": "Y",
+        "proposed_residue": "H",
+        "confidence": 0.8,
+        "reason": "Histidine (H) is a polar residue that can stabilize the turn while also providing potential interactions for the alpha helix domain, enhancing structural integrity and diversity."
       },
       {
         "position": 2,
-        "current_residue": "V",
-        "proposed_residue": "G",
-        "confidence": 0.9,
-        "reason": "Glycine introduces flexibility and can help promote turns in the helix while maintaining a repeating sequence pattern."
+        "current_residue": "T",
+        "proposed_residue": "L",
+        "confidence": 0.8,
+        "reason": "Leucine (L) is a hydrophobic residue that can enhance the helical content and structural integrity of the N-terminal alpha helix domain while maintaining compactness and stability."
       },
       {
         "position": 3,
         "current_residue": "V",
-        "proposed_residue": "G",
-        "confidence": 0.9,
-        "reason": "Glycine (G) is a turn-promoting residue that introduces flexibility, aiding in breaking the repeating pattern while maintaining a balance in the helical environment."
+        "proposed_residue": "E",
+        "confidence": 0.8,
+        "reason": "Glutamic acid (E) is an alpha-helix favoring residue that can enhance the structural integrity of the N-terminal domain while diversifying the sequence and maintaining a balance in the moderately flexible environment."
       },
       {
         "position": 4,
-        "current_residue": "V",
-        "proposed_residue": "G",
+        "current_residue": "Y",
+        "proposed_residue": "H",
         "confidence": 0.8,
-        "reason": "Glycine introduces flexibility and can promote turns, aligning with the design goal while avoiding excessive hydrophobicity."
+        "reason": "Histidine (H) can enhance helix stability while fitting well in a turn region, adding diversity and maintaining structural integrity for the protein's design goal."
       },
       {
         "position": 5,
-        "current_residue": "V",
-        "proposed_residue": "G",
-        "confidence": 0.9,
-        "reason": "Glycine (G) introduces flexibility and promotes turns, which aligns with the design goal of increasing structural diversity and flexibility in the alpha-helical region."
+        "current_residue": "T",
+        "proposed_residue": "K",
+        "confidence": 0.85,
+        "reason": "Lysine (K) is a helix-favoring residue that can enhance the structural integrity of the N-terminal alpha helix domain while providing diversity and maintaining a favorable environment for folding."
       },
       {
         "position": 6,
         "current_residue": "V",
-        "proposed_residue": "G",
-        "confidence": 0.9,
-        "reason": "Glycine introduces flexibility and is a known turn-promoting residue, which aligns with the design goal of increasing flexibility while still maintaining some sequence diversity."
+        "proposed_residue": "H",
+        "confidence": 0.8,
+        "reason": "Histidine (H) is a helix-promoting residue that can enhance structural integrity in the N-terminal domain while providing some surface exposure for interactions, aligning with the design goal."
       },
       {
         "position": 7,
-        "current_residue": "V",
-        "proposed_residue": "G",
-        "confidence": 0.9,
-        "reason": "Glycine (G) introduces flexibility and can promote turns, which aligns with the design goal of creating a more diverse and flexible sequence while maintaining a repeating pattern."
+        "current_residue": "Y",
+        "proposed_residue": "H",
+        "confidence": 0.8,
+        "reason": "Histidine (H) is a polar, surface-exposed residue that can stabilize the structure while enhancing helix propensity and adding diversity to the sequence."
       },
       {
         "position": 8,
-        "current_residue": "V",
-        "proposed_residue": "G",
-        "confidence": 0.9,
-        "reason": "Glycine introduces flexibility and promotes turn formation, helping to break the long repetitive stretch while maintaining some structural stability in the alpha helix."
+        "current_residue": "T",
+        "proposed_residue": "L",
+        "confidence": 0.8,
+        "reason": "Leucine (L) is a hydrophobic residue that favors alpha-helix formation, which aligns with the design goal of enhancing the N-terminal alpha helix domain while maintaining structural integrity."
       },
       {
         "position": 9,
         "current_residue": "V",
-        "proposed_residue": "G",
-        "confidence": 0.9,
-        "reason": "Glycine (G) is a turn-promoting residue that introduces flexibility, helping to break the repeating sequence and accommodate a more diverse structure while maintaining potential for helical formation."
+        "proposed_residue": "H",
+        "confidence": 0.8,
+        "reason": "Histidine (H) can enhance structural integrity in the turn region and promote interactions, while offering some helix propensity, improving overall folding and diversity."
       },
       {
         "position": 10,
-        "current_residue": "V",
-        "proposed_residue": "G",
+        "current_residue": "Y",
+        "proposed_residue": "H",
         "confidence": 0.8,
-        "reason": "Glycine (G) is a turn-promoting residue that introduces flexibility, helping to break the long repeat of hydrophobic V residues while maintaining some structural integrity."
+        "reason": "Histidine (H) is a polar residue that can stabilize the turn/coil region while adding diversity and promoting better folding in the alpha helix domain."
       },
       {
         "position": 11,
-        "current_residue": "V",
-        "proposed_residue": "G",
-        "confidence": 0.9,
-        "reason": "Glycine (G) introduces flexibility and promotes turn formation, which aligns with the design goal of introducing flexibility while breaking the repetitive sequence pattern."
+        "current_residue": "T",
+        "proposed_residue": "H",
+        "confidence": 0.8,
+        "reason": "Histidine (H) promotes stability in turns and is also polar, which aligns with the surface-exposed nature of this position while increasing diversity and supporting helix content."
       },
       {
         "position": 12,
         "current_residue": "V",
-        "proposed_residue": "G",
-        "confidence": 0.8,
-        "reason": "Glycine promotes flexibility and introduces diversity while being compatible with the helical context."
+        "proposed_residue": "H",
+        "confidence": 0.75,
+        "reason": "Histidine (H) can enhance helix stability and provide structural integrity while maintaining surface accessibility, balancing the needs of the alpha helix and beta sheet domains."
       },
       {
         "position": 13,
-        "current_residue": "V",
-        "proposed_residue": "G",
-        "confidence": 0.9,
-        "reason": "Glycine promotes flexibility and can help introduce turns in the sequence, breaking the repetitive nature while maintaining compatibility with the helical environment."
+        "current_residue": "Y",
+        "proposed_residue": "K",
+        "confidence": 0.8,
+        "reason": "Lysine (K) is a helix-favoring residue that can improve structural integrity and increase diversity, while also being surface-exposed to maintain flexibility."
       },
       {
         "position": 14,
-        "current_residue": "V",
-        "proposed_residue": "G",
-        "confidence": 0.9,
-        "reason": "Glycine introduces flexibility and can help break the helical structure, aligning with the design goal of promoting turns while increasing sequence diversity."
+        "current_residue": "T",
+        "proposed_residue": "L",
+        "confidence": 0.8,
+        "reason": "Leucine (L) is a hydrophobic residue that can stabilize the alpha helix structure, enhancing the overall folding integrity while improving sequence diversity."
       },
       {
         "position": 15,
         "current_residue": "V",
-        "proposed_residue": "G",
-        "confidence": 0.9,
-        "reason": "Glycine introduces flexibility and promotes turn formation, helping to break the repetitive sequence while maintaining the structural integrity of the alpha helix."
+        "proposed_residue": "H",
+        "confidence": 0.8,
+        "reason": "Histidine (H) can enhance the structural integrity in the loop region while providing potential side chain interactions, supporting both helix and beta sheet formation."
       },
       {
         "position": 16,
-        "current_residue": "V",
-        "proposed_residue": "G",
-        "confidence": 0.9,
-        "reason": "Glycine (G) introduces flexibility and promotes turns, breaking the repetitive sequence while minimally disrupting the helix."
+        "current_residue": "Y",
+        "proposed_residue": "H",
+        "confidence": 0.8,
+        "reason": "Histidine (H) can enhance helix formation and adds diversity while maintaining a favorable environment for the alpha helix structure."
       },
       {
         "position": 17,
-        "current_residue": "V",
-        "proposed_residue": "G",
+        "current_residue": "T",
+        "proposed_residue": "A",
         "confidence": 0.8,
-        "reason": "Glycine promotes flexibility and can disrupt the helical structure, helping to introduce turn-promoting characteristics while maintaining the sequence pattern."
+        "reason": "Alanine (A) is an alpha-helix favoring residue that can enhance the helical content and structural integrity while maintaining sequence diversity."
       },
       {
         "position": 18,
         "current_residue": "V",
-        "proposed_residue": "G",
-        "confidence": 0.9,
-        "reason": "Glycine introduces flexibility and promotes turn formation, breaking the long repeat while maintaining structural integrity."
+        "proposed_residue": "H",
+        "confidence": 0.8,
+        "reason": "Histidine (H) can promote helix formation and enhance structural integrity in the turn region, contributing to both sequence diversity and an optimal folding environment."
       },
       {
         "position": 19,
+        "current_residue": "Y",
+        "proposed_residue": "H",
+        "confidence": 0.8,
+        "reason": "Histidine (H) provides potential for increased structural stability in the turn region while enhancing local helix propensity, supporting the design goal of maintaining structural integrity."
+      },
+      {
+        "position": 20,
+        "current_residue": "T",
+        "proposed_residue": "L",
+        "confidence": 0.8,
+        "reason": "Leucine is favorable for alpha-helix formation, enhances structural integrity, and increases sequence diversity."
+      },
+      {
+        "position": 21,
         "current_residue": "V",
-        "proposed_residue": "G",
+        "proposed_residue": "L",
+        "confidence": 0.8,
+        "reason": "Leucine (L) is favored for alpha-helix formation, enhances structural integrity, and diversifies the sequence while maintaining compactness."
+      },
+      {
+        "position": 22,
+        "current_residue": "Y",
+        "proposed_residue": "H",
+        "confidence": 0.8,
+        "reason": "Histidine (H) is a helix-favoring residue that can enhance the stability of the alpha helix at position 22 while contributing to sequence diversity."
+      },
+      {
+        "position": 23,
+        "current_residue": "T",
+        "proposed_residue": "A",
+        "confidence": 0.8,
+        "reason": "A is an alpha-helix favoring residue, which will enhance the helical content and promote stability in the tightly packed environment."
+      },
+      {
+        "position": 24,
+        "current_residue": "V",
+        "proposed_residue": "L",
+        "confidence": 0.8,
+        "reason": "Leucine (L) is an alpha-helix favoring residue which can enhance the helical content and stability in the compact, tightly packed environment while also adding diversity to the sequence."
+      },
+      {
+        "position": 25,
+        "current_residue": "Y",
+        "proposed_residue": "L",
+        "confidence": 0.8,
+        "reason": "L (Leucine) is an alpha-helix favoring residue that enhances helical content and structural integrity, contributing to a more diverse and stable protein design."
+      },
+      {
+        "position": 26,
+        "current_residue": "T",
+        "proposed_residue": "L",
+        "confidence": 0.8,
+        "reason": "L (Leucine) is a strong alpha-helix forming residue that enhances the stability of the helical domain while providing better structural integrity and diversity."
+      },
+      {
+        "position": 27,
+        "current_residue": "V",
+        "proposed_residue": "L",
+        "confidence": 0.8,
+        "reason": "Replacing V with L enhances alpha helix stability, maintains structural integrity, and increases sequence diversity."
+      },
+      {
+        "position": 28,
+        "current_residue": "Y",
+        "proposed_residue": "L",
+        "confidence": 0.8,
+        "reason": "L is a helix-favoring residue that enhances structural integrity in the alpha helix while diversifying the sequence."
+      },
+      {
+        "position": 29,
+        "current_residue": "T",
+        "proposed_residue": "L",
+        "confidence": 0.8,
+        "reason": "Leucine (L) is an alpha-helix favoring residue that can enhance the helical content and stability of the N-terminal domain while maintaining flexibility and reducing the repetitive nature of the sequence."
+      },
+      {
+        "position": 30,
+        "current_residue": "G",
+        "proposed_residue": "A",
+        "confidence": 0.8,
+        "reason": "Alanine (A) is a helix-favoring residue that can enhance the structural integrity of the N-terminal alpha helix domain while maintaining flexibility in the turn region."
+      },
+      {
+        "position": 31,
+        "current_residue": "S",
+        "proposed_residue": "A",
+        "confidence": 0.8,
+        "reason": "Alanine (A) is an alpha-helix favoring residue that can enhance the structural integrity of the N-terminal alpha helix domain while maintaining flexibility and reducing repetitive residues."
+      },
+      {
+        "position": 32,
+        "current_residue": "G",
+        "proposed_residue": "H",
+        "confidence": 0.8,
+        "reason": "Histidine (H) can promote alpha-helix formation, enhancing the structural integrity and diversity of the protein while maintaining flexibility in the turn region."
+      },
+      {
+        "position": 33,
+        "current_residue": "S",
+        "proposed_residue": "H",
+        "confidence": 0.8,
+        "reason": "Histidine (H) can enhance structural integrity and increase helix propensity, while maintaining surface accessibility in a highly flexible region."
+      },
+      {
+        "position": 34,
+        "current_residue": "G",
+        "proposed_residue": "A",
+        "confidence": 0.8,
+        "reason": "Ala (A) is a helix-promoting residue that can enhance the stability of the N-terminal alpha helix domain while maintaining structural integrity in the flexible region."
+      },
+      {
+        "position": 35,
+        "current_residue": "S",
+        "proposed_residue": "E",
+        "confidence": 0.8,
+        "reason": "Glutamic acid (E) enhances the potential for helix formation and introduces diversity, while maintaining structural integrity in the turn/coil region."
+      },
+      {
+        "position": 36,
+        "current_residue": "G",
+        "proposed_residue": "E",
+        "confidence": 0.8,
+        "reason": "Glutamic acid (E) introduces a charged residue that can enhance the stability of the turn while increasing sequence diversity and favoring the formation of secondary structures, improving overall structural integrity."
+      },
+      {
+        "position": 37,
+        "current_residue": "S",
+        "proposed_residue": "E",
+        "confidence": 0.8,
+        "reason": "Glutamic acid (E) is a polar, charged residue that can enhance structural integrity while promoting helix formation, helping to diversify the sequence and align with the design goal."
+      },
+      {
+        "position": 38,
+        "current_residue": "G",
+        "proposed_residue": "S",
+        "confidence": 0.8,
+        "reason": "Maintains flexibility and supports the turn/coil structure while providing moderate surface exposure; promotes a diverse sequence."
+      },
+      {
+        "position": 39,
+        "current_residue": "S",
+        "proposed_residue": "A",
+        "confidence": 0.8,
+        "reason": "Ala (A) is an alpha-helix favoring residue that can enhance the helical content of the protein while maintaining a flexible and surface-exposed nature."
+      },
+      {
+        "position": 40,
+        "current_residue": "G",
+        "proposed_residue": "H",
+        "confidence": 0.8,
+        "reason": "Histidine (H) is a polar amino acid that can contribute to the structural integrity of the turn/coil region while also increasing the diversity and helix propensity of the protein, which aligns with the design goal."
+      },
+      {
+        "position": 41,
+        "current_residue": "S",
+        "proposed_residue": "A",
+        "confidence": 0.8,
+        "reason": "Alanine (A) is an alpha-helix favoring residue, which can enhance the structural integrity of the N-terminal domain while maintaining flexibility and reducing the disruption to the existing turn structure."
+      },
+      {
+        "position": 42,
+        "current_residue": "G",
+        "proposed_residue": "K",
+        "confidence": 0.8,
+        "reason": "Lysine (K) is a helix-promoting residue that can enhance structural integrity in the N-terminal alpha helix domain while providing some charge for potential interactions, improving sequence diversity and maintaining a favorable folding environment."
+      },
+      {
+        "position": 43,
+        "current_residue": "S",
+        "proposed_residue": "H",
+        "confidence": 0.8,
+        "reason": "Histidine (H) supports alpha-helix formation and adds diversity, improving structural integrity while maintaining a favorable environment for neighboring residues."
+      },
+      {
+        "position": 44,
+        "current_residue": "G",
+        "proposed_residue": "A",
+        "confidence": 0.85,
+        "reason": "Alanine (A) is a helix-favoring residue that will enhance the stability of the alpha helix at this position while diversifying the sequence."
+      },
+      {
+        "position": 45,
+        "current_residue": "S",
+        "proposed_residue": "L",
+        "confidence": 0.8,
+        "reason": "Leucine (L) is an alpha-helix favoring residue that enhances structural integrity and diversity, improving helix content."
+      },
+      {
+        "position": 46,
+        "current_residue": "G",
+        "proposed_residue": "A",
+        "confidence": 0.8,
+        "reason": "Alanine (A) is an alpha-helix favoring residue that can enhance helix stability while maintaining structural integrity in a moderately flexible environment."
+      },
+      {
+        "position": 47,
+        "current_residue": "A",
+        "proposed_residue": "E",
+        "confidence": 0.8,
+        "reason": "Substituting A with E enhances helix propensity and introduces charge, improving structural integrity while maintaining alpha-helix formation."
+      },
+      {
+        "position": 48,
+        "current_residue": "E",
+        "proposed_residue": "K",
+        "confidence": 0.8,
+        "reason": "Lysine (K) is an alpha-helix favoring residue that can enhance the helical content and structural integrity of the N-terminal domain while providing some surface accessibility."
+      },
+      {
+        "position": 49,
+        "current_residue": "L",
+        "proposed_residue": "A",
+        "confidence": 0.8,
+        "reason": "Ala (A) is a strong helix-forming residue that increases helical content and maintains structural integrity, promoting better folding in the alpha helix domain."
+      },
+      {
+        "position": 50,
+        "current_residue": "A",
+        "proposed_residue": "L",
+        "confidence": 0.8,
+        "reason": "L is a helix-favoring residue that can enhance the stability of the alpha helix while providing some diversity to the sequence."
+      },
+      {
+        "position": 51,
+        "current_residue": "A",
+        "proposed_residue": "L",
+        "confidence": 0.8,
+        "reason": "L is a helix-favoring residue that enhances structural integrity while diversifying the sequence, aligning with the design goal of maintaining a strong alpha helix."
+      },
+      {
+        "position": 52,
+        "current_residue": "E",
+        "proposed_residue": "A",
+        "confidence": 0.8,
+        "reason": "Alanine (A) is a strong helix-forming residue that can enhance the stability of the alpha helix at this position while also increasing sequence diversity."
+      },
+      {
+        "position": 53,
+        "current_residue": "L",
+        "proposed_residue": "A",
+        "confidence": 0.8,
+        "reason": "Ala (A) is a helix-favoring residue that enhances the alpha helical character, contributing to structural integrity while ensuring a balance between core packing and surface accessibility."
+      },
+      {
+        "position": 54,
+        "current_residue": "A",
+        "proposed_residue": "L",
+        "confidence": 0.8,
+        "reason": "Leucine (L) is an alpha-helix favoring residue that will enhance the helical structure at this position while also providing better packing and stability in the compact environment."
+      },
+      {
+        "position": 55,
+        "current_residue": "A",
+        "proposed_residue": "E",
+        "confidence": 0.8,
+        "reason": "Glutamic acid (E) is a helix-favoring residue that enhances helix stability while providing some surface exposure, addressing the need for structural integrity in the alpha helix domain."
+      },
+      {
+        "position": 56,
+        "current_residue": "E",
+        "proposed_residue": "K",
+        "confidence": 0.8,
+        "reason": "Lysine (K) is an alpha-helix favoring residue that can enhance the helical content and structural stability while maintaining a balance between core packing and surface accessibility."
+      },
+      {
+        "position": 57,
+        "current_residue": "L",
+        "proposed_residue": "A",
+        "confidence": 0.8,
+        "reason": "Ala (A) is a helix-favoring residue that enhances the stability of the alpha helix while diversifying the sequence and maintaining structural integrity."
+      },
+      {
+        "position": 58,
+        "current_residue": "A",
+        "proposed_residue": "L",
+        "confidence": 0.8,
+        "reason": "Leucine (L) is a favorable alpha-helix forming residue that enhances structural integrity while improving sequence diversity."
+      },
+      {
+        "position": 59,
+        "current_residue": "A",
+        "proposed_residue": "L",
+        "confidence": 0.8,
+        "reason": "Leucine (L) is favored for alpha helices and can enhance structural integrity while improving sequence diversity."
+      },
+      {
+        "position": 60,
+        "current_residue": "E",
+        "proposed_residue": "L",
+        "confidence": 0.85,
+        "reason": "Leucine (L) is favorable for alpha-helix formation and contributes to the hydrophobic core while increasing structural integrity."
+      },
+      {
+        "position": 61,
+        "current_residue": "L",
+        "proposed_residue": "E",
+        "confidence": 0.8,
+        "reason": "Glutamic acid (E) is a helix-favoring residue that can enhance structural integrity in the alpha helix while adding some diversity to the sequence."
+      },
+      {
+        "position": 62,
+        "current_residue": "A",
+        "proposed_residue": "L",
+        "confidence": 0.85,
+        "reason": "Leucine (L) is a helix-favoring residue that enhances structural integrity while adding diversity, promoting better packing and maintaining the alpha helix."
+      },
+      {
+        "position": 63,
+        "current_residue": "A",
+        "proposed_residue": "L",
+        "confidence": 0.8,
+        "reason": "Leucine (L) enhances alpha-helix stability and contributes to diversity while maintaining structural integrity."
+      },
+      {
+        "position": 64,
+        "current_residue": "E",
+        "proposed_residue": "L",
+        "confidence": 0.8,
+        "reason": "L (Leucine) is a helix-favoring residue that increases the helix content and maintains structural integrity, while also providing some hydrophobic character for stability."
+      },
+      {
+        "position": 65,
+        "current_residue": "L",
+        "proposed_residue": "A",
+        "confidence": 0.8,
+        "reason": "Ala (A) is a strong helix-forming residue that enhances alpha-helix stability while maintaining compactness, addressing the design goal of structural integrity."
+      },
+      {
+        "position": 66,
+        "current_residue": "A",
+        "proposed_residue": "L",
+        "confidence": 0.8,
+        "reason": "Leucine (L) is a strong helix-forming residue that adds diversity and supports the structural integrity of the alpha helix while maintaining a compact folding."
+      },
+      {
+        "position": 67,
+        "current_residue": "A",
+        "proposed_residue": "E",
+        "confidence": 0.8,
+        "reason": "Glutamic acid (E) maintains the alpha helix structure while enhancing sequence diversity and contributes to the structural integrity of the protein."
+      },
+      {
+        "position": 68,
+        "current_residue": "E",
+        "proposed_residue": "A",
+        "confidence": 0.8,
+        "reason": "Ala (A) is an alpha-helix favoring residue that can enhance the structural integrity of the helix while providing necessary diversity."
+      },
+      {
+        "position": 69,
+        "current_residue": "L",
+        "proposed_residue": "A",
         "confidence": 0.9,
-        "reason": "Glycine is a turn-promoting residue that introduces flexibility while breaking the repetitive pattern, enhancing structural diversity."
+        "reason": "A is a strong helix-forming residue that increases helix content and maintains structural integrity while promoting compact folding."
+      },
+      {
+        "position": 70,
+        "current_residue": "A",
+        "proposed_residue": "E",
+        "confidence": 0.8,
+        "reason": "E is a helix-favoring residue that enhances structural integrity of the alpha helix and adds diversity, improving overall design goal scores."
+      },
+      {
+        "position": 71,
+        "current_residue": "A",
+        "proposed_residue": "L",
+        "confidence": 0.9,
+        "reason": "Leucine (L) is a strong alpha-helix stabilizer and enhances structural integrity while increasing sequence diversity."
+      },
+      {
+        "position": 72,
+        "current_residue": "E",
+        "proposed_residue": "K",
+        "confidence": 0.8,
+        "reason": "Lysine (K) is an alpha-helix favoring residue that enhances helix stability and maintains the compact structure while providing some surface accessibility."
+      },
+      {
+        "position": 73,
+        "current_residue": "L",
+        "proposed_residue": "A",
+        "confidence": 0.85,
+        "reason": "Alanine (A) is a helix-promoting residue that can enhance the stability of the N-terminal alpha helix domain, while also providing better sequence diversity."
+      },
+      {
+        "position": 74,
+        "current_residue": "A",
+        "proposed_residue": "E",
+        "confidence": 0.8,
+        "reason": "Glutamic acid (E) is an alpha-helix favoring residue that can enhance structural integrity while diversifying the sequence, improving both helix content and overall stability."
+      },
+      {
+        "position": 75,
+        "current_residue": "A",
+        "proposed_residue": "E",
+        "confidence": 0.7,
+        "reason": "Glutamic acid (E) maintains the alpha helix structure while introducing diversity and increasing helix propensity, aligning with the design goal."
+      },
+      {
+        "position": 76,
+        "current_residue": "E",
+        "proposed_residue": "K",
+        "confidence": 0.85,
+        "reason": "Lysine (K) is an alpha-helix favoring residue that enhances structural integrity and promotes better folding while increasing sequence diversity."
+      },
+      {
+        "position": 77,
+        "current_residue": "L",
+        "proposed_residue": "A",
+        "confidence": 0.85,
+        "reason": "Ala (A) is an alpha-helix favoring residue that increases helix content and provides structural diversity while maintaining compactness."
+      },
+      {
+        "position": 78,
+        "current_residue": "A",
+        "proposed_residue": "E",
+        "confidence": 0.7,
+        "reason": "Glutamic acid (E) maintains the helical structure while introducing diversity and enhancing stability in the alpha helix domain."
+      },
+      {
+        "position": 79,
+        "current_residue": "A",
+        "proposed_residue": "L",
+        "confidence": 0.8,
+        "reason": "Leucine (L) is an alpha-helix favoring residue that enhances helical stability while also contributing to hydrophobic core interactions, promoting optimal folding in the tightly packed environment."
+      },
+      {
+        "position": 80,
+        "current_residue": "E",
+        "proposed_residue": "K",
+        "confidence": 0.8,
+        "reason": "Lysine (K) is an alpha-helix favoring residue, which can enhance helical content while maintaining structural integrity in the moderately constrained environment."
+      },
+      {
+        "position": 81,
+        "current_residue": "L",
+        "proposed_residue": "M",
+        "confidence": 0.8,
+        "reason": "Methionine (M) enhances the alpha helix stability, maintains hydrophobic character, and adds diversity to the sequence, aligning with the design goal."
+      },
+      {
+        "position": 82,
+        "current_residue": "G",
+        "proposed_residue": "L",
+        "confidence": 0.85,
+        "reason": "L (Leucine) is a strong helix-forming residue that enhances the structural integrity of the alpha helix while promoting hydrophobic core stability."
+      },
+      {
+        "position": 83,
+        "current_residue": "S",
+        "proposed_residue": "E",
+        "confidence": 0.8,
+        "reason": "Glutamic acid (E) is a helix-favoring residue that can enhance the stability of the alpha helix while providing some sequence diversity, thus aligning with the design goal."
+      },
+      {
+        "position": 84,
+        "current_residue": "G",
+        "proposed_residue": "L",
+        "confidence": 0.8,
+        "reason": "L is an alpha-helix favoring residue that adds diversity and stability to the helical structure, improving overall folding while maintaining structural integrity."
+      },
+      {
+        "position": 85,
+        "current_residue": "S",
+        "proposed_residue": "L",
+        "confidence": 0.8,
+        "reason": "L is an alpha-helix favoring residue that enhances structural integrity while providing diversity and reducing repetition."
+      },
+      {
+        "position": 86,
+        "current_residue": "G",
+        "proposed_residue": "H",
+        "confidence": 0.8,
+        "reason": "Histidine (H) can contribute to the stabilization of the structure while favoring the formation of the alpha helix, enhancing overall stability and diversity."
+      },
+      {
+        "position": 87,
+        "current_residue": "S",
+        "proposed_residue": "H",
+        "confidence": 0.8,
+        "reason": "Histidine (H) can enhance helix stability and introduce diversity while being compatible with the flexible turn structure at this position."
+      },
+      {
+        "position": 88,
+        "current_residue": "G",
+        "proposed_residue": "S",
+        "confidence": 0.7,
+        "reason": "Maintains structural flexibility while providing potential for interaction, contributing to sequence diversity and accommodating the turn/coil structure."
+      },
+      {
+        "position": 89,
+        "current_residue": "S",
+        "proposed_residue": "H",
+        "confidence": 0.8,
+        "reason": "Histidine (H) is a polar residue that can stabilize the turn structure while enhancing the overall diversity and promoting potential interactions in the surface-exposed environment."
+      },
+      {
+        "position": 90,
+        "current_residue": "G",
+        "proposed_residue": "A",
+        "confidence": 0.8,
+        "reason": "Alanine is an alpha-helix favoring residue that can enhance structural integrity while providing better folding stability in the exposed region."
+      },
+      {
+        "position": 91,
+        "current_residue": "S",
+        "proposed_residue": "E",
+        "confidence": 0.8,
+        "reason": "Glutamic acid (E) is a polar, charged residue that can help maintain structural integrity in a turn region while also adding to the diversity and promoting helix formation, aligning with the design goal."
+      },
+      {
+        "position": 92,
+        "current_residue": "G",
+        "proposed_residue": "E",
+        "confidence": 0.85,
+        "reason": "Glutamic acid (E) introduces a polar, charged residue that can stabilize the turn and enhance helix propensity, contributing to structural integrity while maintaining surface exposure."
+      },
+      {
+        "position": 93,
+        "current_residue": "S",
+        "proposed_residue": "H",
+        "confidence": 0.8,
+        "reason": "Histidine (H) can enhance structural integrity in the turn region while promoting potential interactions that favor alpha-helix formation, contributing to the overall folding of the two-domain structure."
+      },
+      {
+        "position": 94,
+        "current_residue": "G",
+        "proposed_residue": "S",
+        "confidence": 0.8,
+        "reason": "Maintains surface exposure while promoting flexibility; retains turn structure and adds slight diversity to improve sequence uniqueness."
+      },
+      {
+        "position": 95,
+        "current_residue": "S",
+        "proposed_residue": "A",
+        "confidence": 0.8,
+        "reason": "Alanine (A) is a helix-favoring residue that can enhance the helical content of the protein while maintaining structural integrity in a flexible, surface-exposed region."
+      },
+      {
+        "position": 96,
+        "current_residue": "G",
+        "proposed_residue": "A",
+        "confidence": 0.8,
+        "reason": "Ala (A) is a helix-promoting residue that enhances structural integrity and adds diversity to the sequence."
+      },
+      {
+        "position": 97,
+        "current_residue": "S",
+        "proposed_residue": "A",
+        "confidence": 0.8,
+        "reason": "Alanine (A) is an alpha-helix favoring residue that can enhance helical content and contribute to the structural integrity of the N-terminal domain while maintaining flexibility in the surface-exposed position."
+      },
+      {
+        "position": 98,
+        "current_residue": "G",
+        "proposed_residue": "A",
+        "confidence": 0.8,
+        "reason": "Alanine (A) is a strong helix-forming residue that can enhance the structural integrity of the N-terminal alpha helix domain while maintaining flexibility and compactness."
+      },
+      {
+        "position": 99,
+        "current_residue": "S",
+        "proposed_residue": "T",
+        "confidence": 0.8,
+        "reason": "Threonine (T) maintains structural integrity in the turn region, and improves sequence diversity while balancing helix and sheet propensity in the design goal."
+      },
+      {
+        "position": 100,
+        "current_residue": "V",
+        "proposed_residue": "L",
+        "confidence": 0.8,
+        "reason": "Leucine (L) is an alpha-helix promoting residue that can enhance the stability of the N-terminal alpha helix domain while maintaining compatibility with the extended beta strand structure."
+      },
+      {
+        "position": 101,
+        "current_residue": "T",
+        "proposed_residue": "E",
+        "confidence": 0.8,
+        "reason": "Glutamic acid (E) is favored for beta-sheet formation and will enhance structural integrity while providing increased diversity and potential for interaction in the extended strand context."
+      },
+      {
+        "position": 102,
+        "current_residue": "V",
+        "proposed_residue": "E",
+        "confidence": 0.75,
+        "reason": "Glutamic acid (E) enhances helix propensity and maintains structural integrity in the beta strand environment, promoting better folding and stability."
+      },
+      {
+        "position": 103,
+        "current_residue": "T",
+        "proposed_residue": "V",
+        "confidence": 0.8,
+        "reason": "V is a beta-sheet favoring residue that can enhance the structural integrity of the extended strand while providing some hydrophobic character to improve folding stability."
+      },
+      {
+        "position": 104,
+        "current_residue": "V",
+        "proposed_residue": "A",
+        "confidence": 0.8,
+        "reason": "Ala (A) is an alpha-helix favoring residue that can enhance structural integrity in the N-terminal domain while maintaining the capacity for beta-sheet formation."
+      },
+      {
+        "position": 105,
+        "current_residue": "T",
+        "proposed_residue": "E",
+        "confidence": 0.8,
+        "reason": "Glutamic acid (E) maintains the beta strand structure while introducing diversity and improving helix propensity, supporting the design goal of a two-domain protein."
+      },
+      {
+        "position": 106,
+        "current_residue": "V",
+        "proposed_residue": "E",
+        "confidence": 0.75,
+        "reason": "Glutamic acid (E) enhances helix propensity and maintains the beta strand environment, promoting structural integrity while increasing sequence diversity."
+      },
+      {
+        "position": 107,
+        "current_residue": "T",
+        "proposed_residue": "V",
+        "confidence": 0.75,
+        "reason": "V is a beta-sheet favoring residue that can enhance structural integrity in the extended strand environment while providing some sequence diversity."
+      },
+      {
+        "position": 108,
+        "current_residue": "V",
+        "proposed_residue": "A",
+        "confidence": 0.8,
+        "reason": "Ala (A) enhances helix formation while maintaining secondary structure integrity, providing balance between hydrophobic core stability and flexibility."
+      },
+      {
+        "position": 109,
+        "current_residue": "T",
+        "proposed_residue": "E",
+        "confidence": 0.8,
+        "reason": "Glutamic acid (E) enhances the beta-sheet propensity and maintains structural integrity while adding diversity to the sequence."
+      },
+      {
+        "position": 110,
+        "current_residue": "V",
+        "proposed_residue": "L",
+        "confidence": 0.8,
+        "reason": "Leucine (L) promotes alpha-helix formation, enhancing structural integrity and diversity while maintaining beta-sheet compatibility."
+      },
+      {
+        "position": 111,
+        "current_residue": "T",
+        "proposed_residue": "V",
+        "confidence": 0.8,
+        "reason": "V is a beta-sheet favoring residue that maintains extended strand structure while increasing sequence diversity and hydrophobic content."
+      },
+      {
+        "position": 112,
+        "current_residue": "V",
+        "proposed_residue": "A",
+        "confidence": 0.8,
+        "reason": "Ala (A) enhances the alpha-helix propensity and maintains structural integrity while allowing for better packing and diversity in the sequence."
+      },
+      {
+        "position": 113,
+        "current_residue": "T",
+        "proposed_residue": "V",
+        "confidence": 0.8,
+        "reason": "V is a beta-sheet favoring residue that maintains the extended strand structure at position 113 while providing better packing and diversity compared to T."
+      },
+      {
+        "position": 114,
+        "current_residue": "V",
+        "proposed_residue": "L",
+        "confidence": 0.85,
+        "reason": "Leucine (L) is a hydrophobic residue that can enhance the stability of the extended beta strand while providing some alpha-helix propensity, helping to achieve the design goal of maintaining structural integrity."
+      },
+      {
+        "position": 115,
+        "current_residue": "T",
+        "proposed_residue": "V",
+        "confidence": 0.8,
+        "reason": "V is a beta-sheet favoring residue that maintains the extended strand structure while improving sequence diversity and stability."
+      },
+      {
+        "position": 116,
+        "current_residue": "V",
+        "proposed_residue": "T",
+        "confidence": 0.8,
+        "reason": "Threonine (T) is a polar residue that can help maintain structural integrity in the turn region while promoting flexibility and surface accessibility, aligning with the design goal of optimizing folding space."
+      },
+      {
+        "position": 117,
+        "current_residue": "T",
+        "proposed_residue": "E",
+        "confidence": 0.8,
+        "reason": "Glutamic acid (E) is a helix-favoring residue that can enhance the structural integrity of the N-terminal alpha helix domain while providing charge and potential interactions in the moderately exposed environment."
+      },
+      {
+        "position": 118,
+        "current_residue": "V",
+        "proposed_residue": "A",
+        "confidence": 0.8,
+        "reason": "Ala (A) is an alpha-helix favoring residue that increases structural integrity in the N-terminal domain while enhancing packing and diversity, aligning with the design goal."
+      },
+      {
+        "position": 119,
+        "current_residue": "T",
+        "proposed_residue": "V",
+        "confidence": 0.8,
+        "reason": "V is a beta-sheet favoring residue that enhances the stability of the extended strand while also promoting structural integrity and diversity."
+      },
+      {
+        "position": 120,
+        "current_residue": "V",
+        "proposed_residue": "L",
+        "confidence": 0.8,
+        "reason": "Leucine (L) is hydrophobic and supports beta-sheet stability while promoting overall structural integrity, enhancing the sequence diversity and helix propensity."
+      },
+      {
+        "position": 121,
+        "current_residue": "T",
+        "proposed_residue": "E",
+        "confidence": 0.8,
+        "reason": "Glutamic acid (E) enhances beta-sheet stability while providing diversity and increasing the helix-forming propensity in the surrounding sequence."
+      },
+      {
+        "position": 122,
+        "current_residue": "V",
+        "proposed_residue": "I",
+        "confidence": 0.7,
+        "reason": "Isoleucine is a hydrophobic residue that supports beta-strand formation and can enhance structural integrity in the extended strand environment."
+      },
+      {
+        "position": 123,
+        "current_residue": "T",
+        "proposed_residue": "V",
+        "confidence": 0.8,
+        "reason": "V is a beta-sheet favoring residue that maintains structural integrity and enhances sequence diversity while fitting well within the extended beta-strand context."
+      },
+      {
+        "position": 124,
+        "current_residue": "V",
+        "proposed_residue": "L",
+        "confidence": 0.8,
+        "reason": "L is a helix-favoring residue that can enhance the stability of the N-terminal alpha helix domain while maintaining compatibility with the beta sheet structure."
+      },
+      {
+        "position": 125,
+        "current_residue": "T",
+        "proposed_residue": "E",
+        "confidence": 0.8,
+        "reason": "Glutamic acid (E) enhances helix propensity and maintains beta sheet compatibility, improving structural integrity while promoting diversity."
+      },
+      {
+        "position": 126,
+        "current_residue": "V",
+        "proposed_residue": "T",
+        "confidence": 0.8,
+        "reason": "Threonine (T) supports beta-sheet formation and provides some diversity while maintaining structural integrity in the extended strand context."
+      },
+      {
+        "position": 127,
+        "current_residue": "T",
+        "proposed_residue": "V",
+        "confidence": 0.8,
+        "reason": "V is a beta-sheet favoring residue that enhances structural integrity in the extended strand while providing some diversity and hydrophobic properties."
+      },
+      {
+        "position": 128,
+        "current_residue": "V",
+        "proposed_residue": "I",
+        "confidence": 0.8,
+        "reason": "Isoleucine (I) has a strong beta-sheet propensity and contributes to hydrophobic core stability, enhancing the structural integrity of the extended strand while diversifying the sequence."
+      },
+      {
+        "position": 129,
+        "current_residue": "T",
+        "proposed_residue": "V",
+        "confidence": 0.8,
+        "reason": "V is a beta-sheet favoring residue that can enhance structural integrity in the extended strand while adding diversity to the sequence."
+      },
+      {
+        "position": 130,
+        "current_residue": "V",
+        "proposed_residue": "L",
+        "confidence": 0.8,
+        "reason": "L is a helix-favoring residue that can enhance structural integrity while maintaining the extended beta-strand environment, promoting better folding and stability."
+      },
+      {
+        "position": 131,
+        "current_residue": "T",
+        "proposed_residue": "E",
+        "confidence": 0.75,
+        "reason": "Glutamic acid (E) is favored for beta-sheet formation and provides additional charge, enhancing structural integrity while diversifying the sequence."
+      },
+      {
+        "position": 132,
+        "current_residue": "V",
+        "proposed_residue": "L",
+        "confidence": 0.8,
+        "reason": "L is a hydrophobic residue that favors alpha-helix formation, enhancing structural integrity while maintaining compatibility with the extended beta strand context."
+      },
+      {
+        "position": 133,
+        "current_residue": "T",
+        "proposed_residue": "L",
+        "confidence": 0.8,
+        "reason": "L is a hydrophobic residue that can enhance beta sheet stability while providing some alpha helix propensity, improving overall structural integrity and compactness."
+      },
+      {
+        "position": 134,
+        "current_residue": "V",
+        "proposed_residue": "L",
+        "confidence": 0.8,
+        "reason": "Leucine (L) is a helix-favoring residue that can enhance the stability of the N-terminal alpha helix domain while maintaining the integrity of the beta sheet structure."
+      },
+      {
+        "position": 135,
+        "current_residue": "T",
+        "proposed_residue": "H",
+        "confidence": 0.8,
+        "reason": "Histidine (H) can stabilize the turn structure while providing some helix propensity, enhancing the overall folding and structural integrity of the protein."
       }
     ],
     "fold_result": {
-      "pdb_path": "outputs/iter_0.relaxed.pdb",
-      "energy": 0.017586,
-      "objective_score": 0.02,
-      "combined_score": 0.017152,
-      "rosetta_total_score": 1.15
+      "pdb_path": "outputs/iter_0.pdb",
+      "energy": 0.0,
+      "objective_score": 0.593747,
+      "combined_score": 0.208352,
+      "rosetta_total_score": 896.35
     },
-    "accepted": false,
-    "score_delta": -0.006838
+    "accepted": true,
+    "score_delta": 0.027045000000000013
   },
   {
     "iteration": 1,
-    "sequence_before": "VVVVVVVVVVVVVVVVVVVV",
-    "sequence_after": "GGGVVVVVVVGGGGVGGVGG",
+    "sequence_before": "LHLEHKHHLHHHHKLHHAHHLLHALLLLLLAAHHAEEESAHAKHALAEKALLAALEKALLLELLLALEAAELKAEEKAELKMLELLHHSHAEEHSAAAATLEEVAEEVAELVAVLVTEAVLEIVLETVIVLELLLH",
+    "sequence_after": "VYTVEEEYVYYTKTVAAVTYTVTTVVTVVTGTASVVAATVSSTSLVVKEVAAVLVVAVAVELVAEVAVEEKAELKAEVKAELVVVSAYTSEVVSGVTTTVVVVEVVVTVVVTVTVTVVVIITVIIVVIVTVVVTVT",
     "mutations": [
       {
         "position": 0,
-        "current_residue": "V",
-        "proposed_residue": "G",
+        "current_residue": "L",
+        "proposed_residue": "V",
         "confidence": 0.8,
-        "reason": "Glycine promotes flexibility and turn formation, aligning with the design goal despite previous rejection, as it introduces diversity and aids in breaking up the repetitive sequence."
+        "reason": "Valine (V) has a strong propensity for helix formation, adds diversity, and could enhance the structural stability while maintaining the helical character of the N-terminal domain."
       },
       {
         "position": 1,
-        "current_residue": "V",
-        "proposed_residue": "G",
-        "confidence": 0.7,
-        "reason": "Glycine (G) introduces flexibility and promotes turn formation, which aligns with the design goal of introducing flexibility and creating diverse sequence patterns."
+        "current_residue": "H",
+        "proposed_residue": "Y",
+        "confidence": 0.8,
+        "reason": "Tyrosine (Y) can provide aromatic interactions beneficial for stability and can help introduce more diversity, supporting the design goal of a balanced two-domain structure."
       },
       {
         "position": 2,
-        "current_residue": "V",
-        "proposed_residue": "G",
+        "current_residue": "L",
+        "proposed_residue": "T",
         "confidence": 0.8,
-        "reason": "Glycine introduces flexibility and can promote turns, which aligns with the design goal despite prior rejections."
+        "reason": "Threonine (T) introduces polar character and can help with structural diversity while remaining compatible with the helix structure, potentially aiding in the transition to the beta sheet domain."
+      },
+      {
+        "position": 3,
+        "current_residue": "E",
+        "proposed_residue": "V",
+        "confidence": 0.8,
+        "reason": "Valine (V) is a beta-sheet favoring residue that can enhance structural diversity and potentially improve the balance between the alpha-helix and beta-sheet domains."
+      },
+      {
+        "position": 4,
+        "current_residue": "H",
+        "proposed_residue": "E",
+        "confidence": 0.8,
+        "reason": "Glutamic acid (E) introduces a charged residue that can enhance the stability of the alpha helix while potentially improving the overall structural integrity and balance between the two domains."
+      },
+      {
+        "position": 5,
+        "current_residue": "K",
+        "proposed_residue": "E",
+        "confidence": 0.8,
+        "reason": "Glutamic acid (E) can maintain helical structure while increasing the potential for beta-sheet interactions, enhancing overall structural diversity and reducing the long repeat stretch."
+      },
+      {
+        "position": 6,
+        "current_residue": "H",
+        "proposed_residue": "E",
+        "confidence": 0.8,
+        "reason": "Glutamic acid (E) is a helix-promoting residue that can enhance the stability of the alpha helix while also increasing the overall sequence diversity, contributing to better structural integrity between the two domains."
+      },
+      {
+        "position": 7,
+        "current_residue": "H",
+        "proposed_residue": "Y",
+        "confidence": 0.8,
+        "reason": "Tyrosine (Y) introduces diversity and promotes beta-sheet formation, while also being compatible with the helical structure."
+      },
+      {
+        "position": 8,
+        "current_residue": "L",
+        "proposed_residue": "V",
+        "confidence": 0.8,
+        "reason": "Valine (V) is a beta-sheet favoring residue that can help introduce diversity and improve the sheet propensity, while still maintaining some compatibility with the helical structure."
+      },
+      {
+        "position": 9,
+        "current_residue": "H",
+        "proposed_residue": "Y",
+        "confidence": 0.8,
+        "reason": "Tyrosine (Y) can enhance the structural integrity in the helix while adding some diversity and maintaining favorable interactions for the beta-sheet domain."
       },
       {
         "position": 10,
-        "current_residue": "V",
-        "proposed_residue": "G",
+        "current_residue": "H",
+        "proposed_residue": "Y",
         "confidence": 0.7,
-        "reason": "Glycine (G) introduces flexibility and can help break the helical structure while maintaining potential for turn formation, which aligns with the design goal to introduce flexibility."
+        "reason": "Tyrosine (Y) introduces diversity and contributes to potential beta sheet formation, while maintaining some helical stability."
       },
       {
         "position": 11,
-        "current_residue": "V",
-        "proposed_residue": "G",
+        "current_residue": "H",
+        "proposed_residue": "T",
         "confidence": 0.8,
-        "reason": "Glycine (G) introduces flexibility and promotes turn formation, aligning with the design goal despite previous rejections."
+        "reason": "Threonine (T) promotes flexibility and can enhance the helical structure while providing some diversity in sequence."
       },
       {
         "position": 12,
-        "current_residue": "V",
-        "proposed_residue": "G",
-        "confidence": 0.9,
-        "reason": "Glycine promotes flexibility and introduces diversity, which aligns with the design goal of creating turn-promoting residues while maintaining a repeating sequence pattern."
+        "current_residue": "H",
+        "proposed_residue": "K",
+        "confidence": 0.8,
+        "reason": "Lysine (K) can help stabilize the helix and improve overall folding while promoting interactions in the N-terminal domain."
       },
       {
         "position": 13,
-        "current_residue": "V",
-        "proposed_residue": "G",
-        "confidence": 0.7,
-        "reason": "Glycine is a turn-promoting residue that increases flexibility, which is necessary for breaking the long stretch of repeating V residues and enhancing structural diversity."
+        "current_residue": "K",
+        "proposed_residue": "T",
+        "confidence": 0.8,
+        "reason": "Threonine (T) introduces a turn-promoting residue that can help maintain structural integrity while promoting the formation of beta sheets in the C-terminal domain, balancing the helical propensity of the N-terminal."
+      },
+      {
+        "position": 14,
+        "current_residue": "L",
+        "proposed_residue": "V",
+        "confidence": 0.8,
+        "reason": "Valine (V) can introduce beta-sheet propensity while maintaining a stable helical structure, improving overall folding while adding diversity."
       },
       {
         "position": 15,
-        "current_residue": "V",
-        "proposed_residue": "G",
-        "confidence": 0.8,
-        "reason": "Glycine introduces flexibility and promotes turn formation, which aligns with the goal of introducing flexibility and breaking the repetitive sequence."
+        "current_residue": "H",
+        "proposed_residue": "A",
+        "confidence": 0.7,
+        "reason": "Ala (A) is a small, helix-favoring residue that can contribute to maintaining the structural integrity of the alpha helix while also potentially reducing the repeat stretch in the sequence."
       },
       {
         "position": 16,
-        "current_residue": "V",
-        "proposed_residue": "G",
+        "current_residue": "H",
+        "proposed_residue": "A",
         "confidence": 0.8,
-        "reason": "Glycine (G) introduces flexibility and promotes turns, breaking the repetitive sequence while maintaining a balance between core stability and surface accessibility."
+        "reason": "Ala (A) is a small, non-polar residue that can maintain the helical structure while improving the sequence diversity and potentially aiding in the compact folding of the protein."
+      },
+      {
+        "position": 17,
+        "current_residue": "A",
+        "proposed_residue": "V",
+        "confidence": 0.8,
+        "reason": "Valine (V) can enhance the beta sheet propensity while maintaining a stable helical environment, improving overall structural integrity."
       },
       {
         "position": 18,
-        "current_residue": "V",
-        "proposed_residue": "G",
-        "confidence": 0.7,
-        "reason": "Glycine introduces flexibility and promotes turn formation, helping to achieve the design goal of breaking the repetitive sequence while still maintaining a potential structural role."
+        "current_residue": "H",
+        "proposed_residue": "T",
+        "confidence": 0.8,
+        "reason": "Threonine (T) can promote helix stability while introducing diversity and potentially aiding in the formation of beta-sheet structures."
       },
       {
         "position": 19,
-        "current_residue": "V",
+        "current_residue": "H",
+        "proposed_residue": "Y",
+        "confidence": 0.8,
+        "reason": "Tyrosine (Y) can introduce diversity while maintaining the helical structure and may improve beta-sheet propensity."
+      },
+      {
+        "position": 20,
+        "current_residue": "L",
+        "proposed_residue": "T",
+        "confidence": 0.8,
+        "reason": "Threonine is a turn-promoting residue that can help introduce diversity and break up the long repeat stretch while still supporting the helical structure."
+      },
+      {
+        "position": 21,
+        "current_residue": "L",
+        "proposed_residue": "V",
+        "confidence": 0.7,
+        "reason": "Valine (V) can promote beta-sheet formation and improve structural diversity, while still being compatible with the helical environment."
+      },
+      {
+        "position": 22,
+        "current_residue": "H",
+        "proposed_residue": "T",
+        "confidence": 0.8,
+        "reason": "Threonine (T) is a turn/coil promoting residue that enhances flexibility while maintaining helical structure, contributing to better packing and potentially improving the beta sheet propensity."
+      },
+      {
+        "position": 23,
+        "current_residue": "A",
+        "proposed_residue": "T",
+        "confidence": 0.8,
+        "reason": "T is an alpha-helix favoring residue that can introduce diversity while maintaining structural integrity."
+      },
+      {
+        "position": 24,
+        "current_residue": "L",
+        "proposed_residue": "V",
+        "confidence": 0.8,
+        "reason": "Valine (V) is a beta-sheet favoring residue that can help increase the sheet propensity in the protein, while still maintaining some helical characteristics."
+      },
+      {
+        "position": 25,
+        "current_residue": "L",
+        "proposed_residue": "V",
+        "confidence": 0.8,
+        "reason": "Valine (V) is a beta-sheet favoring residue that can help introduce structural diversity and improve the sheet propensity while maintaining overall stability in the helical region."
+      },
+      {
+        "position": 26,
+        "current_residue": "L",
+        "proposed_residue": "T",
+        "confidence": 0.8,
+        "reason": "Threonine (T) is a turn-promoting residue that can enhance the structural diversity and potentially help in forming beta sheets while maintaining some helical stability."
+      },
+      {
+        "position": 27,
+        "current_residue": "L",
+        "proposed_residue": "V",
+        "confidence": 0.8,
+        "reason": "Replacing L with V enhances beta sheet propensity while maintaining helical stability, improving overall structural integrity and diversity."
+      },
+      {
+        "position": 28,
+        "current_residue": "L",
+        "proposed_residue": "V",
+        "confidence": 0.8,
+        "reason": "V is a beta-sheet favoring residue that can improve the overall sheet propensity while maintaining the structural integrity of the alpha helix."
+      },
+      {
+        "position": 29,
+        "current_residue": "L",
+        "proposed_residue": "T",
+        "confidence": 0.8,
+        "reason": "Threonine (T) can maintain helical structure while introducing diversity and potentially aiding in the structural balance between the alpha helix and beta sheet domains."
+      },
+      {
+        "position": 30,
+        "current_residue": "A",
+        "proposed_residue": "G",
+        "confidence": 0.7,
+        "reason": "Glycine (G) introduces flexibility while maintaining structural integrity in the helical region. It can also help alleviate steric clashes with neighboring residues."
+      },
+      {
+        "position": 31,
+        "current_residue": "A",
+        "proposed_residue": "T",
+        "confidence": 0.8,
+        "reason": "Threonine (T) can support the alpha-helix structure while adding diversity and contributing to potential beta-sheet formation, enhancing overall structural integrity."
+      },
+      {
+        "position": 32,
+        "current_residue": "H",
+        "proposed_residue": "A",
+        "confidence": 0.8,
+        "reason": "Alanine (A) is a helix-favoring residue that can enhance the stability of the alpha helix while providing some diversity to the sequence."
+      },
+      {
+        "position": 33,
+        "current_residue": "H",
+        "proposed_residue": "S",
+        "confidence": 0.8,
+        "reason": "Serine (S) introduces flexibility and can help connect helical and beta sheet domains while maintaining structural integrity in a slightly exposed position."
+      },
+      {
+        "position": 34,
+        "current_residue": "A",
+        "proposed_residue": "V",
+        "confidence": 0.8,
+        "reason": "Valine (V) is a hydrophobic residue that can promote beta-sheet formation, improving the structural integrity of the protein while balancing the helical and sheet domains."
+      },
+      {
+        "position": 35,
+        "current_residue": "E",
+        "proposed_residue": "V",
+        "confidence": 0.8,
+        "reason": "Valine (V) introduces hydrophobic character that favors beta-sheet formation while maintaining the helical structure, enhancing overall folding stability."
+      },
+      {
+        "position": 36,
+        "current_residue": "E",
+        "proposed_residue": "A",
+        "confidence": 0.8,
+        "reason": "Alanine (A) is a small, helix-favoring residue that can help maintain the alpha helical structure while introducing diversity and potentially aiding in the compactness of the protein."
+      },
+      {
+        "position": 37,
+        "current_residue": "E",
+        "proposed_residue": "A",
+        "confidence": 0.8,
+        "reason": "Alanine (A) is a helix-favoring residue that maintains the structural integrity of the alpha helix while promoting diversity in the sequence."
+      },
+      {
+        "position": 38,
+        "current_residue": "S",
+        "proposed_residue": "T",
+        "confidence": 0.8,
+        "reason": "Threonine (T) is a polar residue that maintains flexibility while supporting the alpha helix structure, and it introduces some diversity without disrupting the helical integrity."
+      },
+      {
+        "position": 39,
+        "current_residue": "A",
+        "proposed_residue": "V",
+        "confidence": 0.8,
+        "reason": "Valine (V) can enhance beta-sheet propensity while maintaining structural integrity in the moderately flexible environment, promoting better overall folding and diversity."
+      },
+      {
+        "position": 40,
+        "current_residue": "H",
+        "proposed_residue": "S",
+        "confidence": 0.8,
+        "reason": "Serine (S) is a polar residue that can promote turn/coil structures, enhancing the flexibility needed for the transition between the alpha helix and beta sheet domains."
+      },
+      {
+        "position": 41,
+        "current_residue": "A",
+        "proposed_residue": "S",
+        "confidence": 0.8,
+        "reason": "Serine (S) can introduce diversity and is favorable for turns, maintaining structural integrity while potentially aiding in beta-sheet formation."
+      },
+      {
+        "position": 42,
+        "current_residue": "K",
+        "proposed_residue": "T",
+        "confidence": 0.8,
+        "reason": "Threonine (T) is a polar residue that can help maintain turn structure while providing more flexibility and enhancing the balance between the alpha helix and beta sheet domains."
+      },
+      {
+        "position": 43,
+        "current_residue": "H",
+        "proposed_residue": "S",
+        "confidence": 0.8,
+        "reason": "Serine (S) promotes flexibility and is favorable for turn/coil regions while maintaining the structural integrity of the overall protein, aligning with the design goals."
+      },
+      {
+        "position": 44,
+        "current_residue": "A",
+        "proposed_residue": "L",
+        "confidence": 0.8,
+        "reason": "Leucine (L) is a helix-favoring residue that enhances structural integrity and packing while adding diversity to the sequence."
+      },
+      {
+        "position": 45,
+        "current_residue": "L",
+        "proposed_residue": "V",
+        "confidence": 0.8,
+        "reason": "Valine (V) provides a balance between maintaining the alpha helix structure while also introducing a beta sheet propensity, contributing to the design goal of a 2-domain protein."
+      },
+      {
+        "position": 46,
+        "current_residue": "A",
+        "proposed_residue": "V",
+        "confidence": 0.8,
+        "reason": "Valine (V) introduces diversity and has a strong beta-sheet propensity, which can help balance the structural integrity of the two domains while maintaining helical stability."
+      },
+      {
+        "position": 47,
+        "current_residue": "E",
+        "proposed_residue": "K",
+        "confidence": 0.8,
+        "reason": "Substituting E with K maintains helix propensity while enhancing surface charge and stability, balancing the design goal for both helical and potential beta sheet regions."
+      },
+      {
+        "position": 48,
+        "current_residue": "K",
+        "proposed_residue": "E",
+        "confidence": 0.8,
+        "reason": "Glutamic acid (E) is an alpha-helix favoring residue that can enhance the structural integrity while also providing surface accessibility, improving the balance between the N-terminal alpha helix and C-terminal beta sheet domains."
+      },
+      {
+        "position": 49,
+        "current_residue": "A",
+        "proposed_residue": "V",
+        "confidence": 0.8,
+        "reason": "Valine (V) introduces hydrophobic character beneficial for core stability while maintaining a balance between helix and potential beta-sheet formation, enhancing structural integrity."
+      },
+      {
+        "position": 50,
+        "current_residue": "L",
+        "proposed_residue": "A",
+        "confidence": 0.8,
+        "reason": "A is a helix-favoring residue that can enhance stability while introducing some diversity in the sequence."
+      },
+      {
+        "position": 51,
+        "current_residue": "L",
+        "proposed_residue": "A",
+        "confidence": 0.8,
+        "reason": "A is a helix-favoring residue that can enhance structural integrity while introducing diversity and potentially improving the beta-sheet propensity."
+      },
+      {
+        "position": 52,
+        "current_residue": "A",
+        "proposed_residue": "V",
+        "confidence": 0.8,
+        "reason": "Valine (V) is a beta-sheet favoring residue that can enhance structural diversity and potentially stabilize the C-terminal beta sheet domain while maintaining the helical structure."
+      },
+      {
+        "position": 53,
+        "current_residue": "A",
+        "proposed_residue": "L",
+        "confidence": 0.7,
+        "reason": "Leucine (L) is a strong helix-favoring residue that maintains structural integrity in the alpha helix while providing some diversity to the sequence."
+      },
+      {
+        "position": 54,
+        "current_residue": "L",
+        "proposed_residue": "V",
+        "confidence": 0.8,
+        "reason": "Valine (V) is a beta-sheet promoting residue that can help balance the helical content and improve overall structural integrity while maintaining compactness."
+      },
+      {
+        "position": 55,
+        "current_residue": "E",
+        "proposed_residue": "V",
+        "confidence": 0.8,
+        "reason": "Valine (V) is a beta-sheet favoring residue that can increase the sheet propensity of the protein while minimally disrupting the existing helical structure at this position."
+      },
+      {
+        "position": 56,
+        "current_residue": "K",
+        "proposed_residue": "A",
+        "confidence": 0.8,
+        "reason": "Alanine (A) is an alpha-helix favoring residue that can help maintain structural integrity while providing some diversity to the sequence."
+      },
+      {
+        "position": 57,
+        "current_residue": "A",
+        "proposed_residue": "V",
+        "confidence": 0.8,
+        "reason": "Valine (V) introduces diversity and favors beta-sheet formation while maintaining compactness in the helical region."
+      },
+      {
+        "position": 58,
+        "current_residue": "L",
+        "proposed_residue": "A",
+        "confidence": 0.8,
+        "reason": "Alanine is a good helix-forming residue that can improve structural diversity while maintaining helical integrity."
+      },
+      {
+        "position": 59,
+        "current_residue": "L",
+        "proposed_residue": "V",
+        "confidence": 0.8,
+        "reason": "Valine (V) has a favorable beta-sheet propensity which could help balance the structure while maintaining the current helical integrity, reducing the repeat stretch of L."
+      },
+      {
+        "position": 60,
+        "current_residue": "L",
+        "proposed_residue": "E",
+        "confidence": 0.8,
+        "reason": "Glutamic acid (E) introduces a polar residue that may enhance turn formation, aiding in the transition between the helical and beta-sheet domains while maintaining stability."
+      },
+      {
+        "position": 61,
+        "current_residue": "E",
+        "proposed_residue": "L",
+        "confidence": 0.8,
+        "reason": "Leucine is a helix-favoring residue that maintains structural integrity while promoting a more diverse sequence and reducing repeat stretches in the local context."
+      },
+      {
+        "position": 62,
+        "current_residue": "L",
+        "proposed_residue": "V",
+        "confidence": 0.8,
+        "reason": "Valine (V) supports the beta-sheet propensity while maintaining the structural integrity of the alpha helix, balancing the design goal."
+      },
+      {
+        "position": 63,
+        "current_residue": "L",
+        "proposed_residue": "A",
+        "confidence": 0.8,
+        "reason": "Ala (A) enhances flexibility and maintains helix stability while introducing diversity and potentially improving sheet propensity."
+      },
+      {
+        "position": 64,
+        "current_residue": "L",
+        "proposed_residue": "E",
+        "confidence": 0.8,
+        "reason": "E is a helix-favoring residue that may promote better packing and add diversity while maintaining the alpha helical structure."
+      },
+      {
+        "position": 65,
+        "current_residue": "A",
+        "proposed_residue": "V",
+        "confidence": 0.8,
+        "reason": "The proposed residue V will maintain the alpha helix while introducing diversity and favoring beta sheet formation in the C-terminal domain, aligning with the design goals."
+      },
+      {
+        "position": 66,
+        "current_residue": "L",
+        "proposed_residue": "A",
+        "confidence": 0.8,
+        "reason": "Alanine (A) is a helix-favoring residue that can improve structural integrity while introducing diversity to the sequence."
+      },
+      {
+        "position": 67,
+        "current_residue": "E",
+        "proposed_residue": "V",
+        "confidence": 0.8,
+        "reason": "Valine (V) introduces a beta sheet propensity while maintaining the helical structure, aiding in achieving the design goal of a 2-domain protein."
+      },
+      {
+        "position": 68,
+        "current_residue": "A",
+        "proposed_residue": "E",
+        "confidence": 0.8,
+        "reason": "Glutamic acid (E) can enhance the structural integrity of the alpha helix while providing potential for better beta sheet propensity in the overall design."
+      },
+      {
+        "position": 69,
+        "current_residue": "A",
+        "proposed_residue": "E",
+        "confidence": 0.7,
+        "reason": "E introduces charge that may help in stabilizing the structure while maintaining helical character, and diversifies the sequence."
+      },
+      {
+        "position": 70,
+        "current_residue": "E",
+        "proposed_residue": "K",
+        "confidence": 0.8,
+        "reason": "K is a helix-favoring residue that can enhance structural integrity while providing better surface accessibility and diversity."
+      },
+      {
+        "position": 71,
+        "current_residue": "L",
+        "proposed_residue": "A",
+        "confidence": 0.8,
+        "reason": "Alanine (A) is a good alpha-helix stabilizer and would increase sequence diversity while maintaining similar helical properties."
+      },
+      {
+        "position": 72,
+        "current_residue": "K",
+        "proposed_residue": "E",
+        "confidence": 0.8,
+        "reason": "Glutamic acid (E) is an alpha-helix favoring residue that can enhance structural integrity while introducing some diversity to the sequence, potentially aiding in the formation of a beta-sheet in the C-terminal domain."
+      },
+      {
+        "position": 73,
+        "current_residue": "A",
+        "proposed_residue": "L",
+        "confidence": 0.8,
+        "reason": "Leucine (L) maintains the alpha-helix structure and introduces diversity while being a helix-promoting residue."
+      },
+      {
+        "position": 74,
+        "current_residue": "E",
+        "proposed_residue": "K",
+        "confidence": 0.8,
+        "reason": "Lysine (K) is an alpha-helix favoring residue that can enhance the structural integrity while providing some positive charge for potential interactions."
+      },
+      {
+        "position": 75,
+        "current_residue": "E",
+        "proposed_residue": "A",
+        "confidence": 0.8,
+        "reason": "Alanine (A) is an alpha-helix favoring residue that can maintain structural integrity and improve sequence diversity while minimizing disruption to the current helical structure."
+      },
+      {
+        "position": 76,
+        "current_residue": "K",
+        "proposed_residue": "E",
+        "confidence": 0.8,
+        "reason": "Glutamic acid (E) is a helix-favoring residue that can enhance stability while introducing diversity, which is needed to improve the overall design goal score."
+      },
+      {
+        "position": 77,
+        "current_residue": "A",
+        "proposed_residue": "V",
+        "confidence": 0.85,
+        "reason": "Valine (V) introduces diversity and promotes beta-sheet formation while maintaining the helical structure, improving overall structural integrity."
+      },
+      {
+        "position": 78,
+        "current_residue": "E",
+        "proposed_residue": "K",
+        "confidence": 0.85,
+        "reason": "Lysine (K) is favorable for maintaining the alpha helix structure and provides positive charge which can improve stability and interactions without significantly disrupting the existing helical environment."
+      },
+      {
+        "position": 79,
+        "current_residue": "L",
+        "proposed_residue": "A",
+        "confidence": 0.8,
+        "reason": "A is an alpha-helix favoring residue that can enhance structural integrity while promoting sequence diversity."
+      },
+      {
+        "position": 80,
+        "current_residue": "K",
+        "proposed_residue": "E",
+        "confidence": 0.8,
+        "reason": "Glutamic acid (E) maintains alpha helix integrity while increasing diversity and contributing to potential beta-sheet formation."
+      },
+      {
+        "position": 81,
+        "current_residue": "M",
+        "proposed_residue": "L",
+        "confidence": 0.8,
+        "reason": "Leucine (L) maintains helical stability while introducing more diversity and improving the potential for beta-sheet formation."
+      },
+      {
+        "position": 82,
+        "current_residue": "L",
+        "proposed_residue": "V",
+        "confidence": 0.8,
+        "reason": "Valine (V) has a beta-sheet propensity and can help introduce structural diversity while maintaining compactness."
+      },
+      {
+        "position": 83,
+        "current_residue": "E",
+        "proposed_residue": "V",
+        "confidence": 0.8,
+        "reason": "Valine (V) introduces hydrophobicity that supports beta-sheet formation while maintaining structural integrity in the alpha helix region, enhancing overall folding stability."
+      },
+      {
+        "position": 84,
+        "current_residue": "L",
+        "proposed_residue": "V",
+        "confidence": 0.8,
+        "reason": "V is a beta-sheet favoring residue that can enhance the overall folding stability while providing diversity, addressing the low sheet propensity without significantly disrupting the existing helical structure."
+      },
+      {
+        "position": 85,
+        "current_residue": "L",
+        "proposed_residue": "S",
+        "confidence": 0.8,
+        "reason": "S is a turn/coil promoting residue that can increase structural flexibility and introduce diversity, while maintaining the helical structure."
+      },
+      {
+        "position": 86,
+        "current_residue": "H",
+        "proposed_residue": "A",
+        "confidence": 0.8,
+        "reason": "Alanine (A) is a helix-favoring residue that can maintain the alpha helical structure while providing some diversity and helping to reduce the long repeat stretch."
+      },
+      {
+        "position": 87,
+        "current_residue": "H",
+        "proposed_residue": "Y",
+        "confidence": 0.8,
+        "reason": "Tyrosine (Y) can help introduce diversity, potentially enhance beta-sheet formation, and maintain structural integrity within the alpha helix region."
+      },
+      {
+        "position": 88,
+        "current_residue": "S",
+        "proposed_residue": "T",
+        "confidence": 0.8,
+        "reason": "Threonine (T) is a turn-promoting residue that can provide structural flexibility while contributing to maintaining the alpha helix, and it helps break up the long repeat stretch."
+      },
+      {
+        "position": 89,
+        "current_residue": "H",
+        "proposed_residue": "S",
+        "confidence": 0.8,
+        "reason": "Mutating to Serine (S) can enhance turn stability and introduce diversity while maintaining structural flexibility."
+      },
+      {
+        "position": 90,
+        "current_residue": "A",
+        "proposed_residue": "E",
+        "confidence": 0.8,
+        "reason": "Glutamic acid (E) introduces a charged residue that improves surface accessibility and helps diversify the sequence while potentially stabilizing the beta-sheet domain."
+      },
+      {
+        "position": 91,
+        "current_residue": "E",
+        "proposed_residue": "V",
+        "confidence": 0.8,
+        "reason": "Valine (V) introduces hydrophobic character and promotes beta-sheet formation, enhancing structural integrity and diversity in the sequence."
+      },
+      {
+        "position": 92,
+        "current_residue": "E",
+        "proposed_residue": "V",
+        "confidence": 0.8,
+        "reason": "Valine (V) promotes beta-sheet formation, enhancing the structural integrity of the C-terminal domain while maintaining sequence diversity."
+      },
+      {
+        "position": 93,
+        "current_residue": "H",
+        "proposed_residue": "S",
+        "confidence": 0.8,
+        "reason": "Serine (S) maintains the helical structure while providing potential for better surface accessibility and reducing the repeat stretch."
+      },
+      {
+        "position": 94,
+        "current_residue": "S",
         "proposed_residue": "G",
         "confidence": 0.8,
-        "reason": "Glycine is a turn-promoting residue that can introduce flexibility in the sequence while maintaining a balance with the surrounding hydrophobic residues."
+        "reason": "Glycine promotes flexibility and maintains surface exposure, potentially aiding in optimal folding while minimizing disruption to the alpha helix."
+      },
+      {
+        "position": 95,
+        "current_residue": "A",
+        "proposed_residue": "V",
+        "confidence": 0.8,
+        "reason": "Valine (V) is a beta-sheet favorable residue that can introduce structural diversity and enhance compactness while maintaining some helical character."
+      },
+      {
+        "position": 96,
+        "current_residue": "A",
+        "proposed_residue": "T",
+        "confidence": 0.8,
+        "reason": "Threonine (T) can maintain the alpha helix structure while introducing some diversity, and its hydroxyl group can stabilize interactions without disrupting the local helical environment."
+      },
+      {
+        "position": 97,
+        "current_residue": "A",
+        "proposed_residue": "T",
+        "confidence": 0.7,
+        "reason": "Threonine (T) is a turn-promoting residue that can enhance the structural integrity of the helix while introducing some diversity and breaking up the long repeat stretch."
+      },
+      {
+        "position": 98,
+        "current_residue": "A",
+        "proposed_residue": "T",
+        "confidence": 0.8,
+        "reason": "Threonine (T) introduces diversity while still supporting the helical structure, and its side chain can promote interactions that may stabilize the overall folding of the protein."
+      },
+      {
+        "position": 99,
+        "current_residue": "T",
+        "proposed_residue": "V",
+        "confidence": 0.8,
+        "reason": "Valine (V) promotes beta-sheet formation and introduces diversity, beneficial for the design goal of maintaining structural integrity while balancing helical and sheet domains."
+      },
+      {
+        "position": 100,
+        "current_residue": "L",
+        "proposed_residue": "V",
+        "confidence": 0.8,
+        "reason": "Valine (V) is a beta-sheet promoting residue, which helps increase sheet propensity while maintaining helical integrity."
+      },
+      {
+        "position": 101,
+        "current_residue": "E",
+        "proposed_residue": "V",
+        "confidence": 0.8,
+        "reason": "Valine (V) is favorable for beta-sheet formation and helps to introduce diversity while maintaining structural integrity in the compact environment."
+      },
+      {
+        "position": 102,
+        "current_residue": "E",
+        "proposed_residue": "V",
+        "confidence": 0.8,
+        "reason": "Valine enhances beta-sheet propensity while maintaining a stable helical structure, helping to balance the design goal of both domains."
+      },
+      {
+        "position": 103,
+        "current_residue": "V",
+        "proposed_residue": "E",
+        "confidence": 0.8,
+        "reason": "E is a helix-favoring residue that can enhance stability while providing better balance between the alpha helix and beta sheet domains."
+      },
+      {
+        "position": 104,
+        "current_residue": "A",
+        "proposed_residue": "V",
+        "confidence": 0.8,
+        "reason": "Valine (V) is a beta-sheet favoring residue that can help increase sheet propensity while maintaining structural integrity in the tightly packed helical environment."
+      },
+      {
+        "position": 105,
+        "current_residue": "E",
+        "proposed_residue": "V",
+        "confidence": 0.8,
+        "reason": "Valine (V) introduces a hydrophobic residue that can enhance beta sheet formation while maintaining structural integrity, complementing the current helix-rich environment."
+      },
+      {
+        "position": 106,
+        "current_residue": "E",
+        "proposed_residue": "V",
+        "confidence": 0.8,
+        "reason": "Valine (V) introduces a beta-sheet favorable residue while maintaining the helical integrity, balancing the need for structural diversity and stability."
+      },
+      {
+        "position": 107,
+        "current_residue": "V",
+        "proposed_residue": "T",
+        "confidence": 0.8,
+        "reason": "T can maintain the helical structure while introducing diversity and potentially enhancing beta-sheet propensity."
+      },
+      {
+        "position": 108,
+        "current_residue": "A",
+        "proposed_residue": "V",
+        "confidence": 0.8,
+        "reason": "Valine (V) is a strong helix-forming residue that can enhance the structural integrity of the alpha helix while providing some diversity and reducing the long repeat stretch."
+      },
+      {
+        "position": 109,
+        "current_residue": "E",
+        "proposed_residue": "V",
+        "confidence": 0.8,
+        "reason": "Valine (V) is a hydrophobic residue that can stabilize the alpha helix while also introducing beta sheet propensity, improving overall structural integrity."
+      },
+      {
+        "position": 110,
+        "current_residue": "L",
+        "proposed_residue": "V",
+        "confidence": 0.8,
+        "reason": "Valine (V) promotes alpha-helix stability and introduces diversity, while maintaining structural integrity in the compact helical region."
+      },
+      {
+        "position": 111,
+        "current_residue": "V",
+        "proposed_residue": "T",
+        "confidence": 0.8,
+        "reason": "T is a turn-promoting residue that can help break the repeat stretch and improve structural diversity while maintaining some helical characteristics."
+      },
+      {
+        "position": 112,
+        "current_residue": "A",
+        "proposed_residue": "V",
+        "confidence": 0.8,
+        "reason": "Valine (V) promotes beta-sheet formation and can help balance the structural integrity between the two domains while maintaining some alpha-helix character."
+      },
+      {
+        "position": 113,
+        "current_residue": "V",
+        "proposed_residue": "T",
+        "confidence": 0.8,
+        "reason": "T is a turn-promoting residue that can help introduce diversity and break the repeat stretch while maintaining helical structure."
+      },
+      {
+        "position": 114,
+        "current_residue": "L",
+        "proposed_residue": "V",
+        "confidence": 0.8,
+        "reason": "Valine (V) favors beta-sheet formation, enhancing structural diversity and stability, which aligns with the design goal of creating a two-domain protein."
+      },
+      {
+        "position": 115,
+        "current_residue": "V",
+        "proposed_residue": "T",
+        "confidence": 0.8,
+        "reason": "T maintains the helical structure and introduces a turn-promoting residue that may improve structural flexibility while still being compatible with the adjacent alpha helix."
+      },
+      {
+        "position": 116,
+        "current_residue": "T",
+        "proposed_residue": "V",
+        "confidence": 0.8,
+        "reason": "Valine (V) is a strong helix-promoting residue that can help improve the structural integrity of the alpha helix while also enhancing the overall sequence diversity and potential beta sheet formation."
+      },
+      {
+        "position": 117,
+        "current_residue": "E",
+        "proposed_residue": "V",
+        "confidence": 0.8,
+        "reason": "Valine (V) provides a suitable balance for helical structure while increasing beta sheet propensity, thus aiding the design goal of maintaining structural integrity and encouraging optimal folding in a compact environment."
+      },
+      {
+        "position": 118,
+        "current_residue": "A",
+        "proposed_residue": "V",
+        "confidence": 0.8,
+        "reason": "Valine (V) introduces a more beta-sheet favorable residue while maintaining helical structure, enhancing overall structural integrity and diversity."
+      },
+      {
+        "position": 119,
+        "current_residue": "V",
+        "proposed_residue": "I",
+        "confidence": 0.8,
+        "reason": "Isoleucine (I) is a strong alpha-helix stabilizer that maintains the helical structure while promoting compact folding, which is beneficial for the design goal."
+      },
+      {
+        "position": 120,
+        "current_residue": "L",
+        "proposed_residue": "I",
+        "confidence": 0.8,
+        "reason": "Isoleucine (I) is hydrophobic and can promote helical stability while improving beta-sheet propensity, enhancing overall structural integrity."
+      },
+      {
+        "position": 121,
+        "current_residue": "E",
+        "proposed_residue": "T",
+        "confidence": 0.8,
+        "reason": "Threonine (T) can maintain the helical structure while providing some diversity and slightly increasing the potential for beta-sheet formation, addressing the need for better folding space utilization."
+      },
+      {
+        "position": 122,
+        "current_residue": "I",
+        "proposed_residue": "V",
+        "confidence": 0.8,
+        "reason": "Valine favors beta-sheet formation, which can enhance structural diversity and balance the strong helical content while maintaining stability."
+      },
+      {
+        "position": 123,
+        "current_residue": "V",
+        "proposed_residue": "I",
+        "confidence": 0.8,
+        "reason": "Isoleucine is an alpha-helix favoring residue that maintains structural integrity while providing some beta-sheet potential, which aligns with the design goal."
+      },
+      {
+        "position": 124,
+        "current_residue": "L",
+        "proposed_residue": "I",
+        "confidence": 0.8,
+        "reason": "Isoleucine (I) is a helix-favoring residue that can enhance stability while introducing diversity and improving the potential for beta sheet formation in the C-terminal domain."
+      },
+      {
+        "position": 125,
+        "current_residue": "E",
+        "proposed_residue": "V",
+        "confidence": 0.8,
+        "reason": "Valine (V) is a hydrophobic residue that can stabilize the alpha helix while adding diversity and has beta sheet propensity, which can help balance the structure."
+      },
+      {
+        "position": 126,
+        "current_residue": "T",
+        "proposed_residue": "V",
+        "confidence": 0.8,
+        "reason": "Valine (V) is favorable for beta-sheet formation and maintains the helical structure while enhancing overall folding stability."
+      },
+      {
+        "position": 127,
+        "current_residue": "V",
+        "proposed_residue": "I",
+        "confidence": 0.8,
+        "reason": "Isoleucine is a hydrophobic residue that supports alpha-helix stability while also providing some diversity to the sequence, which is needed to improve beta-sheet propensity."
+      },
+      {
+        "position": 128,
+        "current_residue": "I",
+        "proposed_residue": "V",
+        "confidence": 0.8,
+        "reason": "Valine (V) has a strong beta-sheet propensity and can help balance the secondary structure, improving folding stability while maintaining the helical character."
+      },
+      {
+        "position": 129,
+        "current_residue": "V",
+        "proposed_residue": "T",
+        "confidence": 0.8,
+        "reason": "T is a turn/coil promoting residue that can enhance the structural flexibility and potentially improve the transition to the beta sheet domain."
+      },
+      {
+        "position": 130,
+        "current_residue": "L",
+        "proposed_residue": "V",
+        "confidence": 0.8,
+        "reason": "V is a helix-favoring residue that can enhance structural integrity while introducing diversity and promoting beta-sheet propensity."
+      },
+      {
+        "position": 131,
+        "current_residue": "E",
+        "proposed_residue": "V",
+        "confidence": 0.8,
+        "reason": "Valine (V) has good potential to stabilize the alpha helix while also contributing to the overall hydrophobic character and providing a better balance for beta sheet formation."
+      },
+      {
+        "position": 132,
+        "current_residue": "L",
+        "proposed_residue": "V",
+        "confidence": 0.8,
+        "reason": "V is a beta-sheet favoring residue that can enhance structural diversity and maintain stability in the local context, balancing the helical domain with potential beta-sheet formation."
+      },
+      {
+        "position": 133,
+        "current_residue": "L",
+        "proposed_residue": "T",
+        "confidence": 0.9,
+        "reason": "T is a polar residue that can help break the long repeat stretch while maintaining helix stability and enhancing structural diversity."
+      },
+      {
+        "position": 134,
+        "current_residue": "L",
+        "proposed_residue": "V",
+        "confidence": 0.8,
+        "reason": "Valine (V) is a beta-sheet favoring residue that can enhance structural diversity and potentially improve the sheet propensity without disrupting the helical structure."
+      },
+      {
+        "position": 135,
+        "current_residue": "H",
+        "proposed_residue": "T",
+        "confidence": 0.8,
+        "reason": "Threonine (T) can stabilize the turn structure while introducing diversity and maintaining surface exposure, which is beneficial for the overall folding and structural integrity."
       }
     ],
     "fold_result": {
-      "pdb_path": "outputs/iter_1.relaxed.pdb",
-      "energy": 0.017534,
-      "objective_score": 0.261883,
-      "combined_score": 0.101977,
-      "rosetta_total_score": 1.3
+      "pdb_path": "outputs/iter_1.pdb",
+      "energy": 0.0,
+      "objective_score": 0.581281,
+      "combined_score": 0.203845,
+      "rosetta_total_score": 1644.32
     },
-    "accepted": true,
-    "score_delta": 0.077987
+    "accepted": false,
+    "score_delta": -0.004507000000000011
   },
   {
     "iteration": 2,
-    "sequence_before": "GGGVVVVVVVGGGGVGGVGG",
-    "sequence_after": "PSSGGGGGGGPSPPGPSGPS",
+    "sequence_before": "LHLEHKHHLHHHHKLHHAHHLLHALLLLLLAAHHAEEESAHAKHALAEKALLAALEKALLLELLLALEAAELKAEEKAELKMLELLHHSHAEEHSAAAATLEEVAEEVAELVAVLVTEAVLEIVLETVIVLELLLH",
+    "sequence_after": "LHLEHKHHLHHHHKLHHAHHLLHALLLLLLAAHHAEEEGAHVKHGLAEKALLAALEKALLLELLLALEAAELKAEEKAELKMLELLHHSHAEEHSAAAATLEEVAEEVAELVAVLVTEAVLEIVLETVIVLELLLH",
     "mutations": [
       {
-        "position": 0,
-        "current_residue": "G",
-        "proposed_residue": "P",
-        "confidence": 0.8,
-        "reason": "Proline introduces flexibility and promotes turns, which aligns with the design goal of creating turn-promoting residues and breaking up the repetitive sequence pattern."
-      },
-      {
-        "position": 1,
-        "current_residue": "G",
-        "proposed_residue": "S",
-        "confidence": 0.8,
-        "reason": "Serine (S) is a turn-promoting residue that introduces flexibility and increases sequence diversity while maintaining low energy and avoiding disruption to the current structure."
-      },
-      {
-        "position": 2,
-        "current_residue": "G",
-        "proposed_residue": "S",
-        "confidence": 0.8,
-        "reason": "Serine is a turn-promoting residue that introduces flexibility while providing diversity to the sequence, breaking the repetitive pattern of glycine."
-      },
-      {
-        "position": 3,
-        "current_residue": "V",
+        "position": 38,
+        "current_residue": "S",
         "proposed_residue": "G",
         "confidence": 0.8,
-        "reason": "Glycine (G) is a turn-promoting residue that introduces flexibility, which aligns with the design goal of promoting flexibility and breaking the repetitive pattern."
+        "reason": "Glycine (G) maintains flexibility and supports the helical structure while potentially aiding in the transition to the beta sheet domain."
       },
       {
-        "position": 4,
-        "current_residue": "V",
+        "position": 41,
+        "current_residue": "A",
+        "proposed_residue": "V",
+        "confidence": 0.8,
+        "reason": "Valine (V) can enhance beta-sheet propensity, contributing to overall structural integrity while maintaining low energy configuration."
+      },
+      {
+        "position": 44,
+        "current_residue": "A",
         "proposed_residue": "G",
         "confidence": 0.8,
-        "reason": "Glycine promotes flexibility and can help introduce turns in the sequence, aligning with the design goal of enhancing flexibility and breaking up the repeating sequence."
-      },
-      {
-        "position": 5,
-        "current_residue": "V",
-        "proposed_residue": "G",
-        "confidence": 0.8,
-        "reason": "Glycine (G) promotes flexibility and turn formation, aligning with the design goal to introduce flexibility and break the repetitive V sequence."
-      },
-      {
-        "position": 6,
-        "current_residue": "V",
-        "proposed_residue": "G",
-        "confidence": 0.8,
-        "reason": "Glycine is a strong turn-promoting residue that introduces flexibility and helps break the long stretch of V residues, enhancing structural diversity."
-      },
-      {
-        "position": 7,
-        "current_residue": "V",
-        "proposed_residue": "G",
-        "confidence": 0.8,
-        "reason": "Glycine promotes flexibility and turns while introducing diversity in the sequence, addressing the design goal."
-      },
-      {
-        "position": 8,
-        "current_residue": "V",
-        "proposed_residue": "G",
-        "confidence": 0.8,
-        "reason": "Glycine promotes flexibility and turn formation, which aligns with the design goal of introducing flexibility and diversifying the sequence."
-      },
-      {
-        "position": 9,
-        "current_residue": "V",
-        "proposed_residue": "G",
-        "confidence": 0.8,
-        "reason": "Glycine (G) is a turn-promoting residue that introduces flexibility, aligning with the design goal to create repeating sequence patterns and enhance structural diversity."
-      },
-      {
-        "position": 10,
-        "current_residue": "G",
-        "proposed_residue": "P",
-        "confidence": 0.8,
-        "reason": "Proline (P) can introduce flexibility and break up the repetitive sequence pattern while promoting turn formation."
-      },
-      {
-        "position": 11,
-        "current_residue": "G",
-        "proposed_residue": "S",
-        "confidence": 0.9,
-        "reason": "Serine (S) is a turn-promoting residue that introduces flexibility and breaks up the repeating pattern, enhancing diversity while maintaining structural integrity."
-      },
-      {
-        "position": 12,
-        "current_residue": "G",
-        "proposed_residue": "P",
-        "confidence": 0.8,
-        "reason": "Proline introduces flexibility and disrupts repetitive patterns, promoting turn formation while maintaining structural integrity."
-      },
-      {
-        "position": 13,
-        "current_residue": "G",
-        "proposed_residue": "P",
-        "confidence": 0.8,
-        "reason": "Proline is a turn-promoting residue that can introduce flexibility while breaking up the long repeat stretch, contributing to structural diversity."
-      },
-      {
-        "position": 14,
-        "current_residue": "V",
-        "proposed_residue": "G",
-        "confidence": 0.8,
-        "reason": "Glycine is a turn-promoting residue that introduces flexibility and breaks the repetitive structure, aligning with the design goal."
-      },
-      {
-        "position": 15,
-        "current_residue": "G",
-        "proposed_residue": "P",
-        "confidence": 0.8,
-        "reason": "Proline introduces flexibility and promotes turn formation, breaking up the repetitive pattern while maintaining structural integrity."
-      },
-      {
-        "position": 16,
-        "current_residue": "G",
-        "proposed_residue": "S",
-        "confidence": 0.8,
-        "reason": "Serine (S) is a turn-promoting residue that introduces flexibility while contributing to sequence diversity, which aligns with the design goal."
-      },
-      {
-        "position": 17,
-        "current_residue": "V",
-        "proposed_residue": "G",
-        "confidence": 0.8,
-        "reason": "Glycine promotes flexibility and introduces diversity, helping to break the long repeat of V residues while fitting in a turn-promoting position."
-      },
-      {
-        "position": 18,
-        "current_residue": "G",
-        "proposed_residue": "P",
-        "confidence": 0.85,
-        "reason": "Proline introduces flexibility and promotes turn formation, helping to break the long repeat stretch while maintaining a turn-promoting character."
-      },
-      {
-        "position": 19,
-        "current_residue": "G",
-        "proposed_residue": "S",
-        "confidence": 0.8,
-        "reason": "Serine is a turn-promoting residue that introduces flexibility and breaks the repeating pattern, aligning with the design goal."
+        "reason": "Glycine (G) introduces flexibility that may support the structural integrity of the helical domain while maintaining compactness in the overall folding."
       }
     ],
     "fold_result": {
-      "pdb_path": "outputs/iter_2.relaxed.pdb",
-      "energy": 0.025368,
-      "objective_score": 0.332482,
-      "combined_score": 0.131212,
-      "rosetta_total_score": -17.57
+      "pdb_path": "outputs/iter_2.pdb",
+      "energy": 0.0,
+      "objective_score": 0.595576,
+      "combined_score": 0.208986,
+      "rosetta_total_score": 1034.23
     },
     "accepted": true,
-    "score_delta": 0.029234999999999997
+    "score_delta": 0.0006339999999999957
   },
   {
     "iteration": 3,
-    "sequence_before": "PSSGGGGGGGPSPPGPSGPS",
-    "sequence_after": "GGGSSSSSSSGGGGNGGSGG",
-    "mutations": [
-      {
-        "position": 0,
-        "current_residue": "P",
-        "proposed_residue": "G",
-        "confidence": 0.8,
-        "reason": "Glycine promotes flexibility and turn formation, aligning with the design goal of introducing flexibility and creating sequence diversity."
-      },
-      {
-        "position": 1,
-        "current_residue": "S",
-        "proposed_residue": "G",
-        "confidence": 0.8,
-        "reason": "Glycine (G) introduces flexibility and promotes turn formation while adding diversity to the sequence."
-      },
-      {
-        "position": 2,
-        "current_residue": "S",
-        "proposed_residue": "G",
-        "confidence": 0.8,
-        "reason": "Glycine is a strong turn-promoting residue that introduces flexibility and helps to break up the repeating sequence, aligning with the design goal."
-      },
-      {
-        "position": 3,
-        "current_residue": "G",
-        "proposed_residue": "S",
-        "confidence": 0.8,
-        "reason": "Serine (S) is a turn-promoting residue that introduces flexibility while increasing sequence diversity and maintaining structural integrity."
-      },
-      {
-        "position": 4,
-        "current_residue": "G",
-        "proposed_residue": "S",
-        "confidence": 0.8,
-        "reason": "Serine is a turn-promoting residue that introduces flexibility while breaking the repeating stretch, improving sequence diversity."
-      },
-      {
-        "position": 5,
-        "current_residue": "G",
-        "proposed_residue": "S",
-        "confidence": 0.8,
-        "reason": "Serine (S) is a turn-promoting residue that introduces flexibility and diversity, helping to break the long repeat stretch and align with the design goal."
-      },
-      {
-        "position": 6,
-        "current_residue": "G",
-        "proposed_residue": "S",
-        "confidence": 0.8,
-        "reason": "Serine (S) is a turn-promoting residue that introduces flexibility while maintaining the sequence diversity needed to break the long repeat stretch of Gs."
-      },
-      {
-        "position": 7,
-        "current_residue": "G",
-        "proposed_residue": "S",
-        "confidence": 0.8,
-        "reason": "Serine (S) is a turn-promoting residue that introduces flexibility and maintains a balance in sequence diversity, helping to break the long stretch of G residues."
-      },
-      {
-        "position": 8,
-        "current_residue": "G",
-        "proposed_residue": "S",
-        "confidence": 0.9,
-        "reason": "Serine is a turn-promoting residue that introduces flexibility while breaking the sequence pattern, enhancing diversity and maintaining structural integrity."
-      },
-      {
-        "position": 9,
-        "current_residue": "G",
-        "proposed_residue": "S",
-        "confidence": 0.8,
-        "reason": "Serine (S) is a turn-promoting residue that introduces flexibility and maintains sequence diversity, improving the overall design goal."
-      },
-      {
-        "position": 10,
-        "current_residue": "P",
-        "proposed_residue": "G",
-        "confidence": 0.8,
-        "reason": "Glycine (G) is a strong turn-promoting residue that introduces flexibility and helps break the repetitive sequence pattern."
-      },
-      {
-        "position": 11,
-        "current_residue": "S",
-        "proposed_residue": "G",
-        "confidence": 0.9,
-        "reason": "Glycine (G) is a strong turn-promoting residue that introduces flexibility and can help break up the long repeat stretch, aligning with the design goal."
-      },
-      {
-        "position": 12,
-        "current_residue": "P",
-        "proposed_residue": "G",
-        "confidence": 0.8,
-        "reason": "Glycine promotes flexibility and introduces diversity while maintaining a turn-promoting character, aligning with the design goal."
-      },
-      {
-        "position": 13,
-        "current_residue": "P",
-        "proposed_residue": "G",
-        "confidence": 0.8,
-        "reason": "Glycine is a strong turn-promoting residue that increases flexibility and helps introduce turns in the sequence, aligning with the design goal."
-      },
-      {
-        "position": 14,
-        "current_residue": "G",
-        "proposed_residue": "N",
-        "confidence": 0.8,
-        "reason": "Asparagine (N) is a turn-promoting residue that introduces flexibility and contributes to sequence diversity, breaking up the repeating stretch while maintaining structural integrity."
-      },
-      {
-        "position": 15,
-        "current_residue": "P",
-        "proposed_residue": "G",
-        "confidence": 0.8,
-        "reason": "Glycine promotes flexibility and introduces diversity while maintaining the ability to form turns in the sequence."
-      },
-      {
-        "position": 16,
-        "current_residue": "S",
-        "proposed_residue": "G",
-        "confidence": 0.8,
-        "reason": "Glycine (G) promotes flexibility and turn formation, aligning with the design goal of introducing flexibility while maintaining a repeating sequence pattern."
-      },
-      {
-        "position": 17,
-        "current_residue": "G",
-        "proposed_residue": "S",
-        "confidence": 0.8,
-        "reason": "Serine is a turn-promoting residue that introduces flexibility and diversity in the sequence, which aligns with the design goal."
-      },
-      {
-        "position": 18,
-        "current_residue": "P",
-        "proposed_residue": "G",
-        "confidence": 0.8,
-        "reason": "Glycine promotes flexibility and turn formation, helping to introduce sequence diversity and break the long repeat stretch."
-      },
-      {
-        "position": 19,
-        "current_residue": "S",
-        "proposed_residue": "G",
-        "confidence": 0.8,
-        "reason": "Glycine is a turn-promoting residue that enhances flexibility and introduces diversity in the sequence, aligning with the design goal."
-      }
-    ],
+    "sequence_before": "LHLEHKHHLHHHHKLHHAHHLLHALLLLLLAAHHAEEEGAHVKHGLAEKALLAALEKALLLELLLALEAAELKAEEKAELKMLELLHHSHAEEHSAAAATLEEVAEEVAELVAVLVTEAVLEIVLETVIVLELLLH",
+    "sequence_after": "LHLEHKHHLHHHHKLHHAHHLLHALLLLLLAAHHAEEEGAHVKHGLAEKALLAALEKALLLELLLALEAAELKAEEKAELKMLELLHHSHAEEHSAAAATLEEVAEEVAELVAVLVTEAVLEIVLETVIVLELLLH",
+    "mutations": [],
     "fold_result": {
-      "pdb_path": "outputs/iter_3.relaxed.pdb",
-      "energy": 0.021451,
-      "objective_score": 0.302842,
-      "combined_score": 0.118613,
-      "rosetta_total_score": -8.99
+      "pdb_path": "outputs/iter_3.pdb",
+      "energy": 0.0,
+      "objective_score": 0.595576,
+      "combined_score": 0.208986,
+      "rosetta_total_score": 1034.23
     },
     "accepted": false,
-    "score_delta": -0.012598999999999999
+    "score_delta": 0.0
   },
   {
     "iteration": 4,
-    "sequence_before": "PSSGGGGGGGPSPPGPSGPS",
-    "sequence_after": "GGGGGSGGSSGGGGNGGSGG",
+    "sequence_before": "LHLEHKHHLHHHHKLHHAHHLLHALLLLLLAAHHAEEEGAHVKHGLAEKALLAALEKALLLELLLALEAAELKAEEKAELKMLELLHHSHAEEHSAAAATLEEVAEEVAELVAVLVTEAVLEIVLETVIVLELLLH",
+    "sequence_after": "LHLEHKHHLHHHHKLHHAHHLLHALLLLLLAAHHAEEESAGGKHALAEKALLAALEKALLLELLLALEAAELKAEEKAELKMLELLHHSHAEEHSAAAATLEEVAEEVAELVAVLVTEAVLEIVLETVIVLELLLH",
     "mutations": [
       {
-        "position": 0,
-        "current_residue": "P",
-        "proposed_residue": "G",
-        "confidence": 0.8,
-        "reason": "Glycine promotes flexibility and turn formation, aligning well with the design goal of introducing flexibility and breaking up repeating sequence patterns."
-      },
-      {
-        "position": 1,
-        "current_residue": "S",
-        "proposed_residue": "G",
-        "confidence": 0.8,
-        "reason": "Glycine (G) introduces flexibility and promotes turn formation, which aligns with the design goal."
-      },
-      {
-        "position": 2,
-        "current_residue": "S",
-        "proposed_residue": "G",
-        "confidence": 0.7,
-        "reason": "Glycine promotes flexibility and turn formation, aligning with the design goal of introducing flexibility while maintaining a repeating sequence pattern."
-      },
-      {
-        "position": 5,
+        "position": 38,
         "current_residue": "G",
         "proposed_residue": "S",
-        "confidence": 0.7,
-        "reason": "Serine (S) is a turn-promoting residue that can introduce flexibility while breaking the long stretch of glycine residues, promoting a more diverse sequence."
+        "confidence": 0.9,
+        "reason": "Serine (S) maintains flexibility and supports the helical structure, while balancing the need for surface accessibility and potential interactions with neighboring residues."
       },
       {
-        "position": 8,
+        "position": 40,
+        "current_residue": "H",
+        "proposed_residue": "G",
+        "confidence": 0.8,
+        "reason": "Glycine (G) introduces flexibility and can help maintain the turn/coil structure while allowing for better packing in the protein's overall fold, potentially improving the beta sheet domain."
+      },
+      {
+        "position": 41,
+        "current_residue": "V",
+        "proposed_residue": "G",
+        "confidence": 0.8,
+        "reason": "Glycine (G) can enhance flexibility in the turn region, promoting structural integrity while allowing for better folding of the adjacent alpha helix and beta sheet."
+      },
+      {
+        "position": 44,
         "current_residue": "G",
-        "proposed_residue": "S",
-        "confidence": 0.8,
-        "reason": "Serine is a turn-promoting residue that introduces flexibility and contributes to breaking the repetitive sequence pattern."
-      },
-      {
-        "position": 9,
-        "current_residue": "G",
-        "proposed_residue": "S",
-        "confidence": 0.6,
-        "reason": "Serine is a turn-promoting residue that can introduce flexibility while also providing a different amino acid for sequence diversity, despite the previous rejection."
-      },
-      {
-        "position": 10,
-        "current_residue": "P",
-        "proposed_residue": "G",
-        "confidence": 0.8,
-        "reason": "Glycine (G) promotes flexibility and can break the current repeating sequence pattern while maintaining a low energy state."
-      },
-      {
-        "position": 11,
-        "current_residue": "S",
-        "proposed_residue": "G",
-        "confidence": 0.8,
-        "reason": "Glycine (G) is a strong turn-promoting residue that will enhance flexibility in the structure, aligning with the design goal of introducing more flexible turn-promoting residues."
-      },
-      {
-        "position": 12,
-        "current_residue": "P",
-        "proposed_residue": "G",
-        "confidence": 0.7,
-        "reason": "Glycine introduces flexibility and can help break up repetitive sequence patterns, aligning with the design goal."
-      },
-      {
-        "position": 13,
-        "current_residue": "P",
-        "proposed_residue": "G",
-        "confidence": 0.7,
-        "reason": "Glycine (G) is a strong turn-promoting residue that can introduce flexibility while maintaining the turn structure."
-      },
-      {
-        "position": 14,
-        "current_residue": "G",
-        "proposed_residue": "N",
-        "confidence": 0.7,
-        "reason": "Asparagine is a turn-promoting residue that can introduce flexibility and break the repetitive pattern, improving sequence diversity."
-      },
-      {
-        "position": 15,
-        "current_residue": "P",
-        "proposed_residue": "G",
-        "confidence": 0.7,
-        "reason": "Glycine promotes flexibility and can help introduce diversity while maintaining the turn-promoting nature of the sequence."
-      },
-      {
-        "position": 16,
-        "current_residue": "S",
-        "proposed_residue": "G",
-        "confidence": 0.8,
-        "reason": "Glycine (G) promotes flexibility and turn formation, aligning with the design goal to introduce flexibility and break the repeating sequence pattern."
-      },
-      {
-        "position": 17,
-        "current_residue": "G",
-        "proposed_residue": "S",
-        "confidence": 0.6,
-        "reason": "Serine is a turn-promoting residue that can introduce flexibility and improve sequence diversity, aligning with the design goal."
-      },
-      {
-        "position": 18,
-        "current_residue": "P",
-        "proposed_residue": "G",
-        "confidence": 0.8,
-        "reason": "Glycine introduces flexibility and promotes turn formation, aligning with the design goal of enhancing flexibility and reducing repetitive sequences."
-      },
-      {
-        "position": 19,
-        "current_residue": "S",
-        "proposed_residue": "G",
-        "confidence": 0.7,
-        "reason": "Glycine is a strong turn-promoting residue that can enhance flexibility, aligning with the design goal while maintaining structural integrity."
+        "proposed_residue": "A",
+        "confidence": 0.9,
+        "reason": "Alanine (A) is a helix-favoring residue that can help maintain the structural integrity of the N-terminal alpha helix domain while providing necessary flexibility."
       }
     ],
     "fold_result": {
-      "pdb_path": "outputs/iter_4.relaxed.pdb",
-      "energy": 0.018511,
-      "objective_score": 0.301789,
-      "combined_score": 0.116682,
-      "rosetta_total_score": -1.46
+      "pdb_path": "outputs/iter_4.pdb",
+      "energy": 0.0,
+      "objective_score": 0.593317,
+      "combined_score": 0.208197,
+      "rosetta_total_score": 748.42
     },
     "accepted": false,
-    "score_delta": -0.014530000000000001
+    "score_delta": -0.0007890000000000119
   },
   {
     "iteration": 5,
-    "sequence_before": "PSSGGGGGGGPSPPGPSGPS",
-    "sequence_after": "PNSGGGGGGGGGGGGGNGPD",
+    "sequence_before": "LHLEHKHHLHHHHKLHHAHHLLHALLLLLLAAHHAEEEGAHVKHGLAEKALLAALEKALLLELLLALEAAELKAEEKAELKMLELLHHSHAEEHSAAAATLEEVAEEVAELVAVLVTEAVLEIVLETVIVLELLLH",
+    "sequence_after": "LHLEHKHHLHHHHKLHHAHHLLHALLLLLLAAHHAEEEGAHVKHGLAEKALLAALEKALLLELLLALEAAELKAEEKAELKMLELLHHSHAEEHSAAAATLEEVAEEVAELVAVLVTEAVLEIVLETVIVLELLLH",
+    "mutations": [],
+    "fold_result": {
+      "pdb_path": "outputs/iter_5.pdb",
+      "energy": 0.0,
+      "objective_score": 0.595576,
+      "combined_score": 0.208986,
+      "rosetta_total_score": 1034.23
+    },
+    "accepted": false,
+    "score_delta": 0.0
+  },
+  {
+    "iteration": 6,
+    "sequence_before": "LHLEHKHHLHHHHKLHHAHHLLHALLLLLLAAHHAEEEGAHVKHGLAEKALLAALEKALLLELLLALEAAELKAEEKAELKMLELLHHSHAEEHSAAAATLEEVAEEVAELVAVLVTEAVLEIVLETVIVLELLLH",
+    "sequence_after": "LHLEHKHHLHHHHKLHHAHHLLHALLLLLLAAHHAEEEGAETKEVLGVKALLAALEKALLLELLLALEAAELKAEEKAELKMLELLHHSHAEEHSAAAATLEEVAEEVAELVAVLVTEAVLEITLETVIVLELLLH",
     "mutations": [
       {
-        "position": 1,
-        "current_residue": "S",
-        "proposed_residue": "N",
+        "position": 40,
+        "current_residue": "H",
+        "proposed_residue": "E",
         "confidence": 0.8,
-        "reason": "Asparagine (N) is a turn-promoting residue that introduces flexibility while maintaining sequence diversity and could potentially improve structural stability."
+        "reason": "Glutamic acid (E) can maintain the turn structure while potentially increasing beta-sheet propensity, complementing the design goal for structural integrity and folding."
       },
       {
-        "position": 10,
-        "current_residue": "P",
+        "position": 41,
+        "current_residue": "V",
+        "proposed_residue": "T",
+        "confidence": 0.8,
+        "reason": "Threonine (T) is a polar residue that can enhance the flexibility of the turn region while maintaining structural integrity, potentially favoring the formation of beta sheets."
+      },
+      {
+        "position": 43,
+        "current_residue": "H",
+        "proposed_residue": "E",
+        "confidence": 0.8,
+        "reason": "Glutamic acid (E) can provide better surface accessibility while maintaining some helix propensity, balancing structural integrity between the two domains."
+      },
+      {
+        "position": 44,
+        "current_residue": "G",
+        "proposed_residue": "V",
+        "confidence": 0.7,
+        "reason": "Valine (V) is a beta-sheet favoring residue that could enhance the folding stability of the C-terminal domain while maintaining the overall structural integrity of the protein."
+      },
+      {
+        "position": 46,
+        "current_residue": "A",
         "proposed_residue": "G",
-        "confidence": 0.8,
-        "reason": "Glycine (G) promotes flexibility and can help introduce turn-promoting characteristics, aligning with the design goal."
+        "confidence": 0.7,
+        "reason": "Glycine (G) is flexible and can help accommodate the competing structural requirements of the two domains, while maintaining the helical character."
       },
       {
-        "position": 11,
-        "current_residue": "S",
-        "proposed_residue": "G",
+        "position": 47,
+        "current_residue": "E",
+        "proposed_residue": "V",
         "confidence": 0.8,
-        "reason": "Glycine (G) is a strong turn-promoting residue that increases flexibility, addressing the design goal of introducing flexibility and breaking up the repetitive sequence pattern."
+        "reason": "Substituting E with V introduces a beta-sheet favorable residue, enhancing structural diversity and potentially improving the folding of the C-terminal domain while maintaining helical integrity."
       },
       {
-        "position": 12,
-        "current_residue": "P",
-        "proposed_residue": "G",
+        "position": 123,
+        "current_residue": "V",
+        "proposed_residue": "T",
         "confidence": 0.8,
-        "reason": "Glycine introduces flexibility and helps break the repetitive pattern while maintaining a turn-promoting character, despite previous rejections."
-      },
-      {
-        "position": 13,
-        "current_residue": "P",
-        "proposed_residue": "G",
-        "confidence": 0.8,
-        "reason": "Glycine is a strong turn-promoting residue that can introduce flexibility in the sequence, aligning with the design goal despite previous rejections."
-      },
-      {
-        "position": 15,
-        "current_residue": "P",
-        "proposed_residue": "G",
-        "confidence": 0.8,
-        "reason": "Glycine promotes flexibility and can introduce diversity while fitting the turn-promoting design goal."
-      },
-      {
-        "position": 16,
-        "current_residue": "S",
-        "proposed_residue": "N",
-        "confidence": 0.8,
-        "reason": "Asparagine (N) is a turn-promoting residue that can introduce flexibility and diversity, improving the overall sequence pattern while maintaining the structural integrity."
-      },
-      {
-        "position": 19,
-        "current_residue": "S",
-        "proposed_residue": "D",
-        "confidence": 0.8,
-        "reason": "Aspartic acid (D) is a turn-promoting residue that can introduce flexibility while also providing some diversity and breaking the repetitive pattern in the sequence."
+        "reason": "Threonine (T) is a turn/coil promoting residue that can help maintain structural integrity while reducing the dominance of hydrophobic residues, facilitating better folding and potential for beta-sheet formation."
       }
     ],
     "fold_result": {
-      "pdb_path": "outputs/iter_5.relaxed.pdb",
-      "energy": 0.018612,
-      "objective_score": 0.304827,
-      "combined_score": 0.117792,
-      "rosetta_total_score": -1.74
+      "pdb_path": "outputs/iter_6.pdb",
+      "energy": 0.0,
+      "objective_score": 0.596122,
+      "combined_score": 0.209172,
+      "rosetta_total_score": 773.13
+    },
+    "accepted": true,
+    "score_delta": 0.00018599999999999173
+  },
+  {
+    "iteration": 7,
+    "sequence_before": "LHLEHKHHLHHHHKLHHAHHLLHALLLLLLAAHHAEEEGAETKEVLGVKALLAALEKALLLELLLALEAAELKAEEKAELKMLELLHHSHAEEHSAAAATLEEVAEEVAELVAVLVTEAVLEITLETVIVLELLLH",
+    "sequence_after": "LHLEHKHHLHHHHKLHHAHHLLHALLLLLLAAHHAEEGSGTVKVTLAIKALLAALEKALLLELLLALEAAELKAEEKAELKMLELLHHSHVEEHSAAAATLEEVAEEVAELVAVLVTEAVLEIVLTTTIVLELLLH",
+    "mutations": [
+      {
+        "position": 37,
+        "current_residue": "E",
+        "proposed_residue": "G",
+        "confidence": 0.8,
+        "reason": "Glycine (G) maintains flexibility and could enhance the structural integrity while allowing for better coordination between the alpha helix and beta sheet domains."
+      },
+      {
+        "position": 38,
+        "current_residue": "G",
+        "proposed_residue": "S",
+        "confidence": 0.5,
+        "reason": "Serine (S) provides flexibility and supports the turn/coil structure while potentially improving sequence diversity."
+      },
+      {
+        "position": 39,
+        "current_residue": "A",
+        "proposed_residue": "G",
+        "confidence": 0.8,
+        "reason": "Glycine (G) is a turn-promoting residue that can enhance flexibility at this semi-buried position, balancing the structural integrity of the alpha helix and beta sheet domains while avoiding disruption."
+      },
+      {
+        "position": 40,
+        "current_residue": "E",
+        "proposed_residue": "T",
+        "confidence": 0.7,
+        "reason": "Threonine (T) can maintain the turn structure while providing some hydrophilicity, aiding in the structural flexibility needed for the design goal."
+      },
+      {
+        "position": 41,
+        "current_residue": "T",
+        "proposed_residue": "V",
+        "confidence": 0.8,
+        "reason": "Valine (V) can enhance beta-sheet propensity, contributing to structural integrity while maintaining the helical environment."
+      },
+      {
+        "position": 43,
+        "current_residue": "E",
+        "proposed_residue": "V",
+        "confidence": 0.8,
+        "reason": "Valine (V) supports alpha-helix formation and introduces hydrophobic character, promoting compact folding while potentially improving the beta-sheet propensity."
+      },
+      {
+        "position": 44,
+        "current_residue": "V",
+        "proposed_residue": "T",
+        "confidence": 0.8,
+        "reason": "Threonine (T) is a turn/coil promoting residue that can help introduce flexibility while maintaining structural integrity in the helical region, supporting the design goal of a 2-domain protein."
+      },
+      {
+        "position": 46,
+        "current_residue": "G",
+        "proposed_residue": "A",
+        "confidence": 0.9,
+        "reason": "Alanine (A) is an alpha-helix favoring residue that enhances stability and maintains structural integrity in the helical environment."
+      },
+      {
+        "position": 47,
+        "current_residue": "V",
+        "proposed_residue": "I",
+        "confidence": 0.8,
+        "reason": "Substituting V with I maintains helix stability while improving beta-sheet propensity, aligning with the design goal of a 2-domain protein."
+      },
+      {
+        "position": 90,
+        "current_residue": "A",
+        "proposed_residue": "V",
+        "confidence": 0.8,
+        "reason": "Valine (V) is a beta-sheet favoring residue that can enhance structural diversity and improve the folding of the C-terminal beta sheet domain while maintaining the overall stability of the protein."
+      },
+      {
+        "position": 123,
+        "current_residue": "T",
+        "proposed_residue": "V",
+        "confidence": 0.8,
+        "reason": "Valine (V) is a beta-sheet favoring residue that can enhance the structural integrity of the protein while maintaining the helical character, improving overall folding and stability."
+      },
+      {
+        "position": 125,
+        "current_residue": "E",
+        "proposed_residue": "T",
+        "confidence": 0.9,
+        "reason": "Threonine (T) maintains helix stability while introducing diversity and improving potential for beta-sheet formation."
+      },
+      {
+        "position": 127,
+        "current_residue": "V",
+        "proposed_residue": "T",
+        "confidence": 0.8,
+        "reason": "Threonine (T) can enhance structural diversity and is more favorable for a helical environment while maintaining some surface accessibility."
+      }
+    ],
+    "fold_result": {
+      "pdb_path": "outputs/iter_7.pdb",
+      "energy": 0.0,
+      "objective_score": 0.594972,
+      "combined_score": 0.20878,
+      "rosetta_total_score": 814.02
     },
     "accepted": false,
-    "score_delta": -0.013420000000000001
+    "score_delta": -0.00039200000000000346
+  },
+  {
+    "iteration": 8,
+    "sequence_before": "LHLEHKHHLHHHHKLHHAHHLLHALLLLLLAAHHAEEEGAETKEVLGVKALLAALEKALLLELLLALEAAELKAEEKAELKMLELLHHSHAEEHSAAAATLEEVAEEVAELVAVLVTEAVLEITLETVIVLELLLH",
+    "sequence_after": "LHLEHKHHLHHHHKLHHAHHLLHALLLLLLAAHHAEEEEETAKEILAVKALLAALEKALLLELLLALEAAELKAEEKAELKMLELLHHSHAEEHSAAAATLEEVAEEVAELVAVLVTEAVLEITLETVIVLELLLH",
+    "mutations": [
+      {
+        "position": 38,
+        "current_residue": "G",
+        "proposed_residue": "E",
+        "confidence": 0.7,
+        "reason": "Glutamic acid (E) maintains flexibility while providing charge and can stabilize the turn/coil region, contributing to both structural integrity and potential interactions."
+      },
+      {
+        "position": 39,
+        "current_residue": "A",
+        "proposed_residue": "E",
+        "confidence": 0.8,
+        "reason": "Glutamic acid (E) can maintain the turn structure and introduce surface accessibility while enhancing the overall stability of the protein."
+      },
+      {
+        "position": 40,
+        "current_residue": "E",
+        "proposed_residue": "T",
+        "confidence": 0.6,
+        "reason": "Threonine (T) can maintain the turn structure while providing some polar character that may enhance local interactions and stability in the flexible region, despite previous rejection."
+      },
+      {
+        "position": 41,
+        "current_residue": "T",
+        "proposed_residue": "A",
+        "confidence": 0.9,
+        "reason": "Alanine (A) is an alpha-helix favoring residue that can enhance structural integrity while maintaining the helical environment at this position."
+      },
+      {
+        "position": 44,
+        "current_residue": "V",
+        "proposed_residue": "I",
+        "confidence": 0.8,
+        "reason": "Isoleucine (I) is a helix-favoring residue that can maintain structural integrity while also promoting the necessary compact packing for the beta sheet domain."
+      },
+      {
+        "position": 46,
+        "current_residue": "G",
+        "proposed_residue": "A",
+        "confidence": 0.5,
+        "reason": "Alanine (A) is an alpha-helix favoring residue that can enhance structural integrity, although previous attempts were rejected due to energy considerations."
+      }
+    ],
+    "fold_result": {
+      "pdb_path": "outputs/iter_8.pdb",
+      "energy": 0.0,
+      "objective_score": 0.596757,
+      "combined_score": 0.209405,
+      "rosetta_total_score": 918.95
+    },
+    "accepted": true,
+    "score_delta": 0.00023300000000001098
+  },
+  {
+    "iteration": 9,
+    "sequence_before": "LHLEHKHHLHHHHKLHHAHHLLHALLLLLLAAHHAEEEEETAKEILAVKALLAALEKALLLELLLALEAAELKAEEKAELKMLELLHHSHAEEHSAAAATLEEVAEEVAELVAVLVTEAVLEITLETVIVLELLLH",
+    "sequence_after": "LHLEHKHHLHHHHKLHHAHHLLHALLLLLLAAHHAGTTTTETKHVLGEKALLAALEKALLLELLLALEAAELKAEEKAELKMLELLHHSHAEEHSAAAATLEEVAEEVAELVAVLVTEAVLEITLETVIVLELLLH",
+    "mutations": [
+      {
+        "position": 35,
+        "current_residue": "E",
+        "proposed_residue": "G",
+        "confidence": 0.8,
+        "reason": "Glycine (G) can enhance flexibility in the turn region, aiding in the structural integrity of the two-domain protein while maintaining a balance between helix and sheet formation."
+      },
+      {
+        "position": 36,
+        "current_residue": "E",
+        "proposed_residue": "T",
+        "confidence": 0.8,
+        "reason": "Threonine (T) is a polar residue that can help introduce diversity and is compatible with the turn structure while minimizing disruption to the N-terminal alpha helix and C-terminal beta sheet domains."
+      },
+      {
+        "position": 37,
+        "current_residue": "E",
+        "proposed_residue": "T",
+        "confidence": 0.7,
+        "reason": "Threonine (T) is a polar residue that can help break the repeat stretch, promoting structural diversity and maintaining flexibility in the turn region."
+      },
+      {
+        "position": 38,
+        "current_residue": "E",
+        "proposed_residue": "T",
+        "confidence": 0.7,
+        "reason": "Threonine (T) is a polar residue that can help maintain flexibility, supports the turn/coil structure, and introduces diversity to the sequence while potentially aiding in the formation of the beta sheet domain."
+      },
+      {
+        "position": 39,
+        "current_residue": "E",
+        "proposed_residue": "T",
+        "confidence": 0.7,
+        "reason": "Threonine (T) promotes turn structure and increases structural diversity while maintaining favorable interactions in the context of the surrounding residues."
+      },
+      {
+        "position": 40,
+        "current_residue": "T",
+        "proposed_residue": "E",
+        "confidence": 0.8,
+        "reason": "Glutamic acid (E) can maintain the turn structure while potentially enhancing beta sheet formation, aligning with the design goal of optimizing the two-domain structure."
+      },
+      {
+        "position": 41,
+        "current_residue": "A",
+        "proposed_residue": "T",
+        "confidence": 0.8,
+        "reason": "Threonine (T) can enhance flexibility and is favorable for maintaining the helical structure while potentially aiding in the formation of beta sheets in the adjacent domain."
+      },
+      {
+        "position": 43,
+        "current_residue": "E",
+        "proposed_residue": "H",
+        "confidence": 0.9,
+        "reason": "Histidine (H) supports alpha-helix formation and adds diversity, maintaining structural integrity in the helical domain."
+      },
+      {
+        "position": 44,
+        "current_residue": "I",
+        "proposed_residue": "V",
+        "confidence": 0.8,
+        "reason": "Valine (V) is a beta-sheet favoring residue that can enhance structural integrity, improve sequence diversity, and is accepted in previous iterations, making it a strong candidate for the design goal."
+      },
+      {
+        "position": 46,
+        "current_residue": "A",
+        "proposed_residue": "G",
+        "confidence": 0.8,
+        "reason": "Glycine (G) introduces flexibility that can accommodate competing structural domains and has been successfully accepted in previous iterations."
+      },
+      {
+        "position": 47,
+        "current_residue": "V",
+        "proposed_residue": "E",
+        "confidence": 0.9,
+        "reason": "Substituting V with E enhances helix stability while introducing a beta-sheet favorable residue, improving overall structural integrity."
+      }
+    ],
+    "fold_result": {
+      "pdb_path": "outputs/iter_9.pdb",
+      "energy": 2e-06,
+      "objective_score": 0.596798,
+      "combined_score": 0.209434,
+      "rosetta_total_score": 454.69
+    },
+    "accepted": true,
+    "score_delta": 2.9000000000001247e-05
+  },
+  {
+    "iteration": 10,
+    "sequence_before": "LHLEHKHHLHHHHKLHHAHHLLHALLLLLLAAHHAGTTTTETKHVLGEKALLAALEKALLLELLLALEAAELKAEEKAELKMLELLHHSHAEEHSAAAATLEEVAEEVAELVAVLVTEAVLEITLETVIVLELLLH",
+    "sequence_after": "LHLEHKHHLHHHHKLHHAHHLLHALLLLLLAAHHAGTTTTETKHVLGEKALLAALEKALLLELLLALEAAELKAEEKAELKMLELLHHSHAEEHSAAAATLEEVAEEVAELVAVLVTEAVLEITLETVIVLELLLH",
+    "mutations": [],
+    "fold_result": {
+      "pdb_path": "outputs/iter_10.pdb",
+      "energy": 2e-06,
+      "objective_score": 0.596798,
+      "combined_score": 0.209434,
+      "rosetta_total_score": 454.69
+    },
+    "accepted": false,
+    "score_delta": 0.0
+  },
+  {
+    "iteration": 11,
+    "sequence_before": "LHLEHKHHLHHHHKLHHAHHLLHALLLLLLAAHHAGTTTTETKHVLGEKALLAALEKALLLELLLALEAAELKAEEKAELKMLELLHHSHAEEHSAAAATLEEVAEEVAELVAVLVTEAVLEITLETVIVLELLLH",
+    "sequence_after": "LHLEHKHHLHHHHKLHHAHHLLHALLLLLLAAHHAGTTTTETKHVLGEKALLAALEKALLLELLLALEAAELKAEEKAELKMLELLHHSHAEEHSAAAATLEEVAEEVAELVAVLVTEAVLEITLETVIVLELLLH",
+    "mutations": [],
+    "fold_result": {
+      "pdb_path": "outputs/iter_11.pdb",
+      "energy": 2e-06,
+      "objective_score": 0.596798,
+      "combined_score": 0.209434,
+      "rosetta_total_score": 454.69
+    },
+    "accepted": false,
+    "score_delta": 0.0
+  },
+  {
+    "iteration": 12,
+    "sequence_before": "LHLEHKHHLHHHHKLHHAHHLLHALLLLLLAAHHAGTTTTETKHVLGEKALLAALEKALLLELLLALEAAELKAEEKAELKMLELLHHSHAEEHSAAAATLEEVAEEVAELVAVLVTEAVLEITLETVIVLELLLH",
+    "sequence_after": "LHLEHKHHLHHHHKLHHAHHLLHALLLLLLAAHHAGTTTTETKHVLGEKALLAALEKALLLELLLALEAAELKAEEKAELKMLELLHHSHAEEHSAAAATLEEVAEEVAELVAVLVTEAVLEITLETVIVLELLLH",
+    "mutations": [],
+    "fold_result": {
+      "pdb_path": "outputs/iter_12.pdb",
+      "energy": 2e-06,
+      "objective_score": 0.596798,
+      "combined_score": 0.209434,
+      "rosetta_total_score": 454.69
+    },
+    "accepted": false,
+    "score_delta": 0.0
   }
 ]

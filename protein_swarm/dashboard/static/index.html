@@ -216,6 +216,7 @@ patterns</textarea>
                 <th>LLM</th>
                 <th>Iterations</th>
                 <th>Length</th>
+                <th>View</th>
               </tr>
             </thead>
             <tbody id="history-tbody">
@@ -285,6 +286,22 @@ Get in touch with the developers behind BioCol.
 
 <span class="contact-email">dnguy9448@365.elmhurst.edu</span>
   </script>
+
+  <div id="run-image-modal" class="protein-modal" aria-hidden="true">
+    <div class="protein-modal__backdrop"></div>
+    <div class="protein-modal__panel run-image-modal__panel">
+      <header class="protein-modal__header">
+        <h2 class="protein-modal__title">3D structure</h2>
+        <div class="protein-modal__actions">
+          <button type="button" id="run-image-save-btn" class="protein-modal__btn protein-modal__btn--secondary">Save image</button>
+          <button type="button" id="run-image-close-btn" class="protein-modal__btn protein-modal__btn--primary">Close</button>
+        </div>
+      </header>
+      <div class="run-image-modal__content">
+        <img id="run-image-img" src="" alt="Run 3D structure" />
+      </div>
+    </div>
+  </div>
 
   <div id="protein-modal" class="protein-modal" aria-hidden="true">
     <div class="protein-modal__backdrop"></div>

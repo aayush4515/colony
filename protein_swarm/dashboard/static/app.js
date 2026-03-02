@@ -556,6 +556,42 @@
     }).catch(function () { el.textContent = "0"; });
   }
 
+  var runImageModal = document.getElementById("run-image-modal");
+  var runImageImg = document.getElementById("run-image-img");
+  var runImageSaveBtn = document.getElementById("run-image-save-btn");
+  var runImageCloseBtn = document.getElementById("run-image-close-btn");
+
+  function openRunImageModal(runId) {
+    if (!runImageModal || !runImageImg) return;
+    runImageImg.src = "/api/run-image/" + runId;
+    runImageModal.setAttribute("aria-hidden", "false");
+  }
+
+  function closeRunImageModal() {
+    if (runImageModal) runImageModal.setAttribute("aria-hidden", "true");
+    if (runImageImg) runImageImg.src = "";
+  }
+
+  if (runImageCloseBtn) runImageCloseBtn.addEventListener("click", closeRunImageModal);
+  if (runImageModal && runImageModal.querySelector(".protein-modal__backdrop")) {
+    runImageModal.querySelector(".protein-modal__backdrop").addEventListener("click", closeRunImageModal);
+  }
+  if (runImageSaveBtn) {
+    runImageSaveBtn.addEventListener("click", function () {
+      var src = runImageImg && runImageImg.src;
+      if (!src) return;
+      fetch(src).then(function (r) { return r.blob(); }).then(function (blob) {
+        var a = document.createElement("a");
+        a.href = URL.createObjectURL(blob);
+        a.download = "run-structure.png";
+        a.click();
+        URL.revokeObjectURL(a.href);
+      }).catch(function () {});
+    });
+  }
+
+  var eyeSvg = "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z\"/><circle cx=\"12\" cy=\"12\" r=\"3\"/></svg>";
+
   function loadHistory() {
     var tbody = document.getElementById("history-tbody");
     var wrap = document.querySelector(".history-table-wrap");
@@ -566,10 +602,20 @@
       tbody.innerHTML = "";
       runs.forEach(function (run) {
         var tr = document.createElement("tr");
+        tr.setAttribute("data-run-id", String(run.id));
+        tr.setAttribute("data-has-image", run.has_image ? "1" : "0");
         var date = run.created_at ? run.created_at.replace("T", " ").slice(0, 19) : "—";
         var start = (run.initial_sequence || "").length > 30 ? (run.initial_sequence || "").slice(0, 30) + "…" : (run.initial_sequence || "—");
         var end = (run.final_sequence || "").length > 30 ? (run.final_sequence || "").slice(0, 30) + "…" : (run.final_sequence || "—");
+        var viewCell = document.createElement("td");
+        var eyeBtn = document.createElement("button");
+        eyeBtn.type = "button";
+        eyeBtn.className = "history-eye-btn" + (run.has_image ? "" : " history-eye-btn--no-image");
+        eyeBtn.title = run.has_image ? "View 3D structure" : "No 3D image for this run yet";
+        eyeBtn.innerHTML = eyeSvg;
+        viewCell.appendChild(eyeBtn);
         tr.innerHTML = "<td>" + date + "</td><td><code>" + escapeHtml(start) + "</code></td><td><code>" + escapeHtml(end) + "</code></td><td>" + (run.use_llm ? "Yes" : "No") + "</td><td>" + (run.iterations != null ? run.iterations : "—") + "</td><td>" + (run.protein_length != null ? run.protein_length : "—") + "</td>";
+        tr.appendChild(viewCell);
         tbody.appendChild(tr);
       });
       if (wrap) wrap.classList.toggle("has-rows", runs.length > 0);
@@ -579,6 +625,20 @@
       if (emptyEl) emptyEl.style.display = "block";
     });
   }
+
+  (function initHistoryEyeClicks() {
+    var tbody = document.getElementById("history-tbody");
+    if (!tbody) return;
+    tbody.addEventListener("click", function (e) {
+      var btn = e.target && e.target.closest && e.target.closest(".history-eye-btn");
+      if (!btn) return;
+      var row = btn.closest("tr");
+      if (!row) return;
+      var runId = row.getAttribute("data-run-id");
+      var hasImage = row.getAttribute("data-has-image") === "1";
+      if (hasImage && runId) openRunImageModal(runId);
+    });
+  })();
 
   function renderAboutMarkdown() {
     var scriptEl = document.getElementById("about-markdown");

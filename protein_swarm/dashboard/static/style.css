@@ -551,10 +551,12 @@ body {
   align-items: center;
   justify-content: center;
   padding: var(--gap);
+  pointer-events: none;
 }
 
 .protein-modal[aria-hidden="false"] {
   display: flex;
+  pointer-events: auto;
 }
 
 .protein-modal__backdrop {
@@ -1224,6 +1226,8 @@ body {
 .tab-panel.tab-panel--active {
   display: flex;
   flex-direction: column;
+  position: relative;
+  z-index: 1;
 }
 
 .tab-panel[hidden] {
@@ -1266,6 +1270,7 @@ body {
   flex: 1;
   overflow: auto;
   padding: var(--gap);
+  position: relative;
 }
 
 .history-table {
@@ -1307,6 +1312,51 @@ body {
 
 .history-table-wrap:not(.has-rows) .history-empty {
   display: block;
+}
+
+.history-eye-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.35rem;
+  border: 1px solid var(--zinc-600);
+  border-radius: var(--radius-sm);
+  background: var(--zinc-800);
+  color: var(--zinc-300);
+  cursor: pointer;
+  pointer-events: auto;
+}
+
+.history-eye-btn:hover:not(:disabled) {
+  background: var(--zinc-700);
+  color: var(--blue-500);
+}
+
+.history-eye-btn:disabled,
+.history-eye-btn.history-eye-btn--no-image {
+  opacity: 0.5;
+  cursor: default;
+}
+
+.history-eye-btn.history-eye-btn--no-image:hover {
+  background: var(--zinc-800);
+  color: var(--zinc-300);
+}
+
+.run-image-modal__panel {
+  max-width: 560px;
+}
+
+.run-image-modal__content {
+  padding: var(--gap);
+  overflow: auto;
+  text-align: center;
+}
+
+.run-image-modal__content img {
+  max-width: 100%;
+  height: auto;
+  border-radius: var(--radius-sm);
 }
 
 /* About tab — floating card with markdown */
